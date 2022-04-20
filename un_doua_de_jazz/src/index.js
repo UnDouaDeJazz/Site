@@ -12,10 +12,10 @@ import Footer from "./components/Footer.js"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
-    <div class="test">
+    <div class="general">
     <Routes>
       
-      <Route path="/home" element={<Home />} class="test"/>
+      <Route path="/" element={<Home />} class="general"/>
       {/*<Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/blog" element={<Blog />}>
@@ -25,8 +25,8 @@ root.render(
 
     </Routes>
     </div>
-    <div class="test">
-      <Footer class="test"/>
+    <div class="general">
+      <Footer class="general"/>
     </div>
   </Router>,
 
