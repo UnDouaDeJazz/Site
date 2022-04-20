@@ -1,0 +1,60 @@
+
+#logoHeader{
+    height: 120px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    cursor: pointer;
+}
+#btnPropos, #btnInfos{
+    position:absolute;
+    background-color: transparent;
+    color:white;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    height: 60px;
+
+    font-size: 30px;
+    top: 70px;
+}
+
+#btnPropos{
+    left: 230px;
+}
+
+#btnInfos{
+    left: 400px;
+}
+
+
+#btnBilleterie{
+    background-color: #ffA06A;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 16px 30px;
+    text-align: center;
+    transition: 200ms;
+    width: 300px;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 32px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+    position: absolute;
+    right: 40px;
+    top:35px;
+    cursor: pointer;
+}
+#header{
+    position:absolute;
+    height: 200px;
+    width: 100%;
+    background-color: transparent;
+}
