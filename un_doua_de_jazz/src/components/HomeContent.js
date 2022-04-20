@@ -17,14 +17,21 @@ return (
         <p id="patienter">Pour patienter :</p>
         <div id="gridPatienter">
             <div id="nosArtistes">
+
+            <a href="/artistes">
                 <img src={chris} alt="chris potter"/>
                 <img src={bojan} alt="bojan-z"/>
                 <img src={tigran} alt="tigran hamasaya"/>
                 <p>Nos Artistes</p>
+                </a>
             </div>
             <div id="aPropos">
+            <a href="/about">
+
+
                 <img src={logo} alt="logo UnDouaDeJazz"/>
                 <p>A Propos</p>
+            </a>
             </div>
             <div id="benevoles">
                 <img src={asso} alt="association UnDouaDeJazz"/>

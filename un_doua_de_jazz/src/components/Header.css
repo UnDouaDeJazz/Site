@@ -2,7 +2,7 @@
 #logoHeader{
     height: 120px;
     position: absolute;
-    top: 40px;
+    top: 20px;
     left: 40px;
     cursor: pointer;
 }
@@ -17,8 +17,8 @@
     outline: none;
     height: 60px;
 
-    font-size: 30px;
-    top: 70px;
+    font-size: 25px;
+    top: 50px;
 }
 
 #btnPropos{
@@ -49,7 +49,7 @@
 
     position: absolute;
     right: 40px;
-    top:35px;
+    top:40px;
     cursor: pointer;
 }
 #header{
