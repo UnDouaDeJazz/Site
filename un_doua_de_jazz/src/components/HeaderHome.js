@@ -10,8 +10,8 @@ function HeaderHome() {
       <div>
         <div id="homeHeader">
           <img src={header} id="imgHeader" alt="Concert - UnDouaDeJazz" />
-          <img src={logoTransparent} className="imgLogo" alt="Logo Un Doua De Jazz" id="imgLogo"/>
-          <button id="btnArtistes">VOIR LES ARTISTES</button>
+          <a href="/home-full"><img src={logoTransparent} className="imgLogo" alt="Logo Un Doua De Jazz" id="imgLogo"/></a>
+          <a href="#artistesWrapper"><button id="btnArtistes">VOIR LES ARTISTES</button></a>
         </div>
 
         <Header/>

@@ -1,6 +1,6 @@
 import "./About.css";
 import Header from "./Header.js"
-import disc from "../media/headerDisc.png";
+import disc from "../media/headerDisc.jpg";
 
 
 function About() {

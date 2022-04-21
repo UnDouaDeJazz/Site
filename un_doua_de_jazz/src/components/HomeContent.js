@@ -28,14 +28,16 @@ return (
             <div id="aPropos">
             <a href="/about">
 
-
+                
                 <img src={logo} alt="logo UnDouaDeJazz"/>
                 <p>A Propos</p>
             </a>
             </div>
             <div id="benevoles">
+                <a href="/benevole">
                 <img src={asso} alt="association UnDouaDeJazz"/>
                 <p>Devenir Benevole</p>
+                </a>
             </div>
         </div>
     </div>

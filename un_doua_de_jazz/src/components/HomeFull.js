@@ -1,9 +1,9 @@
-import './Home.css';
-import HomeContent from "./HomeContent.js"
+import './HomeFull.css';
+import HomeFullContent from "./HomeFullContent.js"
 import HeaderHome from "./HeaderHome.js"
 
 
-function Home() {
+function HomeFull() {
   return (
     <div id="home">
         <div id="headerWrap">
@@ -11,10 +11,10 @@ function Home() {
         </div>
         <div id="artistesWrapper">
           
-                <HomeContent/>
+                <HomeFullContent/>
         </div>
     </div>
   );
 }
 
-export default Home;
+export default HomeFull;

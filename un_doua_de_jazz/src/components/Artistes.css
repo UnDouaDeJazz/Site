@@ -24,8 +24,10 @@
     font-size:30px;
     color:white;
     position :absolute;
-    top:85%;
+
+    top:90%;
     left:50%;
+    margin: auto;
     transform: translateX(-50%);
 }
 #headerArtistes span{

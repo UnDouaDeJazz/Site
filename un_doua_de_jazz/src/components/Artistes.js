@@ -1,6 +1,6 @@
 
 import Header from "./Header.js"
-import disc from "../media/headerDisc.png";
+import disc from "../media/headerDisc.jpg";
 import chris from '../media/chris-potter.png';
 import bojan from '../media/bojan-z.png';
 import tigran from '../media/tigran-hamasaya.png';

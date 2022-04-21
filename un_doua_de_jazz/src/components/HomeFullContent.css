@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+#prog{
+    font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+    font-size:35px;
+    margin:50px;
+    text-align:left;
+    color:white;
+    margin-bottom: 150px;
+}
+#gridProg .deuxParties .img .name span{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size:23px;
+
+    margin-bottom: 0px; 
+}
+
+
+#gridProg .deuxParties .img img{
+  width:150px;
+  height:300px;
+  object-fit: cover;
+  margin:2px;
+}
+
+
+
+#gridProg .deuxParties .img .vl{
+    margin:1px;
+    margin-top:2px;
+    margin-bottom:2px;
+    background-color: white;
+    height:300px;
+    width:2px;
+    display:inline;
+    position: absolute;
+    left:152px;
+}
+
+#gridProg .deuxParties{
+  position: relative;
+}
+
+
+
+
+
+
+#gridProg .name{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 3px;
+    margin-bottom: 0px;
+}
+
+
+#gridProg .unePartie .img img{
+  width:300px;
+  height:300px;
+  object-fit: cover;
+  margin:2px;
+}
+
+#gridProg .unePartie{
+  position: relative;
+}
+
+#gridProg .unePartie .img .date{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size:25px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#gridProg .unePartie .img .date span{
+    font-size:45px;
+}
+
+#gridProg .unePartie,#gridProg .deuxParties{
+    top:0px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+#gridProg .img{
+    position:relative;
+    width: fit-content;
+    margin: auto;
+}
+
+#gridProg .deuxParties .img .date{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size:25px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#gridProg .deuxParties .img .date span{
+    font-size:45px;
+}
+
+#gridProg {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(auto, auto);
+  width: 100%;
+  
+  margin: auto;
+  text-align: top;
+  align-items: top;
+  justify-content: top;
+}
+
+#aPropos img{
+  width:300px;
+  height:300px;
+  object-fit: cover;
+  margin:2px;
+}
+#aPropos{
+  grid-column: 2;
+  grid-row: 1;
+}
+#benevoles img{
+  width:300px;
+  height:300px;
+  object-fit: cover;
+  margin:2px;
+}
+#benevoles{
+  grid-column: 3;
+  grid-row: 1;
+}
+#gridProg div p{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+    font-size:32px;
+    margin:10px;
+    text-align:center;
+    color:white;
+}
