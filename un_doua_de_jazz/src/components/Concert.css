@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size:20px;
+}
+#retour{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    position: absolute;
+
+    font-size: 40px;
+    
+}
+#blur{
+    filter:blur(3px);  
+    z-index:-1;
+    position:relative;
+}
+
+#concert{
+    z-index:1;
+    position:absolute;
+    margin:20%;
+    margin-top:0%;
+    height:100px;
+    width:60%;
+    background-color: white;
+    top: 150px;
+
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+    height: 500px;
+}
+
+
+#concert div {
+    z-index: 1;
+    height:100%;
+    top:0px;    
+}
+#infosConcert{
+    position: relative;
+    grid-column: 1;
+    background-color: white;
+    border-right-color: black;
+    border-style: solid;
+
+    border-width:0px;
+    border-right-width: 2px;
+}
+#infosGroupe{
+    
+    position:relative;
+    
+    grid-column: 2/4;
+    background-color: lightgrey;
+
+}
+
+#date{
+
+    font-size: 30px;
+}
+#date span{
+    font-size: 40px;
+}
+#lieu{
+    text-decoration: underline;
+}
+h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size:25px;
+    margin-left: 20px;;
+}
+
+#billeterieConcert{
+    position: relative;
+    background-color: #ffA06A;
+    border-radius: 40px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    transition: 200ms;
+    width: 240px;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 25px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+    margin:auto;
+    margin-top: 50px;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+#name{
+    font-weight: 400;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+#infosGroupe img{
+    width:80%;
+    display: block;
+    margin: auto;
+}
+#infosGroupe .header{
+    width:100%
+}
+#quoteConcert{
+    font-size: 30px;
+    font-style: italic;
+    margin-left : 10%;
+
+    margin-right : 10%;
+}
+#descrConcert{
+    font-size: 22px;
+    margin:70px;
+}

@@ -1,4 +1,6 @@
-
+#home{
+    filter:none;
+}   
 #headerWrap{
     float:left;
     height:100vh;

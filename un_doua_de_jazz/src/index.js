@@ -13,6 +13,7 @@ import Artistes from "./components/Artistes.js"
 import Benevole from "./components/Benevole.js"
 import Contact from "./components/Contact.js"
 import HomeFull from "./components/HomeFull.js"
+import Concert from "./components/Concert.js"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,6 +27,8 @@ root.render(
       <Route path="/benevole" element={<Benevole />} class="general"/>
       <Route path="/contact" element={<Contact />} class="general"/>
       <Route path="/home-full" element={<HomeFull />} class="general"/>
+      <Route path="/concert/:concertName" element={<Concert />} class="general"/>
+      
       {/*<Route path="/contact" element={<Contact />} />
       <Route path="/blog" element={<Blog />}>
         <Route path="" element={<Posts />} />

@@ -1,105 +1,59 @@
-import chris from '../media/chris-potter.png';
-import bojan from '../media/bojan-z.png';
-import blast from '../media/blast.jpg';
-import ishkero from '../media/ishkero.jpeg';
 
+import { NavLink } from 'react-router-dom';
+import {donneesNb} from '../data/data.js'
 
 import "./HomeFullContent.css"
 
+function Case(number){
+    const data=donneesNb(number);
+
+    if(data.duo===true){
+        return(
+            <div class="deuxParties">
+
+                <NavLink to={"/concert/"+data.id}>
+                    <div class="img">
+                        <img src={data.img1} alt={data.nom1}/>
+                        <div class="vl"/>
+                        <img src={data.img2} alt={data.nom2}/>
+                        <p class="date"><span>{data.day}</span><br/>{data.month}</p>
+
+                        <p class="name"><span>Partie 1 - </span>{data.nom1}</p>
+                        <p class="name"><span>Partie 2 - </span>{data.nom2}</p>
+                    </div>
+                    
+                </NavLink>
+            </div>
+        );
+    }else{
+        return(
+        <div class="unePartie">
+
+                <NavLink to={"/concert/"+data.id}>
+                    <div class="img">
+                        <img src={data.img1} alt="ishkero"/>
+                        <p class="date"><span>{data.day}</span><br/>{data.month}</p>
+
+                        <p class="name">{data.id}</p>
+                    </div>
+                    
+                </NavLink>
+            </div>
+        );
+    }
+}
 
 function HomeFullContent() {
 return (
     <div>
         <p id="prog">Programmation 2022</p>
         <div id="gridProg">
-            <div class="deuxParties">
-
-                <a href="/artistes">
-                    <div class="img">
-                        <img src={chris} alt="chris potter"/>
-                        <div class="vl"/>
-                        <img src={bojan} alt="bojan-z"/>
-                        <p class="date"><span>20</span><br/>SEP.</p>
-
-                        <p class="name"><span>Partie 1 - </span>Chris Potter</p>
-                        <p class="name"><span>Partie 2 - </span>Bojan Z</p>
-                    </div>
-                    
-                </a>
-            </div>
-
-            <div class="unePartie">
-
-                <a href="/artistes">
-                    <div class="img">
-                        <img src={blast} alt="blast"/>
-                        <p class="date"><span>30</span><br/>SEP.</p>
-
-                        <p class="name">Blast</p>
-                    </div>
-                    
-                </a>
-            </div>
-
-            <div class="unePartie">
-
-                <a href="/artistes">
-                    <div class="img">
-                        <img src={ishkero} alt="ishkero"/>
-                        <p class="date"><span>5</span><br/>OCT.</p>
-
-                        <p class="name">Ishkero</p>
-                    </div>
-                    
-                </a>
-            </div>
-
-            
-
-            <div class="unePartie">
-
-                <a href="/artistes">
-                    <div class="img">
-                        <img src={blast} alt="blast"/>
-                        <p class="date"><span>10</span><br/>OCT.</p>
-
-                        <p class="name">Blast</p>
-                    </div>
-                    
-                </a>
-            </div>
-
-            <div class="deuxParties">
-
-                <a href="/artistes">
-                    <div class="img">
-                        <img src={chris} alt="chris potter"/>
-                        <div class="vl"/>
-                        <img src={bojan} alt="bojan-z"/>
-                        <p class="date"><span>11</span><br/>OCT.</p>
-
-                        <p class="name"><span>Partie 1 - </span>Chris Potter</p>
-                        <p class="name"><span>Partie 2 - </span>Bojan Z</p>
-                    </div>
-                    
-                </a>
-            </div>
-
-            <div class="unePartie">
-
-                <a href="/artistes">
-                    <div class="img">
-                        <img src={ishkero} alt="ishkero"/>
-                        <p class="date"><span>20</span><br/>OCT.</p>
-
-                        <p class="name">Ishkero</p>
-                    </div>
-                    
-                </a>
-            </div>
-
-
-            
+            {Case(1)}
+            {Case(2)}
+            {Case(3)}
+            {Case(1)}
+            {Case(2)}
+            {Case(3)}
         </div>
     </div>
     );

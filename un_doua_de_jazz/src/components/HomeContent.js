@@ -8,7 +8,8 @@ import asso from '../media/asso.jpg';
 import "./HomeContent.css"
 
 
-function HomeContent() {
+function HomeContent(nb) {
+    
 return (
     <div>
         <p id="prog">Programmation 2022</p>
