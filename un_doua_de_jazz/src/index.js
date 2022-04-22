@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 /*import {
   Home,
   Footer
@@ -21,13 +21,13 @@ root.render(
     <div class="general">
     <Routes>
       
-      <Route path="/" element={<Home />} class="general"/>
+      <Route exact path="/" element={<Home />} class="general"/>
       <Route path="/about" element={<About />} class="general"/>
       <Route path="/artistes" element={<Artistes />} class="general"/>
       <Route path="/benevole" element={<Benevole />} class="general"/>
       <Route path="/contact" element={<Contact />} class="general"/>
       <Route path="/home-full" element={<HomeFull />} class="general"/>
-      <Route path="/concert/:concertName" element={<Concert />} class="general"/>
+      <Route path ="/concert/:concertName" element={<Concert />} class="general"/>
       
       {/*<Route path="/contact" element={<Contact />} />
       <Route path="/blog" element={<Blog />}>

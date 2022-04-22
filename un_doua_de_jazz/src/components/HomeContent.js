@@ -3,6 +3,7 @@ import bojan from '../media/bojan-z.png';
 import tigran from '../media/tigran-hamasaya.png';
 import logo from '../media/logo-transparent.png';
 import asso from '../media/asso.jpg';
+import {HashLink} from 'react-router-hash-link'
 
 
 import "./HomeContent.css"
@@ -19,26 +20,26 @@ return (
         <div id="gridPatienter">
             <div id="nosArtistes">
 
-            <a href="/artistes">
+            <HashLink to="/artistes#header">
                 <img src={chris} alt="chris potter"/>
                 <img src={bojan} alt="bojan-z"/>
                 <img src={tigran} alt="tigran hamasaya"/>
                 <p>Nos Artistes</p>
-                </a>
+                </HashLink>
             </div>
             <div id="aPropos">
-            <a href="/about">
+            <HashLink to="/about#header">
 
                 
                 <img src={logo} alt="logo UnDouaDeJazz"/>
                 <p>A Propos</p>
-            </a>
+            </HashLink>
             </div>
             <div id="benevoles">
-                <a href="/benevole">
+                <HashLink to="/benevole#header">
                 <img src={asso} alt="association UnDouaDeJazz"/>
                 <p>Devenir Benevole</p>
-                </a>
+                </HashLink>
             </div>
         </div>
     </div>

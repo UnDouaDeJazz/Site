@@ -2,6 +2,7 @@ import header from '../media/headernetpanet.png';
 import logoTransparent from '../media/trans3.png';
 import './HeaderHome.css';
 import Header from "./Header.js"
+import {HashLink} from 'react-router-hash-link';
 
 
 function HeaderHome() {
@@ -10,8 +11,8 @@ function HeaderHome() {
       <div>
         <div id="homeHeader">
           <img src={header} id="imgHeader" alt="Concert - UnDouaDeJazz" />
-          <a href="/home-full"><img src={logoTransparent} className="imgLogo" alt="Logo Un Doua De Jazz" id="imgLogo"/></a>
-          <a href="#artistesWrapper"><button id="btnArtistes">VOIR LES ARTISTES</button></a>
+          <HashLink to="/home-full#header"><img src={logoTransparent} className="imgLogo" alt="Logo Un Doua De Jazz" id="imgLogo"/></HashLink>
+          <HashLink to="#artistesWrapper"><button id="btnArtistes">VOIR LES ARTISTES</button></HashLink>
         </div>
 
         <Header/>
