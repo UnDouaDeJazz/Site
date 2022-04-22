@@ -13,7 +13,7 @@ return (
             <p id="contactTitle">Devenir Bénévole</p>
             <hr/>
             <p class="contactSubtitle">Nous contacter par mail</p>
-            <p>insereradressemail@gmail.com</p>
+            <p>contact@undouadejazz.com</p>
             <p class="contactSubtitle">Notre adresse</p>
             <p>20 Avenue Albert Einstein<br/>69100 Villeurbanne</p>
             

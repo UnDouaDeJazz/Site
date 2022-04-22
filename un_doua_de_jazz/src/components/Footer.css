@@ -25,7 +25,7 @@
   /*transform: translate(-50%,-50%);*/
 }
 
-#mentions{
+#mentionsLegales{
   font-family: 'Roboto Condensed', sans-serif;
   font-weight:300;
   font-size:20px;
@@ -33,6 +33,7 @@
   top:40px;
   right:40px;
   text-decoration: underline;
+  color:black;
 }
 
 #grandDoua{

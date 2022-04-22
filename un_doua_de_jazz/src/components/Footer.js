@@ -3,6 +3,7 @@ import fb from '../media/logo-fb.png';
 import insta from '../media/logo-insta.png';
 import mail from '../media/logo-mail.png';
 import yt from '../media/logo-yt.png';
+import {HashLink} from 'react-router-hash-link';
 
 
 function Footer() {
@@ -15,14 +16,16 @@ function Footer() {
                 </p>
             </div>
             <div id="reseaux">
-                <img src={fb} alt="facebook" id="fb" class="logo"/>
-                <img src={insta} alt="instagram" id="insta" class="logo"/>
-                <img src={mail} alt="mail" id= "mail" class="logo"/>
-                <img src={yt} alt="youtube" id="yt" class="logo"/>
+                <a href="https://www.facebook.com/undouadejazz/"><img src={fb} alt="facebook" id="fb" class="logo"/></a>
+                <a href="https://www.instagram.com/undouadejazz"><img src={insta} alt="instagram" id="insta" class="logo"/></a>
+                <a href="mailto:contact@undouadejazz.com"><img src={mail} alt="mail" id= "mail" class="logo"/></a>
+                <a href="https://www.youtube.com/channel/UC62m2Ams5a1tySBDP0l-oiQ"><img src={yt} alt="youtube" id="yt" class="logo"/></a>
             </div>
-            <div id="mentions">
+            <HashLink to="/mentions#header">
+            <div id="mentionsLegales">
                     Mentions légales
             </div>
+            </HashLink>
             <div id="partenaires">
                 <hr/>
                 <p>
