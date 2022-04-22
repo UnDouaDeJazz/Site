@@ -1,12 +1,17 @@
 
 import logoCercle from '../media/logo-cercle.png';
 import './Header.css';
+import {Helmet} from 'react-helmet'
 
 import {HashLink} from 'react-router-hash-link';
 
 function Header() {
+  const TITLE="Un Doua De Jazz"
   return (
         <header id="header">
+          <Helmet>
+        <title>{ TITLE }</title>
+      </Helmet>
           <HashLink to="/#header">
           <img src={logoCercle} className="imgLogo" alt="Logo Un Doua De Jazz" id="logoHeader"/>
           </HashLink>

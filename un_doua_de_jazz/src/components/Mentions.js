@@ -15,7 +15,7 @@ return (
             <p class="mentionsSubtitle">IDENTITE</p>
             <p>Nom du site web : Un Doua De Jazz<br/>
                 Adresse : https://undouadejazz.com<br/>
-                Propriétaire : ????<br/>
+                Propriétaire : ? ???<br/> 
                 Responsable de publication : ????<br/>
                 Conception et réalisation : Colin THOMAS (<a href="mailto:colin.thomas@insa-lyon.fr">mail</a> | <a href="https://github.com/ThomasColin1">github</a> | <a href="https://dystorr.pythonanywhere.com/portfolioapp/">portfolio</a>)<br/>
                 Hébergement : ??????</p>
