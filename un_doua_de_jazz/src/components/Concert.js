@@ -39,7 +39,7 @@ function Concert() {
         <button id="retour"> {"←"} </button>
     </NavLink>
         <p id="name">
-                {data.id.toLocaleUpperCase()}
+                {data.name.toLocaleUpperCase()}
             </p>
             <p id="date">
                 <span>{data.day}</span><br/>{data.month}

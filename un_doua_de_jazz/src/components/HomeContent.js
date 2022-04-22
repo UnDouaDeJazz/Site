@@ -24,22 +24,25 @@ return (
                 <img src={chris} alt="chris potter"/>
                 <img src={bojan} alt="bojan-z"/>
                 <img src={tigran} alt="tigran hamasaya"/>
-                <p>Nos Artistes</p>
                 </HashLink>
+                <p>Nos Artistes</p>
+
             </div>
             <div id="aPropos">
             <HashLink to="/about#header">
 
                 
                 <img src={logo} alt="logo UnDouaDeJazz"/>
+                </HashLink>
                 <p>A Propos</p>
-            </HashLink>
+            
             </div>
             <div id="benevoles">
                 <HashLink to="/benevole#header">
                 <img src={asso} alt="association UnDouaDeJazz"/>
-                <p>Devenir Benevole</p>
                 </HashLink>
+                <p>Devenir Benevole</p>
+                
             </div>
         </div>
     </div>

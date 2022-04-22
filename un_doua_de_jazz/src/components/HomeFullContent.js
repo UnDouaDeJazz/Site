@@ -31,10 +31,10 @@ function Case(number){
 
                 <NavLink to={"/concert/"+data.id}>
                     <div class="img">
-                        <img src={data.img1} alt="ishkero"/>
+                        <img src={data.img1} alt={data.name}/>
                         <p class="date"><span>{data.day}</span><br/>{data.month}</p>
 
-                        <p class="name">{data.id}</p>
+                        <p class="name">{data.name}</p>
                     </div>
                     
                 </NavLink>
