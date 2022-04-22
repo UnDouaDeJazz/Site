@@ -3,40 +3,40 @@
 #prog{
     font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
-    font-size:35px;
-    margin:50px;
+    font-size:1.75vw;
+    margin:2.5vw;
     text-align:left;
     color:white;
-    margin-bottom: 150px;
+    margin-bottom: 7.5vw;
 }
 #gridProg .deuxParties .img .name span{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
-    font-size:23px;
+    font-size:1.15vw;
 
     margin-bottom: 0px; 
 }
 
 
 #gridProg .deuxParties .img img{
-  width:150px;
-  height:300px;
+  width:7.5vw;
+  height:15vw;
   object-fit: cover;
-  margin:2px;
+  margin:0.1vw;
 }
 
 
 
 #gridProg .deuxParties .img .vl{
-    margin:1px;
-    margin-top:2px;
-    margin-bottom:2px;
+    margin:0.05vw;
+    margin-top:0.1vw;
+    margin-bottom:1vw;
     background-color: white;
-    height:300px;
-    width:2px;
+    height:15vw;
+    width:0.1vw;
     display:inline;
     position: absolute;
-    left:152px;
+    left:7.6vw;
 }
 
 #gridProg .deuxParties{
@@ -52,16 +52,16 @@
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     text-align: left;
-    margin-left: 3px;
+    margin-left: 0.15vw;
     margin-bottom: 0px;
 }
 
 
 #gridProg .unePartie .img img{
-  width:300px;
-  height:300px;
+  width:15vw;
+  height:15vw;
   object-fit: cover;
-  margin:2px;
+  margin:0.1vw;
 }
 
 #gridProg .unePartie{
@@ -71,19 +71,19 @@
 #gridProg .unePartie .img .date{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
-    font-size:25px;
+    font-size:1.25vw;
     position:absolute;
     top:0;
     left:0;
 }
 
 #gridProg .unePartie .img .date span{
-    font-size:45px;
+    font-size:2.25vw;
 }
 
 #gridProg .unePartie,#gridProg .deuxParties{
     top:0px;
-    margin-bottom: 100px;
+    margin-bottom: 5vw;
 }
 
 
@@ -100,20 +100,20 @@
 #gridProg .deuxParties .img .date{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
-    font-size:25px;
+    font-size:1.25vw;
     position:absolute;
     top:0;
     left:0;
 }
 
 #gridProg .deuxParties .img .date span{
-    font-size:45px;
+    font-size:2.25vw;
 }
 
 #gridProg {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+  grid-gap: 0.5vw;
   grid-auto-rows: minmax(auto, auto);
   width: 100%;
   
@@ -124,20 +124,20 @@
 }
 
 #aPropos img{
-  width:300px;
-  height:300px;
+  width:15vw;
+  height:15vw;
   object-fit: cover;
-  margin:2px;
+  margin:0.1vw;
 }
 #aPropos{
   grid-column: 2;
   grid-row: 1;
 }
 #benevoles img{
-  width:300px;
-  height:300px;
+  width:15vw;
+  height:15vw;
   object-fit: cover;
-  margin:2px;
+  margin:0.1vw;
 }
 #benevoles{
   grid-column: 3;
@@ -146,8 +146,8 @@
 #gridProg div p{
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
-    font-size:32px;
-    margin:10px;
+    font-size:1.6vw;
+    margin:0.5vw;
     text-align:center;
     color:white;
 }

@@ -11,22 +11,22 @@
     position:absolute;
     top:60%;
     left:50%;
-    height:400px;
+    height:20vw;
     transform: translate(-50%, -50%);
 
 }
 #btnArtistes{
     font-family: 'Mohave', sans-serif;
-    width:270px;
-    height:50px;
+    width:13.5vw;
+    height:2.5vw;
     position:absolute;
     background-color: transparent;
     border-radius: 25px;
     color:white;
-    padding: 5px 5px;
-    font-size:30px;
+    padding: 0.25vw 0.25vw;
+    font-size:1.5vw;
     background-repeat: no-repeat;
-    border: 1px solid white;
+    border: 0.05vw solid white;
     cursor: pointer;
 
     top:90%;

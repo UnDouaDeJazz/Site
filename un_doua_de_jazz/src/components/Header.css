@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 #logoHeader{
-    height: 100px;
+    height: 5vw;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 1vw;
+    left: 1vw;
     cursor: pointer;
 }
 .btnDrop{
@@ -16,54 +16,54 @@
     cursor: pointer;
     overflow: hidden;
     outline: none;
-    height: 60px;
+    height: 3vw;
 
-    font-size: 22px;
-    top: 30px;
+    font-size: 1.1vw;
+    top: 1.5vw;
 }
 
 #btnPropos{
-    left: 170px;
+    left: 8.5vw;
 }
 
 #btnInfos{
-    left: 360px;
+    left: 18vw;
 }
 
 
 #btnBilleterie{
     background-color: #ffA06A;
-    border-radius: 40px;
+    border-radius: 2vw;
     color: white;
     cursor: pointer;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 0.5vw 1vw;
     text-align: center;
     transition: 200ms;
-    width: 240px;
+    width: 12vw;
     box-sizing: border-box;
     border: 0;
-    font-size: 25px;
+    font-size: 1.25vw;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
 
     position: absolute;
-    right: 40px;
-    top:40px;
+    right: 2vw;
+    top:2vw;
     cursor: pointer;
 }
 #header{
     position:absolute;
-    height: 200px;
+    height: 10vw;
     width: 100%;
     background-color: transparent;
 }
 .btnDrop{
     transition: 200ms;
     display:block;
-    width:270px;
-    height:200px;
+    width:13.5vw;
+    height:10vw;
 }
 .btnDrop:hover{
     transition:200ms;
@@ -81,19 +81,19 @@
 #header p{
     font-family: 'Roboto Condensed', sans-serif;
   font-weight:400;
-    font-size:25px;
+    font-size:1.25vw;
 }
 
 
 #header .dropContent a {
     font-family: 'Roboto Condensed', sans-serif;
   font-weight: 300;
-    font-size:20px;
-	width:150px;
+    font-size:1vw;
+	width:7.5vw;
     display:block;
     margin: 0px;
-    margin-left: 10px;
-    padding-bottom:10px;
+    margin-left: 0.5vw;
+    padding-bottom:0.5vw;
     border:0px;
 
     text-decoration: none;
@@ -105,9 +105,9 @@
     display: block;
     opacity:0;
     position: absolute;
-    width:150px;
+    width:7.5vw;
     transition:500ms;
-    margin-left:50px;
+    margin-left:2.5vw;
 
     
     
@@ -117,9 +117,9 @@
 	display:block;
     opacity:1;
     border:0px;
-    border-left: 2px;
+    border-left: 0.1vw;
     border-style: solid;  
 }
 #header .btnDrop p{
-    margin-bottom:10px;
+    margin-bottom:0.5vw;
 }
