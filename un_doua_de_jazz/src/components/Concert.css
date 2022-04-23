@@ -131,3 +131,40 @@ h3{
     font-size: 1.1vw;
     margin:3.5vw;
 }
+
+@media all and (orientation: portrait){
+    p{
+        font-size:3vw;
+    }#retour{
+        font-size: 6vw;
+    }#concert{
+        margin:10%;
+        width:80%;
+    }
+    h3{
+        font-size:3vw;
+    }#name{
+        font-weight: 400;
+        font-size: 4vw;
+        margin-top: 8vw;
+    }#date{
+
+        font-size: 3vw;
+    }
+    #date span{
+        font-size: 4vw;
+    }#billeterieConcert{
+        border-radius: 4vw;
+        padding: 1vw 2vw;
+        width: 24vw;
+        font-size: 2.5vw;
+        margin-top: 5vw;
+        margin-bottom: 2vw;
+    }#quoteConcert{
+        font-size: 3vw;
+    }
+    #descrConcert{
+        font-size: 2.5vw;
+    }
+    
+}

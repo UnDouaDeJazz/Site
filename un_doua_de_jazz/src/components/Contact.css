@@ -42,3 +42,29 @@ p{
     padding-right:2.5vw;
     padding-bottom:25vw;   
 }
+
+@media all and (orientation: portrait){
+    #imgHeaderContact{
+        height:14vw;
+    }#headerContact{
+        height: 14vw;
+    }#contentContact .contactSubtitle{
+        font-size:4vw;
+
+        margin-left: 3vw;
+        margin-right: 3vw;
+
+        padding-left:0vw;
+        padding-right:0vw;
+    }#contentContact p{
+        font-size:3vw;  
+
+        padding-left:4vw;
+        padding-right:4vw;
+    }#contentContact #contactTitle{
+        font-size: 5vw;
+
+        padding-left:0vw;
+        padding-right:0vw;
+    }
+}

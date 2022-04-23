@@ -18,8 +18,8 @@ function Case(number){
                         <img src={data.img2} alt={data.nom2}/>
                         <p class="date"><span>{data.day}</span><br/>{data.month}</p>
 
-                        <p class="name"><span>Partie 1 - </span>{data.nom1}</p>
-                        <p class="name"><span>Partie 2 - </span>{data.nom2}</p>
+                        <p class="name"><span class="partie">Partie 1 - </span>{data.nom1}</p>
+                        <p class="name"><span class="partie">Partie 2 - </span>{data.nom2}</p>
                     </div>
                     
                 </NavLink>
@@ -45,7 +45,7 @@ function Case(number){
 
 function HomeFullContent() {
 return (
-    <div>
+    <div id="homeContent">
         <p id="prog">Programmation 2022</p>
         <div id="gridProg">
             {Case(1)}

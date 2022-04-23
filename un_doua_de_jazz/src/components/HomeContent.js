@@ -12,7 +12,7 @@ import "./HomeContent.css"
 function HomeContent(nb) {
     
 return (
-    <div>
+    <div id="homeContent">
         <p id="prog">Programmation 2022</p>
         <p id="venir">...A VENIR...</p>
         <hr id="smallhr"/>

@@ -62,3 +62,35 @@
   width:1.5vw;
   margin:0.25vw;
 }
+
+@media all and (orientation: portrait){
+  #doua{
+    font-size: 2vw;
+  }
+  #grandDoua{
+    font-size: 4vw;
+  }
+  .logo{
+    height:3vw;
+    width:3vw;
+    margin:0.25vw;
+  }
+  #mentionsLegales{
+    font-size:2vw;
+    top:3vw;
+  }#partenaires{
+    
+    font-size:2vw;
+    display:block;
+    text-align: left;
+    margin:1vw;
+    margin-top: 2vw; 
+  }
+  
+  #partenaires p{
+    font-size:2vw;
+    margin:3vw;
+    margin-left: 2vw;
+  }
+
+}

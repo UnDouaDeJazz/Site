@@ -151,3 +151,37 @@
     text-align:center;
     color:white;
 }
+@media all and (orientation: portrait){
+  #homeContent #prog{
+    font-size:3.5vw;
+    margin:5vw;
+  }
+  #gridProg div p{
+    font-size:2.5vw;
+    margin:1vw;
+  }
+  #gridProg .deuxParties .img .name span{
+    font-size:2vw;
+    margin:1vw;
+  }
+  #gridProg .name{
+    margin-left:0vw;
+  }
+  #gridProg .unePartie .img img{
+    width: 24vw;
+    height:24vw;
+  }
+
+  #gridProg .deuxParties .img img{
+    width:12vw;
+    height:24vw;
+  }
+  
+  
+  
+  #gridProg .deuxParties .img .vl{
+      height:24vw;
+      width:0.4vw;
+      left:12vw;
+  }
+}

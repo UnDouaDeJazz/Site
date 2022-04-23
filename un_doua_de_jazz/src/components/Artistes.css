@@ -64,3 +64,23 @@
   #artistesGrid span{
     font-size:1.5vw;
   }
+
+  @media all and (orientation: portrait){
+    #headerArtistes p{
+      font-size: 4vw;
+  
+    }
+    #headerArtistes span{
+      font-size:6vw;
+      
+    }
+    #artistesGrid img{
+      height:29vw;
+    }
+    #artistesGrid p{
+      font-size:3vw;
+    }
+    #artistesGrid span{
+      font-size:3vw;
+    }
+  }
