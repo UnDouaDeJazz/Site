@@ -44,3 +44,21 @@
     padding-right:2.5vw;
     padding-bottom:25vw;   
 }
+@media all and (orientation: portrait){
+    #imgHeaderMentions{
+        height:14vw;
+    }
+    #headerMentions{
+        height:14vw;
+    }
+    #contentMentions p{
+        font-size:2.5vw;
+
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #mentionsTitle{
+        font-size:5vw;
+    }
+}
