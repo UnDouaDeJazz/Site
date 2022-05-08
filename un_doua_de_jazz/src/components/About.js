@@ -26,7 +26,8 @@ return (
                 <p>En France, Un Doua De Jazz est le seul événement de ce type. C'est une belle opportunité de se rapprocher de la musique et de découvrir de nouveaux horizons artistiques. Le festival a ainsi réussi, en suivant ses engagements au fil des années, à satisfaire son public grandissant, qu'il soit passionné ou simplement curieux.</p>
             </div>
             <hr/>
-    </div>
+
+            </div>
 );
 }
 

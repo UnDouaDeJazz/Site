@@ -21,7 +21,7 @@
     font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
     font-size:1.5vw;
-    top:32vh;
+    top:17vw;
     text-align: center;
     width:100%;
     position:absolute;
@@ -96,14 +96,14 @@ margin-top: 28vw;
 
 #benevoleButton {
   background: #5E5DF0;
-  border-radius: 999px;
+  border-radius: 50vw;
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 600;
   font-size: 1.8vw;
-  line-height: 24px;
+  line-height: 1.2vw;
   opacity: 1;
   outline: 0 solid transparent;
   padding: 1.3vw 2vw;
@@ -113,4 +113,41 @@ margin-top: 28vw;
   width: fit-content;
   word-break: break-word;
   border: 0;
+}
+
+@media all and (orientation: portrait){
+    #headerBenevoles p {
+        font-size:4vw;
+        top:13vw;
+    }#headerBenevoles span{
+        
+        font-size:6vw;
+    }
+    #titre1{
+      font-size: 3.8vw;
+      margin-left: 3vw;
+      margin-right: 3vw;
+      line-height: 4vw;
+    }
+    #titre2{
+      font-size: 4.7vw;
+    }#benevoleTexte h2{
+        font-size:4vw;
+    }#benevoleTexte h3{
+        font-size:3.5vw;
+    }#benevoleTexte p{
+        font-size:3vw;
+    }#finBenev .finTexte{
+        margin-left:2vw;
+        margin-right: 2vw;
+        font-size:3vw;
+    }
+    
+    
+    #benevoleButton {
+      font-size: 4vw;
+      line-height: 1.5vw;
+      padding: 3vw 3.7vw;
+    }
+
 }

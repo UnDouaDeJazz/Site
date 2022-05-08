@@ -19,10 +19,7 @@ return (
             <div id="benevoleTexte">       
             <div class="titre">
         <h1><span id="titre1">Ça fait des mois que tu dis que tu veux entrer dans une asso, mais tu ne t'es jamais donné le temps ? </span>
-                <br/><br/><span id="titre2">Ça tombe bien, 
-               
-                    Un Doua De Jazz
-                recrute !</span></h1>
+                <br/><br/><span id="titre2">Ça tombe bien, Un Doua De Jazz recrute !</span></h1>
                 </div>
 
                 <hr/>
