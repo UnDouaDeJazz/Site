@@ -47,16 +47,44 @@
   display:block;
   text-align: left;
   margin:1vw;
-  margin-top: 2vw; 
+  margin-top: 2vw;
+  vertical-align: middle;
+
+
+  
+}#partenairesGrid{
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-gap: 0.5vw;
+  grid-auto-rows: minmax(auto, auto);
+  width: 100%;
+  
+  margin: auto;
+  text-align: left;
+  align-items: left;
+  justify-content: left; 
+}#partenaires img{
+  display:block;
+  max-height:10vh;
+  max-width:6vw;
+  margin: auto;
+  filter:grayscale(100%);
+  vertical-align: middle;
 }
 
 #partenaires p{
+  grid-column: 1/3;
+  display:block;
+  margin:auto;
   
-  margin:1.5vw;
   margin-left: 1.25vw;
+  vertical-align: middle;
 }
 
-
+#partenaires hr{
+  margin-top:1vw;
+  margin-bottom:1vw;
+}
 .logo{
   height:1.5vw;
   width:1.5vw;

@@ -3,6 +3,17 @@ import fb from '../media/logo-fb.png';
 import insta from '../media/logo-insta.png';
 import mail from '../media/logo-mail.png';
 import yt from '../media/logo-yt.png';
+import logo1 from '../media/logo-villeurbanne.png'
+import logo2 from '../media/logo-lyon.jpg'
+import logo3 from '../media/logo-rhinojazz.jpg'
+import logo4 from '../media/logo-va.png'
+import logo5 from '../media/logo-insa.png'
+import logo6 from '../media/logo-helloasso.png'
+import logo7 from '../media/logo-crous.jpg'
+import logo8 from '../media/logo-cfc22.png'
+import logo9 from '../media/logo-alumni.jpg'
+import logo10 from '../media/logo-grandlyon.png'
+import logo11 from '../media/logo-jsmusique.jpg'
 import {HashLink} from 'react-router-hash-link';
 
 
@@ -27,11 +38,27 @@ function Footer() {
             </div>
             </HashLink>
             <div id="partenaires">
-                <hr/>
+
+            <hr/>
+            <div id="partenairesGrid">
                 <p>
                     -- Nos partenaires
                 </p>
-                <hr/>
+                <img src={logo1}></img>
+                <img src={logo2}></img>
+                <img src={logo3}></img>
+                <img src={logo4}></img>
+                <img src={logo5}></img>
+                <img src={logo6}></img>
+                <img src={logo7}></img>
+                <img src={logo8}></img>
+                <img src={logo9}></img>
+                <img src={logo10}></img>
+                <img src={logo11}></img>
+
+                </div>
+            <hr/>
+
             </div>
       </div>
   );
