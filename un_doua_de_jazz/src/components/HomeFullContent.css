@@ -19,8 +19,8 @@
 
 
 #gridProg .deuxParties .img img{
-  width:7.5vw;
-  height:15vw;
+  width:10vw;
+  height:20vw;
   object-fit: cover;
   margin:0.1vw;
 }
@@ -32,11 +32,11 @@
     margin-top:0.1vw;
     margin-bottom:1vw;
     background-color: white;
-    height:15vw;
+    height:20vw;
     width:0.1vw;
     display:inline;
     position: absolute;
-    left:7.6vw;
+    left:10.1vw;
 }
 
 #gridProg .deuxParties{
@@ -58,8 +58,8 @@
 
 
 #gridProg .unePartie .img img{
-  width:15vw;
-  height:15vw;
+  width:20vw;
+  height:20vw;
   object-fit: cover;
   margin:0.1vw;
 }

@@ -44,17 +44,17 @@ function Footer() {
                 <p>
                     -- Nos partenaires
                 </p>
-                <img src={logo1}></img>
-                <img src={logo2}></img>
-                <img src={logo3}></img>
-                <img src={logo4}></img>
-                <img src={logo5}></img>
-                <img src={logo6}></img>
-                <img src={logo7}></img>
-                <img src={logo8}></img>
-                <img src={logo9}></img>
-                <img src={logo10}></img>
-                <img src={logo11}></img>
+                <img src={logo1} alt=""></img>
+                <img src={logo2} alt=""></img>
+                <img src={logo3} alt=""></img>
+                <img src={logo4} alt=""></img>
+                <img src={logo5} alt=""></img>
+                <img src={logo6} alt=""></img>
+                <img src={logo7} alt=""></img>
+                <img src={logo8} alt=""></img>
+                <img src={logo9} alt=""></img>
+                <img src={logo10} alt=""></img>
+                <img src={logo11} alt=""></img>
 
                 </div>
             <hr/>

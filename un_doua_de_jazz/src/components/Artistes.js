@@ -1,15 +1,66 @@
 
 import Header from "./Header.js"
 import disc from "../media/headerDisc.jpg";
-import chris from '../media/chris-potter.png';
-import bojan from '../media/bojan-z.png';
-import tigran from '../media/tigran-hamasaya.png';
-import mederic from "../media/mederic-colignon.png";
-import renaud from "../media/renaud-garcia-fons.png";
-import soul from "../media/soul-square.png";
+
+import {donneesNb, donneesAnciennesNb} from '../data/data.js';
 
 import "./Artistes.css"
 
+function ArtistesActuels(number){
+    const data=donneesNb(number);
+
+    if(data.duo===true){
+        return(
+            <div class="deuxParties">
+                    <div class="img">
+                        <img src={data.img1} alt={data.nom1}/>
+                        
+                        <p class="name">{data.nom1}</p>
+                        <p class="year">{data.day} {data.month}</p>
+                        </div>
+            </div>
+        );
+    }else{
+        return(
+        <div class="unePartie">
+                    <div class="img">
+                        <img src={data.img1} alt={data.name}/>
+                        
+                        <p class="name">{data.name}</p>
+                        <p class="year">{data.day} {data.month}</p>
+                    </div>
+            </div>
+        );
+    }
+}
+
+function ArtistesAnciens(number){
+    const data=donneesAnciennesNb(number);
+
+    if(data.duo===true){
+        return(
+            <div class="deuxParties">
+                    <div class="img">
+                        <img src={data.img1} alt={data.nom1}/>
+
+                        <p class="name">{data.nom1}</p>
+                        <p class="year">{data.year}</p>
+                    </div>
+            </div>
+        );
+    }else{
+        return(
+        <div class="unePartie">
+                    <div class="img">
+                        <img src={data.img1} alt={data.name}/>
+                        
+                        <p class="name">{data.name}</p>
+                        <p class="year">{data.year}</p>
+                    </div>
+            </div>
+        );
+    }
+}
 
 function Artistes() {
 return (
@@ -18,33 +69,31 @@ return (
     <div id="headerArtistes">
         <img src={disc} alt="logo disque UnDouaDeJazz" id="imgDisc"/>
         <p>NOS <span>ARTISTES</span></p>
-
     </div>
 
     <Header />
+    <hr/>
+    <h1>Nos Artistes 2022
+    </h1>
+    <div id="artistesActGrid" >
+            {ArtistesActuels(1)}
+            {ArtistesActuels(2)}
+            {ArtistesActuels(3)}
+            {ArtistesActuels(1)}
+            {ArtistesActuels(2)}
+            {ArtistesActuels(3)}
 
+    </div>
+    <hr class="inter"/>
+    <h1>Memories
+    </h1>
     <div id="artistesGrid" >
-        <div>
-        <img src={chris} alt="Chris Potter"/>
-        <p>Chris Potter<br/><span>2004</span></p>
-        </div><div>
-        <img src={bojan} alt="Bojan Z"/>
-
-        <p>Bojan Z<br/><span>2009</span></p>
-        </div><div>
-        <img src={tigran} alt="Tigran Hamasyan"/>
-
-        <p>Tigran Hamasyan<br/><span>2009</span></p>
-        </div><div>
-        <img src={mederic} alt="Mederic Colignon"/>
-        <p>Mederic Colignon<br/><span>2010</span></p>
-        </div><div>
-        <img src={renaud} alt="Renaud Garcia-Fons"/>
-        <p>Renaud Garcia-Fons<br/><span>2010</span></p>
-        </div><div>
-        <img src={soul} alt="Soul Square"/>
-        <p>Soul Square<br/><span>2016</span></p>
-        </div>
+            {ArtistesAnciens(1)}
+            {ArtistesAnciens(2)}
+            {ArtistesAnciens(3)}
+            {ArtistesAnciens(4)}
+            {ArtistesAnciens(5)}
+            {ArtistesAnciens(6)}
 
     </div>
     <hr/>

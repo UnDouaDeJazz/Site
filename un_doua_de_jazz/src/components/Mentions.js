@@ -12,14 +12,21 @@ return (
         <div id="contentMentions">
             <h3 id="mentionsTitle">Mentions Légales</h3>
             <hr/>
+            <p class="mentionsSTitle">MENTIONS LEGALES - ASSOCIATION DE LOI 1901 : </p>
             <p class="mentionsSubtitle">IDENTITE</p>
-            <p>Nom du site web : Un Doua De Jazz<br/>
-                Adresse : https://undouadejazz.com<br/>
-                Propriétaire : ? ???<br/> 
-                Responsable de publication : ????<br/>
-                Conception et réalisation : Colin THOMAS (<a href="mailto:colin.thomas@insa-lyon.fr">mail</a> | <a href="https://github.com/ThomasColin1">github</a> | <a href="https://dystorr.pythonanywhere.com/portfolioapp/">portfolio</a>)<br/>
-                Hébergement : ??????</p>
-            <p class="mentionsSubtitle">CONDITIONS D’UTILISATION</p>
+            <p>Nom de l'association : Festival Un Doua De Jazz<br/>
+            Adresse Siège Social : Bat 608 MDE BDE - 20 Avenue Albert Einstein - 69100 VILLEURBANNE
+<br/>
+                Telephone : 0695632301 <br/>
+                Co-Présidents de l'Association : Elyn WALTER - Guillaume CARPENTIER<br/>
+
+                Association loi 1901<br/></p>
+                <p class="mentionsSubtitle">HEBERGEUR</p>
+                <p>
+Scaleway<br/>
+8 rue de la Ville l’Evêque, 75008 Paris, France<br/>
++33 1 84 13 00 00<br/></p>
+            <p class="mentionsSTitle">CONDITIONS D’UTILISATION DU SITE WEB :</p>
             <p>L’utilisation du présent site implique l’acceptation pleine et entière des conditions générales d’utilisation décrites ci-après. Ces conditions d’utilisation sont susceptibles d’être modifiées ou complétées à tout moment.</p>
             <p class="mentionsSubtitle">INFORMATIONS</p>
             <p>Les informations et documents du site sont présentés à titre indicatif, sans de caractère exhaustif, et ne peuvent engager la responsabilité du propriétaire du site.<br/>
@@ -37,7 +44,7 @@ return (
 <br/>tout risque de confusion entre le site citant et le propriétaire du site
 <br/>ainsi que toute présentation tendancieuse, ou contraire aux lois en vigueur.
 <br/>Le propriétaire du site se réserve le droit de demander la suppression d’un lien s’il estime que le site source ne respecte pas les règles ainsi définies.</p>
-            <p class="mentionsSubtitle">CRÉDITS</p>
+            <p class="mentionsSTitle">CRÉDITS</p>
             <p>???????????</p>
             
 

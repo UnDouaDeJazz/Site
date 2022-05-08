@@ -35,7 +35,7 @@
     font-size:2.5vw;
 }
 
-#artistesGrid{
+#artistesGrid, #artistesActGrid{
     display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
@@ -48,22 +48,46 @@
   justify-content: center;
 }
 
-#artistesGrid p{
+#artistesGrid .img p, #artistesActGrid .img p{
     font-family: 'Roboto Condensed', sans-serif;
-    margin-top:0.25vw;
+    margin-top:0vw;
+    margin-bottom:0vw;
     font-weight: 300;
       font-size:1.5vw;
       color:black;
+
   }
 
-  #artistesGrid img{
+  #artistesGrid img,#artistesActGrid img{
     height:20vw;
+    width:20vw;
+    object-fit:cover;
     margin-top:5vw;
     border-radius: 0.5vw;
   }
-  #artistesGrid span{
+  #artistesGrid span,#artistesActGrid span{
     font-size:1.5vw;
   }
+
+  #artistes h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:2vw;
+    margin-top:4vw;
+    margin-bottom:0vw;
+    font-weight: 700;
+    font-size: 3vw;
+  }
+  #artistes .inter{
+    margin:2vw;
+  }
+
+
+
+
+
+
+
+
 
   @media all and (orientation: portrait){
     #headerArtistes p{
@@ -74,13 +98,11 @@
       font-size:6vw;
       
     }
-    #artistesGrid img{
-      height:29vw;
+    #artistesGrid img,#artistesActGrid img{
+      height:25vw;
+      width:25vw;
     }
-    #artistesGrid p{
-      font-size:3vw;
-    }
-    #artistesGrid span{
-      font-size:3vw;
+    #artistesGrid .img p,#artistesActGrid .img p{
+      font-size:2.3vw;
     }
   }
