@@ -1,4 +1,4 @@
-import header from '../media/headernetpanet.png';
+import header from '../media/headerComp.png';
 import logoTransparent from '../media/trans3.png';
 import './HeaderHome.css';
 import Header from "./Header.js"

@@ -1,6 +1,6 @@
 
 import Header from "./Header.js"
-import disc from "../media/headerDisc.jpg";
+import disc from "../media/headerDiscComp.jpg";
 
 import {donneesNb, donneesAnciennesNb} from '../data/data.js';
 
