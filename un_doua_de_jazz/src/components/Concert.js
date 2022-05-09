@@ -2,33 +2,56 @@ import { NavLink } from 'react-router-dom'
 import './HomeFull.css';
 import './Benevole.css'
 import './Concert.css'
+import './Artistes.css';
 import { useParams } from 'react-router-dom'
 import HomeFullContent from "./HomeFullContent.js"
 import HeaderHome from "./HeaderHome.js"
+import Artistes from "./Artistes.js"
 import {donnees} from "../data/data.js"
 
 
 
 
+function arrierePlan(endroit){
+    if(endroit==="home-full"){
+        return(
+    <div id="blur">
+        <div id="headerWrap">
+            <HeaderHome/>
+        </div>
+        <div id="artistesWrapperConcert">
+          
+                <HomeFullContent/>
+        </div>
+
+    </div>);
+    }
+    else if(endroit==="artistes"){
+        return(
+<div id="blur">
+        <div id="artistesWrapperConcert">
+          
+                <Artistes />
+        </div>
+
+    </div>);
+    }
+}
 
 function Concert() {
     const { concertName } = useParams();
+    const { endroit } = useParams();
     const data = donnees(concertName);
+    const arriere = arrierePlan(endroit);
+    const retour = "/"+endroit;
+    //const arrierePlan = arriere(endroit);
   return (
       <div id="concertTotal">
 
     <div id="home">
 
-        <div id="blur">
-        <div id="headerWrap">
-            <HeaderHome/>
-        </div>
-        <div id="artistesWrapper">
-          
-                <HomeFullContent/>
-        </div>
+        {arriere}
 
-    </div>
 
 
     </div>
@@ -36,7 +59,7 @@ function Concert() {
     <div id="concert">
         <div id="infosConcert">
 
-    <NavLink to="/home-full">
+    <NavLink to={retour}>
         <button id="retour"> {"←"} </button>
     </NavLink>
         <p id="name">

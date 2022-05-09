@@ -11,7 +11,7 @@ function Case(number){
         return(
             <div class="deuxParties">
 
-                <NavLink to={"/concert/"+data.id}>
+                <NavLink to={"/home-full/concert/"+data.id}>
                     <div class="img">
                         <img src={data.img1} alt={data.nom1}/>
                         <div class="vl"/>
@@ -29,7 +29,7 @@ function Case(number){
         return(
         <div class="unePartie">
 
-                <NavLink to={"/concert/"+data.id}>
+                <NavLink to={"/home-full/concert/"+data.id}>
                     <div class="img">
                         <img src={data.img1} alt={data.name}/>
                         <p class="date"><span>{data.day}</span><br/>{data.month}</p>
