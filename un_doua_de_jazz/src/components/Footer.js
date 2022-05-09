@@ -41,7 +41,7 @@ function Footer() {
 
             <hr/>
             <div id="partenairesGrid">
-                <p>
+                <p class="titre">
                     -- Nos partenaires
                 </p>
                 <img src={logo1} alt=""></img>
@@ -49,12 +49,9 @@ function Footer() {
                 <img src={logo3} alt=""></img>
                 <img src={logo4} alt=""></img>
                 <img src={logo5} alt=""></img>
+
                 <img src={logo6} alt=""></img>
-                <img src={logo7} alt=""></img>
-                <img src={logo8} alt=""></img>
-                <img src={logo9} alt=""></img>
-                <img src={logo10} alt=""></img>
-                <img src={logo11} alt=""></img>
+                <p class="voirplus"><a href="/#/partenaires"> Voir plus -> </a></p>
 
                 </div>
             <hr/>

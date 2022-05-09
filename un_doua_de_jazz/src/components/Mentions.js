@@ -45,7 +45,28 @@ Scaleway<br/>
 <br/>ainsi que toute présentation tendancieuse, ou contraire aux lois en vigueur.
 <br/>Le propriétaire du site se réserve le droit de demander la suppression d’un lien s’il estime que le site source ne respecte pas les règles ainsi définies.</p>
             <p class="mentionsSTitle">CRÉDITS</p>
-            <p>???????????</p>
+            <p>Présidence :<br/>
+            Elyn Walter<br/>
+            Guillaume Carpentier<br/><br/>
+
+            Pôle trésorerie :<br/>
+            Grégoire Detours <br/>
+            Antoine Foucault<br/><br/>
+
+            Pôle communication :<br/>
+            Amandine Dotto-Maurel<br/>
+            Léon Chauvel<br/><br/>
+
+            Secrétaire :<br/>
+            Simon Rutten<br/><br/>
+
+            Membre actif / électron libre : <br/>
+            Edgar Lepetit<br/><br/>
+
+            Site web : <br/>
+            Colin Thomas<br/><br/></p>
+
+
             
 
             </div>
