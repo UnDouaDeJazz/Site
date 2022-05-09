@@ -30,9 +30,10 @@ root.render(
       <Route path="/contact" element={<Contact />} class="general"/>
       <Route path="/home-full" element={<HomeFull />} class="general"/>
       <Route path="/mentions" element={<Mentions />} class="general"/>
-      <Route path="/partenaires" element={<Partenaires />} class="general"/>
       
       <Route path ="/:endroit/concert/:concertName" element={<Concert />} class="general"/>
+
+      <Route path="/partenaires" element={<Partenaires />} class="general"/>
       
       {/*<Route path="/contact" element={<Contact />} />
       <Route path="/blog" element={<Blog />}>

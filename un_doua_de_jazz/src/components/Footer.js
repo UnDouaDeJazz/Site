@@ -51,7 +51,7 @@ function Footer() {
                 <img src={logo5} alt=""></img>
 
                 <img src={logo6} alt=""></img>
-                <p class="voirplus"><a href="/#/partenaires"> Voir plus -> </a></p>
+                <p class="voirplus"><HashLink to="/partenaires"> Voir plus -> </HashLink></p>
 
                 </div>
             <hr/>

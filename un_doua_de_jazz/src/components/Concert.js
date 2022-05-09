@@ -19,7 +19,7 @@ function arrierePlan(endroit){
         <div id="headerWrap">
             <HeaderHome/>
         </div>
-        <div id="artistesWrapperConcert">
+        <div id="artistesWrapper">
           
                 <HomeFullContent/>
         </div>
