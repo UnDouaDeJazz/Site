@@ -12,27 +12,90 @@ import mederic from "../media/mederic-colignon.png";
 import renaud from "../media/renaud-garcia-fons.png";
 import soul from "../media/soul-square.png";
 
+import villeurbanne from '../media/logo-villeurbanne.png'
+import lyon from '../media/logo-lyon.jpg'
+import rhinojazz from '../media/logo-rhinojazz.jpg'
+import va from '../media/logo-va.png'
+import insa from '../media/logo-insa.png'
+import helloasso from '../media/logo-helloasso.png'
+import crous from '../media/logo-crous.jpg'
+import cfc22 from '../media/logo-cfc22.png'
+import alumni from '../media/logo-alumni.jpg'
+import grandlyon from '../media/logo-grandlyon.png'
+import jsmusique from '../media/logo-jsmusique.jpg'
+
+const partenaires=[
+    {
+        name : "villeurbanne",
+        img1: villeurbanne,
+        link: ""
+    },{
+        name : "lyon",
+        img1: lyon,
+        link: ""
+    },{
+        name : "rhinojazz",
+        img1: rhinojazz,
+        link: ""
+    },{
+        name : "va",
+        img1: va,
+        link: ""
+    },{
+        name : "insa",
+        img1: insa,
+        link: ""
+    },{
+        name : "helloasso",
+        img1: helloasso,
+        link: ""
+    },{
+        name : "crous",
+        img1: crous,
+        link: ""
+    },{
+        name : "cfc22",
+        img1: cfc22,
+        link: ""
+    },{
+        name : "alumni",
+        img1: alumni,
+        link: ""
+    },{
+        name : "grandlyon",
+        img1: grandlyon,
+        link: ""
+    },{
+        name : "jsmusique",
+        img1: jsmusique,
+        link: ""
+    },
+]
 const data=[
-    {nb : 1,
-        id: 'blast', 
-        name: "Blast",
+{
+    nb : 1, //numéro de repérage pour affichage
+    id: 'blast', //adresse url pour affichage
+    name: "Blast", //nom affiché
     quote : '"Un Doua de Jazz revient en force cette année avec un premier concert de Blast à l’Espace Tonkin pour démarrer le festival en beauté !"',
+    //premier texte
     desc : 'Pierre Horckmans, Guillaume Bertrand et Anne Quilluer, formant un trio aventureux entremêlant jazz, pop et musique électronique sauront vous faire voyager dans un monde fictif, par leurs inspirations venant de la bande dessinée et du théâtre. S’alliant avec le dessinateur Benjamin Flao, ce concert dessiné fera vibrer tous vos sens, chaque musique inspirant le dessinateur sur scène pour créer des oeuvres inédites en direct, et chaque dessin inspirant la musique.',
-    img1 : blast,
-    img2 : blast2,
-    day : '7',
+    //deuxième texte
+    img1 : blast, //image header
+    img2 : blast2, //image milieu de texte
+    day : '7', 
     month : 'oct.',
     year : '2022',
-    hour : '20h00 - 22h00',
-    place : 'Espace Tonkin',
-    nomTarif1 : 'Tarif plein',
+    hour : '20h00 - 22h00', //la date précise du concert
+    place : 'Espace Tonkin', //l'endroit du concert
+    nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
     tarif1 : 18,
     nomTarif2 : 'Tarif réduit chômeurs/étudiants',
     tarif2 : 12,
     nomTarif3 : 'Abonnement Espace Tonkin',
     tarif3 : 10,
     billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne/evenements/blast?_gl=1%2agg0xrs%2a_ga%2aMTYzNDE1NjAyNi4xNjI0MzAwMDIz%2a_ga_TKC826G3G2%2aMTYzMTg4ODM3My41LjEuMTYzMTg4OTkzOC4w',
-    duo : false,    
+    //adresse de la billetterie de ce concert
+    duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
 },
     {nb:3,
         id: 'ishkero-eji', 
@@ -228,32 +291,26 @@ function donneesAnciennesNb(number){
     return dataAnc.find(el => el.nb===number);
 }
 
-export {donnees, donneesNb, donneesAnciennes, donneesAnciennesNb};
+function partenaire(string){
+    return partenaires.find(el => el.name===string);
+    
+}
 
-/*<div id="artistesGrid" >
-        <div>
-        <img src={chris} alt="Chris Potter"/>
-        <p>Chris Potter<br/><span>2004</span></p>
-        </div><div>
-        <img src={bojan} alt="Bojan Z"/>
+function partenaireNb(number){
+    return partenaires[number];
+}
 
-        <p>Bojan Z<br/><span>2009</span></p>
-        </div><div>
-        <img src={tigran} alt="Tigran Hamasyan"/>
+function partenairesSize(){
+    return partenaires.length;
+}
 
-        <p>Tigran Hamasyan<br/><span>2009</span></p>
-        </div><div>
-        <img src={mederic} alt="Mederic Colignon"/>
-        <p>Mederic Colignon<br/><span>2010</span></p>
-        </div><div>
-        <img src={renaud} alt="Renaud Garcia-Fons"/>
-        <p>Renaud Garcia-Fons<br/><span>2010</span></p>
-        </div><div>
-        <img src={soul} alt="Soul Square"/>
-        <p>Soul Square<br/><span>2016</span></p>
-        </div>
+function donneesSize(){
+    return data.length;
+}
 
-    </div>
-    <hr/>
-    </div>
-    */
+function donneesAnciennesSize(){
+    return dataAnc.length;
+}
+
+export {partenaireNb, partenairesSize, partenaire, donnees, donneesNb, donneesAnciennes, donneesAnciennesNb, donneesSize, donneesAnciennesSize};
+

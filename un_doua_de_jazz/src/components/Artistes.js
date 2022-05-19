@@ -2,7 +2,7 @@
 import Header from "./Header.js"
 import disc from "../media/headerDiscComp.jpg";
 
-import {donneesNb, donneesAnciennesNb} from '../data/data.js';
+import {donneesNb, donneesAnciennesNb, donneesSize, donneesAnciennesSize} from '../data/data.js';
 import "./Artistes.css"
 import { NavLink } from 'react-router-dom';
 
@@ -73,43 +73,63 @@ function ArtistesAnciens(number){
     }
 }
 
-function Artistes() {
-return (
-    <div id="artistes">
+function TableActuels(){
+
+    var children=[];
+    for(let i=1;i<=donneesSize();i++){
+        children.push(ArtistesActuels(i));
+    }
+    var retour=(
+        <div id="artistesActGrid">
+            {children}
+        </div>);
+        return retour
+        
     
+}
+
+function TableAnciens(){
+
+    var children=[];
+    for(let i=1;i<=donneesAnciennesSize();i++){
+        children.push(ArtistesAnciens(i));
+    }
+    var retour=(
+        <div id="artistesGrid">
+            {children}
+        </div>);
+        return retour
+        
+    
+}
+
+function Artistes() {
+    var contenu=[
     <div id="headerArtistes">
-        <img src={disc} alt="logo disque UnDouaDeJazz" id="imgDisc"/>
-        <p>NOS <span>ARTISTES</span></p>
-    </div>
-
-    <Header />
+    <img src={disc} alt="logo disque UnDouaDeJazz" id="imgDisc"/>
+    <p>NOS <span>ARTISTES</span></p>
+    </div>, 
+    <Header />,
     <hr/>
-    <h1>Nos Artistes 2022
-    </h1>
-    <div id="artistesActGrid" >
-            {ArtistesActuels(1)}
-            {ArtistesActuels(2)}
-            {ArtistesActuels(3)}
-            {ArtistesActuels(1)}
-            {ArtistesActuels(2)}
-            {ArtistesActuels(3)}
+    ];
 
-    </div>
-    <hr class="inter"/>
-    <h1>Memories
-    </h1>
-    <div id="artistesGrid" >
-            {ArtistesAnciens(1)}
-            {ArtistesAnciens(2)}
-            {ArtistesAnciens(3)}
-            {ArtistesAnciens(4)}
-            {ArtistesAnciens(5)}
-            {ArtistesAnciens(6)}
 
-    </div>
-    <hr/>
-    </div>
-);
+    if(donneesSize()>0){
+
+        contenu.push(<h1>Nos Artistes {new Date().getFullYear()}</h1>);
+        contenu.push(TableActuels());
+        contenu.push(<hr class="inter"/>);
+    }
+
+    contenu.push(<h1>Memories</h1>)
+    contenu.push(TableAnciens())
+    contenu.push(<hr/>)
+
+    return(<div id="artistes">
+        {contenu}
+        </div>);
+
+    
 }
 
 export default Artistes;

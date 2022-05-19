@@ -3,21 +3,18 @@ import fb from '../media/logo-fb.png';
 import insta from '../media/logo-insta.png';
 import mail from '../media/logo-mail.png';
 import yt from '../media/logo-yt.png';
-import logo1 from '../media/logo-villeurbanne.png'
-import logo2 from '../media/logo-lyon.jpg'
-import logo3 from '../media/logo-rhinojazz.jpg'
-import logo4 from '../media/logo-va.png'
-import logo5 from '../media/logo-insa.png'
-import logo6 from '../media/logo-helloasso.png'
-import logo7 from '../media/logo-crous.jpg'
-import logo8 from '../media/logo-cfc22.png'
-import logo9 from '../media/logo-alumni.jpg'
-import logo10 from '../media/logo-grandlyon.png'
-import logo11 from '../media/logo-jsmusique.jpg'
 import {HashLink} from 'react-router-hash-link';
+import {partenairesSize, partenaireNb} from '../data/data.js'
 
 
 function Footer() {
+    var partenaires=[];
+    let nbMax=Math.min(partenairesSize(),6);
+    for(let i=0;i<nbMax;i++)
+    {
+        const partenaireInter = partenaireNb(i);
+        partenaires.push(<img src={partenaireInter.img1} alt={partenaireInter.name}/>);
+    }
   return (
         
       <div id="footer">
@@ -44,13 +41,8 @@ function Footer() {
                 <p class="titre">
                     -- Nos partenaires
                 </p>
-                <img src={logo1} alt=""></img>
-                <img src={logo2} alt=""></img>
-                <img src={logo3} alt=""></img>
-                <img src={logo4} alt=""></img>
-                <img src={logo5} alt=""></img>
-
-                <img src={logo6} alt=""></img>
+                
+                {partenaires}
                 <p class="voirplus"><HashLink to="/partenaires"> Voir plus -> </HashLink></p>
 
                 </div>

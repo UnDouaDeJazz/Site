@@ -1,8 +1,11 @@
 
+
 import { NavLink } from 'react-router-dom';
-import {donneesNb} from '../data/data.js'
+import {donneesNb, donneesSize} from '../data/data.js'
 
 import "./HomeFullContent.css"
+
+
 
 function Case(number){
     const data=donneesNb(number);
@@ -11,7 +14,7 @@ function Case(number){
         return(
             <div class="deuxParties">
 
-                <NavLink to={"/home-full/concert/"+data.id}>
+                <NavLink to={"/home/concert/"+data.id}>
                     <div class="img">
                         <img src={data.img1} alt={data.nom1}/>
                         <div class="vl"/>
@@ -29,7 +32,7 @@ function Case(number){
         return(
         <div class="unePartie">
 
-                <NavLink to={"/home-full/concert/"+data.id}>
+                <NavLink to={"/home/concert/"+data.id}>
                     <div class="img">
                         <img src={data.img1} alt={data.name}/>
                         <p class="date"><span>{data.day}</span><br/>{data.month}</p>
@@ -43,18 +46,26 @@ function Case(number){
     }
 }
 
+function Table(){
+
+    var children=[];
+    for(let i=1;i<=donneesSize();i++){
+        children.push(Case(i));
+    }
+    var retour=(
+        <div id="gridProg">
+            {children}
+        </div>);
+        return retour
+        
+    
+}
+
 function HomeFullContent() {
 return (
     <div id="homeContent">
         <p id="prog">Programmation 2022</p>
-        <div id="gridProg">
-            {Case(1)}
-            {Case(2)}
-            {Case(3)}
-            {Case(1)}
-            {Case(2)}
-            {Case(3)}
-        </div>
+        {Table()}
     </div>
     );
 }

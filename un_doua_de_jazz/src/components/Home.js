@@ -1,20 +1,35 @@
 import './Home.css';
 import HomeContent from "./HomeContent.js"
+import HomeFullContent from "./HomeFullContent.js"
 import HeaderHome from "./HeaderHome.js"
-
+import {donneesSize} from "../data/data.js"
 
 function Home() {
-  return (
-    <div id="home">
-        <div id="headerWrap">
-            <HeaderHome/>
-        </div>
-        <div id="artistesWrapper">
-          
-                <HomeContent/>
-        </div>
-    </div>
-  );
+  if(donneesSize()>0){
+    return (
+      <div id="home">
+          <div id="headerWrap">
+              <HeaderHome/>
+          </div>
+          <div id="artistesWrapper">
+
+                  <HomeFullContent/>
+          </div>
+      </div>
+    );
+  }else{
+    return (
+      <div id="home">
+          <div id="headerWrap">
+              <HeaderHome/>
+          </div>
+          <div id="artistesWrapper">
+
+                  <HomeContent/>
+          </div>
+      </div>
+    );
+  }
 }
 
 export default Home;

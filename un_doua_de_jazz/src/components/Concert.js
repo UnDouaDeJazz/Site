@@ -1,10 +1,10 @@
 import { NavLink } from 'react-router-dom'
-import './HomeFull.css';
+import './Home.css';
 import './Benevole.css'
 import './Concert.css'
 import './Artistes.css';
 import { useParams } from 'react-router-dom'
-import HomeFullContent from "./HomeFullContent.js"
+import HomeContent from "./HomeContent.js"
 import HeaderHome from "./HeaderHome.js"
 import Artistes from "./Artistes.js"
 import {donnees} from "../data/data.js"
@@ -13,7 +13,7 @@ import {donnees} from "../data/data.js"
 
 
 function arrierePlan(endroit){
-    if(endroit==="home-full"){
+    if(endroit==="home"){
         return(
     <div id="blur">
         <div id="headerWrap">
@@ -21,7 +21,7 @@ function arrierePlan(endroit){
         </div>
         <div id="artistesWrapper">
           
-                <HomeFullContent/>
+                <HomeContent/>
         </div>
 
     </div>);
@@ -43,7 +43,10 @@ function Concert() {
     const { endroit } = useParams();
     const data = donnees(concertName);
     const arriere = arrierePlan(endroit);
-    const retour = "/"+endroit;
+    var retour = "/";
+    if(endroit==="artistes"){
+        retour += "artistes";
+    }
     //const arrierePlan = arriere(endroit);
   return (
       <div id="concertTotal">
@@ -87,7 +90,7 @@ function Concert() {
                 <span>{data.tarif3}€</span>
             </p>
             <a href={data.billeterie}>
-            <button id="billeterieConcert">BILLETERIE</button>
+            <button id="billeterieConcert">BILLETTERIE</button>
             </a>
         </div>
         <div id="infosGroupe">

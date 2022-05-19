@@ -1,18 +1,17 @@
 import "./Partenaires.css";
 import Header from "./Header.js"
-import logo1 from '../media/logo-villeurbanne.png'
-import logo2 from '../media/logo-lyon.jpg'
-import logo3 from '../media/logo-rhinojazz.jpg'
-import logo4 from '../media/logo-va.png'
-import logo5 from '../media/logo-insa.png'
-import logo6 from '../media/logo-helloasso.png'
-import logo7 from '../media/logo-crous.jpg'
-import logo8 from '../media/logo-cfc22.png'
-import logo9 from '../media/logo-alumni.jpg'
-import logo10 from '../media/logo-grandlyon.png'
-import logo11 from '../media/logo-jsmusique.jpg'
+import {HashLink} from 'react-router-hash-link';
+import {partenaireNb, partenairesSize} from '../data/data.js';
 
 function Partenaires() {
+    console.log(partenaireNb(1))
+    var partenaires=[];
+    for(let i=0;i<partenairesSize();i++)
+    {
+        const partenaireInter = partenaireNb(i);
+        partenaires.push(<img src={partenaireInter.img1} alt={partenaireInter.name}/>);
+    }
+    
 return (
     <div id="contact">
         <div id="headerContact">
@@ -24,18 +23,9 @@ return (
             <p id="contactTitle">Nos Partenaires</p>
             <hr/>
             <div id="partenairesPage">
-            <img src={logo1} alt=""></img>
-                <img src={logo2} alt=""></img>
-                <img src={logo3} alt=""></img>
-                <img src={logo4} alt=""></img>
-                <img src={logo5} alt=""></img>
-                <img src={logo6} alt=""></img>
-                <img src={logo7} alt=""></img>
-                <img src={logo8} alt=""></img>
-                <img src={logo9} alt=""></img>
-                <img src={logo10} alt=""></img>
-                <img src={logo11} alt=""></img>
+            {partenaires}
                 </div>
+                <p id="devenirPartenaires">Vous souhaitez devenir partenaires ? <HashLink to="/contact#header">Contactez-nous !</HashLink></p>
         </div>
             
             <hr/>

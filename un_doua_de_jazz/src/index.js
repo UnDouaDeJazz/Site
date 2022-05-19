@@ -12,7 +12,6 @@ import About from "./components/About.js"
 import Artistes from "./components/Artistes.js"
 import Benevole from "./components/Benevole.js"
 import Contact from "./components/Contact.js"
-import HomeFull from "./components/HomeFull.js"
 import Concert from "./components/Concert.js"
 import Mentions from "./components/Mentions.js"
 import Partenaires from "./components/Partenaires.js"
@@ -28,7 +27,6 @@ root.render(
       <Route path="/artistes" element={<Artistes />} class="general"/>
       <Route path="/benevole" element={<Benevole />} class="general"/>
       <Route path="/contact" element={<Contact />} class="general"/>
-      <Route path="/home-full" element={<HomeFull />} class="general"/>
       <Route path="/mentions" element={<Mentions />} class="general"/>
       
       <Route path ="/:endroit/concert/:concertName" element={<Concert />} class="general"/>

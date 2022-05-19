@@ -29,7 +29,7 @@ function Header() {
             </div>
             </div>
           <a href="https://www.helloasso.com/associations/un-doua-de-jazz">
-            <button id="btnBilleterie">BILLETERIE</button>
+            <button id="btnBilleterie">BILLETTERIE</button>
             </a>
         </header>
   );

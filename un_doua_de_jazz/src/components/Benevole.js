@@ -46,7 +46,7 @@ return (
                 <br/><br/><i>Pour te remercier, tu auras évidemment droit à une place gratuite sur un des concerts.</i>
                 </p>
                 <a href="https://forms.gle/K9UnfXoC8iefhhp8A">
-                <button id="benevoleButton" onclick="window.location.href='https://w3docs.com';">DEVENIR BENEVOLE</button>
+                <button id="benevoleButton" onclick="window.location.href='https://forms.gle/K9UnfXoC8iefhhp8A';">DEVENIR BENEVOLE</button>
                 </a>
                 </div>
                 </div>
