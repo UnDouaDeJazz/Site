@@ -91,6 +91,7 @@ function TableActuels(){
 function TableAnciens(){
 
     var children=[];
+    console.log(donneesAnciennesSize());
     for(let i=1;i<=donneesAnciennesSize();i++){
         children.push(ArtistesAnciens(i));
     }

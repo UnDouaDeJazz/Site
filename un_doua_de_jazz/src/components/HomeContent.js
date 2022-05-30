@@ -1,5 +1,5 @@
 import chris from '../media/chris-potter.png';
-import bojan from '../media/bojan-z.png';
+import glasper from '../media/glasper.jpg';
 import tigran from '../media/tigran-hamasaya.png';
 import logo from '../media/logo-transparent.png';
 import asso from '../media/asso.jpg';
@@ -22,7 +22,7 @@ return (
 
             <HashLink to="/artistes#header">
                 <img src={chris} alt="chris potter"/>
-                <img src={bojan} alt="bojan-z"/>
+                <img src={glasper} alt="robert glasper"/>
                 <img src={tigran} alt="tigran hamasaya"/>
                 </HashLink>
                 <p>Nos Artistes</p>

@@ -1,16 +1,16 @@
-import blast from "../media/blast.jpg";
-import blast2 from '../media/blast2.png';
-import ishkero from "../media/ishkero.jpeg";
-import eji from '../media/eji.jpg';
-import mcr1 from '../media/mcr1.jpg';
-import mcr2 from '../media/mcr2.jpg'
+
 
 import chris from '../media/chris-potter.png';
-import bojan from '../media/bojan-z.png';
 import tigran from '../media/tigran-hamasaya.png';
-import mederic from "../media/mederic-colignon.png";
-import renaud from "../media/renaud-garcia-fons.png";
-import soul from "../media/soul-square.png";
+import anomalie from '../media/anomalie.jpg';
+import bertaut from '../media/bertaut.jpg';
+import dooz from '../media/dooz.png';
+import foehn from '../media/foehn.jpg';
+import garcia from '../media/garcia.jpg';
+import glasper from '../media/glasper.jpg';
+import glyk from '../media/glyk.jpeg';
+import yellowstraps from '../media/yellowstraps.jpg';
+import henry from '../media/cory.jpg';
 
 import villeurbanne from '../media/logo-villeurbanne.png'
 import lyon from '../media/logo-lyon.jpg'
@@ -71,7 +71,7 @@ const partenaires=[
         link: ""
     },
 ]
-const data=[
+/*const data=[
 {
     nb : 1, //numéro de repérage pour affichage
     id: 'blast', //adresse url pour affichage
@@ -109,6 +109,13 @@ const data=[
     hour : '20h00 - 22h00',
     place : 'Theatre Astree',
     nomTarif1 : 'Tarif VA',
+    nomTarif1 : 'Tarif plein',
+    tarif1 : 18,
+    nomTarif2 : 'Tarif réduit chômeurs/étudiants',
+    tarif2 : 12,
+    nomTarif3 : 'Abonnement Espace Tonkin',
+    tarif3 : 10,
+    billeterie : 'https://www.',
     tarif1 : 4,
     nomTarif2 : 'Tarif étudiants',
     tarif2 : 5,
@@ -142,135 +149,102 @@ const data=[
     duo:false
     }
 
-]
+]*/
+
+const data=[]
 
 const dataAnc=[
-    {nb : 1,
+    {nb : 11,
         id: 'potter', 
         name: "Chris Potter",
-    quote : '"Un Doua de Jazz revient en force cette année avec un premier concert de Blast à l’Espace Tonkin pour démarrer le festival en beauté !"',
-    desc : 'Pierre Horckmans, Guillaume Bertrand et Anne Quilluer, formant un trio aventureux entremêlant jazz, pop et musique électronique sauront vous faire voyager dans un monde fictif, par leurs inspirations venant de la bande dessinée et du théâtre. S’alliant avec le dessinateur Benjamin Flao, ce concert dessiné fera vibrer tous vos sens, chaque musique inspirant le dessinateur sur scène pour créer des oeuvres inédites en direct, et chaque dessin inspirant la musique.',
-    img1 : chris,
-    img2 : blast2,
-    day : '7',
-    month : 'oct.',
-    year: '2004',
-    hour : '20h00 - 22h00',
-    place : 'Espace Tonkin',
-    nomTarif1 : 'Tarif plein',
-    tarif1 : 18,
-    nomTarif2 : 'Tarif réduit chômeurs/étudiants',
-    tarif2 : 12,
-    nomTarif3 : 'Abonnement Espace Tonkin',
-    tarif3 : 10,
-    billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne/evenements/blast?_gl=1%2agg0xrs%2a_ga%2aMTYzNDE1NjAyNi4xNjI0MzAwMDIz%2a_ga_TKC826G3G2%2aMTYzMTg4ODM3My41LjEuMTYzMTg4OTkzOC4w',
+       img1 : chris,
+    
+    year: '2003',
+    edition : '10',
     duo : false,    
     },
-    {nb : 2,
-        id: 'bojan', 
-        name: "Bojan Z",
-    quote : '"Un Doua de Jazz revient en force cette année avec un premier concert de Blast à l’Espace Tonkin pour démarrer le festival en beauté !"',
-    desc : 'Pierre Horckmans, Guillaume Bertrand et Anne Quilluer, formant un trio aventureux entremêlant jazz, pop et musique électronique sauront vous faire voyager dans un monde fictif, par leurs inspirations venant de la bande dessinée et du théâtre. S’alliant avec le dessinateur Benjamin Flao, ce concert dessiné fera vibrer tous vos sens, chaque musique inspirant le dessinateur sur scène pour créer des oeuvres inédites en direct, et chaque dessin inspirant la musique.',
-    img1 : bojan,
-    img2 : blast2,
-    day : '7',
-    month : 'oct.',
-    year:'2009',
-    hour : '20h00 - 22h00',
-    place : 'Espace Tonkin',
-    nomTarif1 : 'Tarif plein',
-    tarif1 : 18,
-    nomTarif2 : 'Tarif réduit chômeurs/étudiants',
-    tarif2 : 12,
-    nomTarif3 : 'Abonnement Espace Tonkin',
-    tarif3 : 10,
-    billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne/evenements/blast?_gl=1%2agg0xrs%2a_ga%2aMTYzNDE1NjAyNi4xNjI0MzAwMDIz%2a_ga_TKC826G3G2%2aMTYzMTg4ODM3My41LjEuMTYzMTg4OTkzOC4w',
-    duo : false,    
-    },
-    {nb : 3,
+    
+    {nb : 10,
         id: 'tigran', 
         name: "Tigran Hamasyan",
-    quote : '"Un Doua de Jazz revient en force cette année avec un premier concert de Blast à l’Espace Tonkin pour démarrer le festival en beauté !"',
-    desc : 'Pierre Horckmans, Guillaume Bertrand et Anne Quilluer, formant un trio aventureux entremêlant jazz, pop et musique électronique sauront vous faire voyager dans un monde fictif, par leurs inspirations venant de la bande dessinée et du théâtre. S’alliant avec le dessinateur Benjamin Flao, ce concert dessiné fera vibrer tous vos sens, chaque musique inspirant le dessinateur sur scène pour créer des oeuvres inédites en direct, et chaque dessin inspirant la musique.',
     img1 : tigran,
-    img2 : blast2,
-    day : '7',
-    month : 'oct.',
-    year:'2009',
-    hour : '20h00 - 22h00',
-    place : 'Espace Tonkin',
-    nomTarif1 : 'Tarif plein',
-    tarif1 : 18,
-    nomTarif2 : 'Tarif réduit chômeurs/étudiants',
-    tarif2 : 12,
-    nomTarif3 : 'Abonnement Espace Tonkin',
-    tarif3 : 10,
-    billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne/evenements/blast?_gl=1%2agg0xrs%2a_ga%2aMTYzNDE1NjAyNi4xNjI0MzAwMDIz%2a_ga_TKC826G3G2%2aMTYzMTg4ODM3My41LjEuMTYzMTg4OTkzOC4w',
+    year: '2009',
+    edition : '16',
     duo : false,    
     },
-    {nb : 4,
-        id: 'mederic', 
-        name: "Mederic Colignon",
-    quote : '"Un Doua de Jazz revient en force cette année avec un premier concert de Blast à l’Espace Tonkin pour démarrer le festival en beauté !"',
-    desc : 'Pierre Horckmans, Guillaume Bertrand et Anne Quilluer, formant un trio aventureux entremêlant jazz, pop et musique électronique sauront vous faire voyager dans un monde fictif, par leurs inspirations venant de la bande dessinée et du théâtre. S’alliant avec le dessinateur Benjamin Flao, ce concert dessiné fera vibrer tous vos sens, chaque musique inspirant le dessinateur sur scène pour créer des oeuvres inédites en direct, et chaque dessin inspirant la musique.',
-    img1 : mederic,
-    img2 : blast2,
-    day : '7',
-    month : 'oct.',
-    year:'2010',
-    hour : '20h00 - 22h00',
-    place : 'Espace Tonkin',
-    nomTarif1 : 'Tarif plein',
-    tarif1 : 18,
-    nomTarif2 : 'Tarif réduit chômeurs/étudiants',
-    tarif2 : 12,
-    nomTarif3 : 'Abonnement Espace Tonkin',
-    tarif3 : 10,
-    billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne/evenements/blast?_gl=1%2agg0xrs%2a_ga%2aMTYzNDE1NjAyNi4xNjI0MzAwMDIz%2a_ga_TKC826G3G2%2aMTYzMTg4ODM3My41LjEuMTYzMTg4OTkzOC4w',
+    {nb : 9,
+        id: 'glasper', 
+        name: "Robert Glasper",
+    img1 : glasper,
+    year: '2014',
+    edition : '21',
     duo : false,    
     },
-    {nb : 5,
-        id: 'renaud', 
-        name: "Renaud Garcia-Fons",
-    quote : '"Un Doua de Jazz revient en force cette année avec un premier concert de Blast à l’Espace Tonkin pour démarrer le festival en beauté !"',
-    desc : 'Pierre Horckmans, Guillaume Bertrand et Anne Quilluer, formant un trio aventureux entremêlant jazz, pop et musique électronique sauront vous faire voyager dans un monde fictif, par leurs inspirations venant de la bande dessinée et du théâtre. S’alliant avec le dessinateur Benjamin Flao, ce concert dessiné fera vibrer tous vos sens, chaque musique inspirant le dessinateur sur scène pour créer des oeuvres inédites en direct, et chaque dessin inspirant la musique.',
-    img1 : renaud,
-    img2 : blast2,
-    day : '7',
-    month : 'oct.',
-    year:'2009',
-    hour : '20h00 - 22h00',
-    place : 'Espace Tonkin',
-    nomTarif1 : 'Tarif plein',
-    tarif1 : 18,
-    nomTarif2 : 'Tarif réduit chômeurs/étudiants',
-    tarif2 : 12,
-    nomTarif3 : 'Abonnement Espace Tonkin',
-    tarif3 : 10,
-    billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne/evenements/blast?_gl=1%2agg0xrs%2a_ga%2aMTYzNDE1NjAyNi4xNjI0MzAwMDIz%2a_ga_TKC826G3G2%2aMTYzMTg4ODM3My41LjEuMTYzMTg4OTkzOC4w',
+    {nb : 8,
+        id: 'henry', 
+        name: "Cory Henry",
+    img1 : henry,
+    year: '2015',
+    edition : '22',
+    duo : false,    
+    },
+    {nb : 7,
+        id: 'foehn', 
+        name: "Foehn Trio",
+    img1 : foehn,
+    year: '2016',
+    edition : '23',
     duo : false,    
     },
     {nb : 6,
-        id: 'soul', 
-        name: "Soul Square",
-    quote : '"Un Doua de Jazz revient en force cette année avec un premier concert de Blast à l’Espace Tonkin pour démarrer le festival en beauté !"',
-    desc : 'Pierre Horckmans, Guillaume Bertrand et Anne Quilluer, formant un trio aventureux entremêlant jazz, pop et musique électronique sauront vous faire voyager dans un monde fictif, par leurs inspirations venant de la bande dessinée et du théâtre. S’alliant avec le dessinateur Benjamin Flao, ce concert dessiné fera vibrer tous vos sens, chaque musique inspirant le dessinateur sur scène pour créer des oeuvres inédites en direct, et chaque dessin inspirant la musique.',
-    img1 : soul,
-    img2 : blast2,
-    day : '7',
-    month : 'oct.',
-    year:'2016',
-    hour : '20h00 - 22h00',
-    place : 'Espace Tonkin',
-    nomTarif1 : 'Tarif plein',
-    tarif1 : 18,
-    nomTarif2 : 'Tarif réduit chômeurs/étudiants',
-    tarif2 : 12,
-    nomTarif3 : 'Abonnement Espace Tonkin',
-    tarif3 : 10,
-    billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne/evenements/blast?_gl=1%2agg0xrs%2a_ga%2aMTYzNDE1NjAyNi4xNjI0MzAwMDIz%2a_ga_TKC826G3G2%2aMTYzMTg4ODM3My41LjEuMTYzMTg4OTkzOC4w',
+        id: 'glyk', 
+        name: "Kinga Glyk",
+    img1 : glyk,
+    year: '2018',
+    edition : '25',
     duo : false,    
-    }
+    },
+    {nb : 5,
+        id: 'anomalie', 
+        name: "Anomalie",
+    img1 : anomalie,
+    year: '2018',
+    edition : '25',
+    duo : false,    
+    },
+    {nb : 4,
+        id: 'dooz', 
+        name: "Dooz Kawa",
+    img1 : dooz,
+    year: '2018',
+    edition : '25',
+    duo : false,    
+    },
+    {nb : 3,
+        id: 'garcia', 
+        name: "Nubya Garcia",
+    img1 : garcia,
+    year: '2019',
+    edition : '26',
+    duo : false,    
+    },
+    {nb : 2,
+        id: 'yellowstraps', 
+        name: "Yellowstraps",
+    img1 : yellowstraps,
+    year: '2019',
+    edition : '26',
+    duo : false,    
+    },
+    {nb : 1,
+        id: 'bertaut', 
+        name: "Camille Bertaut",
+    img1 : bertaut,
+    year: '2021',
+    edition : '28',
+    duo : false,    
+    },
+    
 ]
 
 function donnees(string){
