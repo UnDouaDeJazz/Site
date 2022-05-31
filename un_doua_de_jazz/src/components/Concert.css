@@ -145,26 +145,34 @@ h3{
         font-size:3vw;
     }#name{
         font-weight: 400;
-        font-size: 4vw;
+        font-size: 5vw;
         margin-top: 8vw;
     }#date{
 
-        font-size: 3vw;
+        font-size: 5vw;
     }
     #date span{
-        font-size: 4vw;
+        font-size: 6vw;
+    }#concert .tarif{
+        font-size: 4vw;   
+    }#lieu{
+        font-size: 3.3vw;
+    }#heure{
+        font-size: 3vw;
     }#billeterieConcert{
-        border-radius: 4vw;
-        padding: 1vw 2vw;
+        border-radius: 5vw;
+        padding: 4vw 2vw;
         width: 24vw;
-        font-size: 2.5vw;
+        font-size: 3vw;
         margin-top: 5vw;
         margin-bottom: 2vw;
     }#quoteConcert{
-        font-size: 3vw;
+        font-size: 4vw;
     }
     #descrConcert{
-        font-size: 2.5vw;
+        font-size: 3.5vw;
+    }#blur{
+        filter:blur(0.25vw);  
     }
     
 }

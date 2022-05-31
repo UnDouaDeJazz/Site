@@ -235,6 +235,38 @@
       width:25vw;
     }
     #artistesGrid .img p,#artistesActGrid .img p{
-      font-size:2.3vw;
+      font-size:4vw;
+    }
+    #artistesActGrid .deuxParties .img .name span{
+      font-size:3vw;
+    }#artistesActGrid, #artistesGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }#artistesActGrid .unePartie .img img, #artistesGrid .img img{
+      
+      width:35vw;
+      height:35vw;  
+    }
+      #artistesActGrid .deuxParties .img img{
+      
+        width:17.5vw;
+        height:35vw;  
+      
+    }#artistesActGrid .deuxParties .img .vl{
+      
+      height:35vw;
+      left:17.5vw;  
+    
+  }#artistesActGrid .deuxParties .img .date,#artistesActGrid .unePartie .img .date{
+      
+    font-size:4vw; 
+  
+}#artistesActGrid .deuxParties .img .date span,#artistesActGrid .unePartie .img .date span{
+      
+  font-size:6vw; 
+
+}#artistes h1{
+      font-size:6vw;
+    }#artistesAct h1{
+      font-size:6vw;
     }
   }

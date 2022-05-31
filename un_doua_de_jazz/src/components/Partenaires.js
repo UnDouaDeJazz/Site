@@ -13,14 +13,14 @@ function Partenaires() {
     }
     
 return (
-    <div id="contact">
-        <div id="headerContact">
-        <div id="imgHeaderContact">
+    <div id="part">
+        <div id="headerPart">
+        <div id="imgHeaderPart">
         </div>
         <Header /></div>
 
-        <div id="contentContact">
-            <p id="contactTitle">Nos Partenaires</p>
+        <div id="contentPart">
+            <p id="partTitle">Nos Partenaires</p>
             <hr/>
             <div id="partenairesPage">
             {partenaires}

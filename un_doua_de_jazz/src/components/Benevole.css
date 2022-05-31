@@ -132,22 +132,22 @@ margin-top: 28vw;
     #titre2{
       font-size: 4.7vw;
     }#benevoleTexte h2{
-        font-size:4vw;
+        font-size:5vw;
     }#benevoleTexte h3{
-        font-size:3.5vw;
+        font-size:4.5vw;
     }#benevoleTexte p{
-        font-size:3vw;
+        font-size:4vw;
     }#finBenev .finTexte{
         margin-left:2vw;
         margin-right: 2vw;
-        font-size:3vw;
+        font-size:4vw;
     }
     
     
     #benevoleButton {
-      font-size: 4vw;
+      font-size: 6vw;
       line-height: 1.5vw;
-      padding: 3vw 3.7vw;
+      padding: 5vw 5vw;
     }
 
 }

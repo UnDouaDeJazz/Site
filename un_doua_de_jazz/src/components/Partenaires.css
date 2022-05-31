@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
 
-#imgHeaderContact{
+#imgHeaderPart{
     display: block ;
     float:left;
     top:0px;
@@ -9,11 +9,11 @@
     width:100%;
     background-color: #535353;
 }
-#headerContact{
+#headerPart{
     height:7vw;
     display: relative;
 }
-#contact{
+#part{
     position: relative;
     float:left;
     width: 100%;
@@ -26,34 +26,25 @@ p{
     margin-right: 2.5vw;
 
 }
-#contactTitle{
+#partTitle{
     font-weight:700;
     font-size:2vw;
     margin-left: 0px;
     margin-right: 0px;
 }
-.contactSubtitle{
+.partSubtitle{
     font-weight:700;
     font-size:1.8vw;
     margin-left: 1.5vw;
     margin-right: 1.5vw;
 }
-#contentContact{
+#contentPart{
     position:relative;
     padding-left:2.5vw;
     padding-right:2.5vw;
     padding-bottom:10vw;   
 }
-#map{
-    border:0px;
-    height:20vw;
-    width:50vw;
-    margin-left:3vw;
-    display: block;
-    margin-left:3vw;
-    margin-bottom:3vw;
-}
-#contactReseaux{
+#partReseaux{
     display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.5vw;
@@ -66,7 +57,7 @@ p{
   align-items: center;
   justify-content: center; 
 }
-#contactReseaux .logo{
+#partReseaux .logo{
     
     width:4.5vw;
     height:auto;
@@ -96,11 +87,11 @@ p{
 }
 
 @media all and (orientation: portrait){
-    #imgHeaderContact{
-        height:14vw;
-    }#headerContact{
-        height: 14vw;
-    }#contentContact .contactSubtitle{
+    #imgHeaderPart{
+        height:18vw;
+    }#headerPart{
+        height: 18vw;
+    }#contentPart .partSubtitle{
         font-size:4vw;
 
         margin-left: 3vw;
@@ -108,23 +99,27 @@ p{
 
         padding-left:0vw;
         padding-right:0vw;
-    }#contentContact p{
+    }#contentPart p{
         font-size:3vw;  
 
         padding-left:4vw;
         padding-right:4vw;
-    }#contentContact #contactTitle{
+    }#contentPart #partTitle{
         font-size: 5vw;
 
         padding-left:0vw;
         padding-right:0vw;
     }
-    #contactReseaux .logo{
+    #partReseaux .logo{
     
         width:8vw;
-      }
-      #map{
-        height:60vw;
-        width:89vw;
+      }#partenairesPage img{
+        max-height:18vw;
+        max-width:25vw;
+        margin:5vw;
+      
+      
+    }#contentPart p{
+          font-size:5.5vw;
     }
 }

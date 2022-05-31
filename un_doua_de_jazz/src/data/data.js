@@ -71,7 +71,7 @@ const partenaires=[
         link: ""
     },
 ]
-/*const data=[
+const data=[
 {
     nb : 1, //numéro de repérage pour affichage
     id: 'blast', //adresse url pour affichage
@@ -80,8 +80,8 @@ const partenaires=[
     //premier texte
     desc : 'Pierre Horckmans, Guillaume Bertrand et Anne Quilluer, formant un trio aventureux entremêlant jazz, pop et musique électronique sauront vous faire voyager dans un monde fictif, par leurs inspirations venant de la bande dessinée et du théâtre. S’alliant avec le dessinateur Benjamin Flao, ce concert dessiné fera vibrer tous vos sens, chaque musique inspirant le dessinateur sur scène pour créer des oeuvres inédites en direct, et chaque dessin inspirant la musique.',
     //deuxième texte
-    img1 : blast, //image header
-    img2 : blast2, //image milieu de texte
+    img1 : glyk, //image header
+    img2 : glyk, //image milieu de texte
     day : '7', 
     month : 'oct.',
     year : '2022',
@@ -101,8 +101,8 @@ const partenaires=[
         id: 'ishkero-eji', 
     quote : 'Quoi de mieux pour commencer sa semaine que le 3ème concert de la 28ème édition de votre festival favori ? Cette fois-ci, Un Doua de Jazz vous emmène à la Rotonde pour un concert jazz dans une ambiance décontractée.',
     desc : 'ISHKERO :\nIshkero est un jeune groupe parisien mêlant jazz moderne, rock et musique Gnawa, au groove puissant et moderne, apparaissant comme l’un des groupes montant des plus captivants de la scène française jazz. Alors laissez-vous séduire par ces jeunes artistes à l’avenir fort prometteur lors de cette soirée à la Rontonde le 11 octobre prochain.\nENSEMBLE JAZZ INSA :\nRetrouvez en première partie un concert de l’Ensemble Jazz de l’INSA Lyon. Explorant les classiques mais aussi les dernières tendances jazz, cet ensemble saura vous mettre en jambe pour le concert d’Ishkero, au coeur du campus de la Doua.',
-    img1 : ishkero,
-    img2 : eji,
+    img1 : glyk,
+    img2 : glyk,
     day : '11',
     month : 'oct.',
     year : '2022',
@@ -125,15 +125,15 @@ const partenaires=[
     duo:true,
     name: 'EJI - ISHKERO',
     nom1: 'ISHKERO',
-    nom2: 'Ensemble Jazz INSA'
+    nom2: 'EJI'
     },
     {nb:2,
         id: 'mcr', 
-        name: 'Gérard Maimone (Trio MCR)',
+        name: 'Gérard Maimone',
     quote : 'Pour le deuxième concert du festival, Un Doua de Jazz vous emmène au Théâtre Astrée pour un concert qui saura satisfaire toutes vos envies jazz.',
     desc : 'Lors de ce concert, nous retrouverons Gérard Maimone et son groupe (Trio MCR) pour une carte blanche. Gérard Maimone a une expérience des plus intrigantes dans le domaine musical : additionnant expériences d’écritures de musiques à images et explorant différents styles. Du rock au tango, des musiques à l’esthétique orientale au jazz, il a su se démarquer parmi les autres en marquant sa musique de sa signature personnelle. Alors laissez-vous imprégner de ses mélodies lors de ce concert le 8 octobre prochain.',
-    img1 : mcr1,
-    img2 : mcr2,
+    img1 : glyk,
+    img2 : glyk,
     day : '8',
     month : 'oct.',
     year:'2022',
@@ -149,9 +149,9 @@ const partenaires=[
     duo:false
     }
 
-]*/
+]
 
-const data=[]
+//const data=[]
 
 const dataAnc=[
     {nb : 11,

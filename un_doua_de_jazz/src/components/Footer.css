@@ -100,15 +100,17 @@ text-decoration: none;
 
 @media all and (orientation: portrait){
   #doua{
-    font-size: 2vw;
+    font-size: 4vw;
+    margin-top:3vw;
+    margin-bottom:3vw;
   }
   #grandDoua{
-    font-size: 4vw;
+    font-size: 6vw;
   }
   .logo{
-    height:3vw;
-    width:3vw;
-    margin:0.25vw;
+    height:6vw;
+    width:6vw;
+    margin:0.5vw;
   }
   #mentionsLegales{
     font-size:2vw;
@@ -119,13 +121,35 @@ text-decoration: none;
     display:block;
     text-align: left;
     margin:1vw;
-    margin-top: 2vw; 
+    margin-top: 5vw; 
   }
   
   #partenaires p{
-    font-size:2vw;
+    font-size:4vw;
     margin:3vw;
     margin-left: 2vw;
+  }#partenaires img{
+    max-height:14vh;
+    max-width:9vw;
+  }#mentionsLegales{
+    font-size:4vw;
+    top:6vw;
+  }#reseaux{
+    top:-1vw;
+  }#partenairesGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 0.5vw;
+    grid-auto-rows: minmax(auto, auto);
+    width: 100%;
+    
+    margin: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    text-align: left;
+    align-items: left;
+    justify-content: left; 
   }
+
 
 }

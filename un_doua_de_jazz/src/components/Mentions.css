@@ -53,10 +53,10 @@
 }
 @media all and (orientation: portrait){
     #imgHeaderMentions{
-        height:14vw;
+        height:18vw;
     }
     #headerMentions{
-        height:14vw;
+        height:18vw;
     }
     #contentMentions p{
         font-size:3vw;

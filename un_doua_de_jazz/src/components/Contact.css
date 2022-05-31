@@ -75,9 +75,9 @@ p{
 
 @media all and (orientation: portrait){
     #imgHeaderContact{
-        height:14vw;
+        height:18vw;
     }#headerContact{
-        height: 14vw;
+        height: 18vw;
     }#contentContact .contactSubtitle{
         font-size:4vw;
 
@@ -96,13 +96,15 @@ p{
 
         padding-left:0vw;
         padding-right:0vw;
+    }#contactReseaux{
+        width:80%;
     }
     #contactReseaux .logo{
     
-        width:8vw;
+        width:12vw;
       }
       #map{
-        height:60vw;
-        width:89vw;
+        height:70vw;
+        width:90vw;
     }
 }

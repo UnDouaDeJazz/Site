@@ -20,6 +20,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
     <div class="general">
+    <meta name="description" content="Courant octobre se déroulant dans Villeurbanne, pendant deux semaines, des concerts qui mettent en scène aussi bien de jeunes artistes issus de la scène régionale que des musiciens de renommée internationale. Le festival donne ainsi l'opportunité aux jeunes artistes de démontrer leur talent, tout en bénéficiant des performances exceptionnelles des musiciens les plus expérimentés. Par ailleurs, Un Doua De Jazz s'applique tout au long de l'année à organiser des événements ayant pour but de partager la musique Jazz avec le plus grand nombre, comme des concerts gratuits ou des jams ouvertes aux musiciens." />
+    
     <Routes>
       
       <Route exact path="/" element={<Home />} class="general"/>
