@@ -71,7 +71,7 @@ const partenaires=[
         link: ""
     },
 ]
-const data=[
+/*const data=[
 {
     nb : 1, //numéro de repérage pour affichage
     id: 'blast', //adresse url pour affichage
@@ -149,9 +149,9 @@ const data=[
     duo:false
     }
 
-]
+]*/
 
-//const data=[]
+const data=[]
 
 const dataAnc=[
     {nb : 11,
