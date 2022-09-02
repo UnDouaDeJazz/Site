@@ -12,6 +12,19 @@ import glyk from '../media/glyk.jpeg';
 import yellowstraps from '../media/yellowstraps.jpg';
 import henry from '../media/cory.jpg';
 
+import CSW from '../media/CSW.jpg';
+import CSW2 from '../media/CSW_square.jpg';
+import Emile from '../media/emile2.jpg';
+import Emile2 from '../media/emile.jpg';
+import GTO from '../media/GTO.jpg';
+import GTO2 from '../media/GTO2.jpg';
+import Jet from '../media/jet.jpg';
+import Jet2 from '../media/jet2.jpg';
+import Phal from '../media/phal.png';
+import Phal2 from '../media/phal2.jpg';
+import Oscar from '../media/oscar.png';
+import Oscar2 from '../media/oscar2.jpg';
+
 import villeurbanne from '../media/logo-villeurbanne.png'
 import lyon from '../media/logo-lyon.jpg'
 import rhinojazz from '../media/logo-rhinojazz.jpg'
@@ -100,7 +113,7 @@ const partenaires=[
     {nb:3,
         id: 'ishkero-eji', 
     quote : 'Quoi de mieux pour commencer sa semaine que le 3ème concert de la 28ème édition de votre festival favori ? Cette fois-ci, Un Doua de Jazz vous emmène à la Rotonde pour un concert jazz dans une ambiance décontractée.',
-    desc : 'ISHKERO :\nIshkero est un jeune groupe parisien mêlant jazz moderne, rock et musique Gnawa, au groove puissant et moderne, apparaissant comme l’un des groupes montant des plus captivants de la scène française jazz. Alors laissez-vous séduire par ces jeunes artistes à l’avenir fort prometteur lors de cette soirée à la Rontonde le 11 octobre prochain.\nENSEMBLE JAZZ INSA :\nRetrouvez en première partie un concert de l’Ensemble Jazz de l’INSA Lyon. Explorant les classiques mais aussi les dernières tendances jazz, cet ensemble saura vous mettre en jambe pour le concert d’Ishkero, au coeur du campus de la Doua.',
+    desc : 'ISHKERO :  Ishkero est un jeune groupe parisien mêlant jazz moderne, rock et musique Gnawa, au groove puissant et moderne, apparaissant comme l’un des groupes montant des plus captivants de la scène française jazz. Alors laissez-vous séduire par ces jeunes artistes à l’avenir fort prometteur lors de cette soirée à la Rontonde le 11 octobre prochain.  ENSEMBLE JAZZ INSA :  Retrouvez en première partie un concert de l’Ensemble Jazz de l’INSA Lyon. Explorant les classiques mais aussi les dernières tendances jazz, cet ensemble saura vous mettre en jambe pour le concert d’Ishkero, au coeur du campus de la Doua.',
     img1 : glyk,
     img2 : glyk,
     day : '11',
@@ -151,7 +164,379 @@ const partenaires=[
 
 ]*/
 
-const data=[]
+/*const data=[
+
+    {
+        nb : 1, //numéro de repérage pour affichage
+        id: 'CSW', //adresse url pour affichage
+        name: "Charlier-Sourisse-Winsberg", //nom affiché
+        quote : '"Entre dialogues harmoniques et joutes rythmiques, André, Benoît et Louis jouent le jeu approprié à chacune des petites histoires qu’ils savent si bien nous raconter !"',
+        //premier texte
+        desc : 'C’est avec un grand bonheur que le trio Charlier / Sourisse / Winsberg a fait revivre la musique du monstre sacré du saxophone, Michael Brecker, à travers leur hommage «Tales from Michael», unanimement salué par le monde du Jazz. Aujourd’hui, le trio au son chaleureux revient sur scène avec des compositions originales et un nouveau double album : «Le Monde à l’envers». ',
+        //deuxième texte
+        img1 : CSW2, //image header
+        img2 : CSW, //image milieu de texte
+        day : '18', 
+        month : 'oct.',
+        year : '2022',
+        hour : '', //la date précise du concert
+        place : 'Théâtre Astrée', //l'endroit du concert
+        nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
+        tarif1 : 0,
+        nomTarif2 : 'Tarif réduit chômeurs/étudiants',
+        tarif2 : 0,
+        nomTarif3 : 'Abonnement Espace Tonkin',
+        tarif3 : 0,
+        billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne',
+        //adresse de la billetterie de ce concert
+        duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    },
+
+    {
+        nb : 2, //numéro de repérage pour affichage
+        id: 'Emile', //adresse url pour affichage
+        name: "Emile Londonien", //nom affiché
+        quote : '"Issu de la scène strasbourgeoise et du collectif Omezis qui regroupe une vingtaine d’artistes, musiciens, Dj’s, vidéastes, Emile Londonien s’imprègne de la scène jazz anglaise de ces quinze dernières années pour en proposer une version personnelle !"',
+        //premier texte
+        desc : "Emile Londonien c'est un trio avec Nils Boyny au clavier, Matthieu Drago à la batterie etThéo Tritsch à la guitare. Un premier album, à paraitre début 2023, est en cours d’enregistrement avec des invités comme Emile Parisien, Thomas de Pourquery ou Leon Phal. On les retrouvera dès cet été sur la compilation « Past And Future ! » de Jazz à Vienne consacrée à la nouvelle scène.",
+        //deuxième texte
+        img1 : Emile, //image header
+        img2 : Emile2, //image milieu de texte
+        day : '?', 
+        month : '?',
+        year : '?',
+        hour : '? - ?', //la date précise du concert
+        place : '?', //l'endroit du concert
+        nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
+        tarif1 : 0,
+        nomTarif2 : 'Tarif réduit chômeurs/étudiants',
+        tarif2 : 0,
+        nomTarif3 : 'Abonnement Espace Tonkin',
+        tarif3 : 0,
+        billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne',
+        //adresse de la billetterie de ce concert
+        duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    },
+
+    {
+        nb : 3, //numéro de repérage pour affichage
+        id: 'GTO', //adresse url pour affichage
+        name: "Gin Tonic Orchestra", //nom affiché
+        quote : '"Au-delà du simple groupe de musique, le Gin Tonic Orchestra se définit aussi comme une idée, un concept, une pensée… Le GTO aspire simplement à faire danser et donner de l’amour à tous ceux qui ont la curiosité de goûter à cette mystérieuse mixture."',
+        //premier texte
+        desc : "Gin Tonic Orchestra est un groupe de Saint-Etienne fondé par le producteur et musicien Victor Dijoud (Kaffe Crème) ainsi que le percussionniste Leo Puccio, auxquels s’ajoutent de multiples personnalités dans le studio et sur la scène. Oscillant entre future jazz, latin vibes et broken beat l’alchimie trouvée par la formation se révèle assez imparable, elle a d’ailleurs collaboré avec l’une des légendes de la scène UK, Kaidi Tatham, sur son 1er EP sorti sur Mother Tongue.",
+        //deuxième texte
+        img1 : GTO, //image header
+        img2 : GTO2, //image milieu de texte
+        day : '?', 
+        month : '?',
+        year : '?',
+        hour : '? - ?', //la date précise du concert
+        place : '?', //l'endroit du concert
+        nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
+        tarif1 : 0,
+        nomTarif2 : 'Tarif réduit chômeurs/étudiants',
+        tarif2 : 0,
+        nomTarif3 : 'Abonnement Espace Tonkin',
+        tarif3 : 0,
+        billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne',
+        //adresse de la billetterie de ce concert
+        duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    },
+
+    {
+        nb : 4, //numéro de repérage pour affichage
+        id: 'Jet', //adresse url pour affichage
+        name: "Jet Whistle", //nom affiché
+        quote : '"Jet Whistle réunit cinq amis musiciens proposant chacun leurs propres influences musicales allant du free jazz au hip hop, en passant par Pierre Boulez."',
+        //premier texte
+        desc : "Ce quintet est à la recherche d'effets sonores et d'atmosphères électroniques. Beaucoup de place est laissée à l'improvisation et chaque musicien possède une grande liberté de jeu. De plus 'Jet Whistle' est un terme de musique contemporaine concernant la flûte traversière qui peut s'apparenter à un amas de souffle très fort. Le mélange des timbres flûte traversière et trombone ainsi que les multiples pédales d'effets de chacun ajoutent une couleur particulière à l'ensemble et dessine son empreinte sonore. Le répertoire tourne autour des compositions de Fanny Martin, la flûtiste à l'origine de ce projet.",
+        //deuxième texte
+        img1 : Jet, //image header
+        img2 : Jet2, //image milieu de texte
+        day : '?', 
+        month : '?',
+        year : '?',
+        hour : '? - ?', //la date précise du concert
+        place : '?', //l'endroit du concert
+        nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
+        tarif1 : 0,
+        nomTarif2 : 'Tarif réduit chômeurs/étudiants',
+        tarif2 : 0,
+        nomTarif3 : 'Abonnement Espace Tonkin',
+        tarif3 : 0,
+        billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne',
+        //adresse de la billetterie de ce concert
+        duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    },
+
+    {
+        nb : 5, //numéro de repérage pour affichage
+        id: 'Phal', //adresse url pour affichage
+        name: "Leon Phal", //nom affiché
+        quote : '"De ces confrontations entre acoustique et électronique, ferveur jazz et fièvre dancefloor, échappées rêveuses et beats millimétrés, résulte une salutaire symbiose entre énergie contagieuse et rare élégance. "',
+        //premier texte
+        desc : "Saxophoniste prometteur, Léon Phal fait partie de cette jeune génération de musiciens de jazz biberonnée aux classiques, dont il s’affranchit tout en leur rendant hommage à chaque note avec brio, qu’il s’agisse du RH Factor de Roy Hargrove ou du « Voodoo » de D’Angelo. Entouré de ses complices de toujours, sa maîtrise de l’instrument, son sens inouï de la mélodie et la délicatesse de ses compositions amplifiées par un groove dévastateur, présagent un bel avenir à ce franco-suisse originaire de Champagne.",
+        //deuxième texte
+        img1 : Phal, //image header
+        img2 : Phal2, //image milieu de texte
+        day : '?', 
+        month : '?',
+        year : '?',
+        hour : '? - ?', //la date précise du concert
+        place : '?', //l'endroit du concert
+        nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
+        tarif1 : 0,
+        nomTarif2 : 'Tarif réduit chômeurs/étudiants',
+        tarif2 : 0,
+        nomTarif3 : 'Abonnement Espace Tonkin',
+        tarif3 : 0,
+        billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne',
+        //adresse de la billetterie de ce concert
+        duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    },
+
+    {
+        nb : 6, //numéro de repérage pour affichage
+        id: 'Oscar', //adresse url pour affichage
+        name: "Oscar Jerome", //nom affiché
+        quote : '"Oscar Jerome a perfectionné ses talents de musicien et d’écriture depuis son plus jeune âge. Il a grandi en tant que guitariste, mais aussi chanteur et compositeur de nombreuses formations de la scène musicale florissante du sud de Londres."',
+        //premier texte
+        desc : "Oscar Jerome puise son inspiration dans la politique, la spiritualité musicale ou ses propres expériences pour ses textes. Sa vision créative est de toujours créer une musique sincère tout en rendant hommage à ses innombrables inspirations. Avec une performance live acclamée qui l’a conduit sur de nombreux shows comme le prestigieux Blue Note Jazz et Le Poisson Rouge à New York, Oscar Jerome poursuit son ascension.",
+        //deuxième texte
+        img1 : Oscar, //image header
+        img2 : Oscar2, //image milieu de texte
+        day : '?', 
+        month : '?',
+        year : '?',
+        hour : '? - ?', //la date précise du concert
+        place : '?', //l'endroit du concert
+        nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
+        tarif1 : 0,
+        nomTarif2 : 'Tarif réduit chômeurs/étudiants',
+        tarif2 : 0,
+        nomTarif3 : 'Abonnement Espace Tonkin',
+        tarif3 : 0,
+        billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne',
+        //adresse de la billetterie de ce concert
+        duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    }
+
+]*/
+
+const data=[
+
+    // {
+    //     nb : 1, //numéro de repérage pour affichage
+    //     id: 'CSW', //adresse url pour affichage
+    //     name: "Charlier-Sourisse-Winsberg", //nom affiché
+    //     quote : '"Entre dialogues harmoniques et joutes rythmiques, André, Benoît et Louis jouent le jeu approprié à chacune des petites histoires qu’ils savent si bien nous raconter !"',
+    //     //premier texte
+    //     desc : 'C’est avec un grand bonheur que le trio Charlier / Sourisse / Winsberg a fait revivre la musique du monstre sacré du saxophone, Michael Brecker, à travers leur hommage «Tales from Michael», unanimement salué par le monde du Jazz. Aujourd’hui, le trio au son chaleureux revient sur scène avec des compositions originales et un nouveau double album : «Le Monde à l’envers». ',
+    //     //deuxième texte
+    //     img1 : CSW2, //image header
+    //     img2 : CSW, //image milieu de texte
+    //     day : '18', 
+    //     month : 'oct.',
+    //     year : '2022',
+    //     hour : '', //la date précise du concert
+    //     place : 'Théâtre Astrée', //l'endroit du concert
+    //     nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
+    //     tarif1 : 0,
+    //     nomTarif2 : 'Tarif réduit chômeurs/étudiants',
+    //     tarif2 : 0,
+    //     nomTarif3 : 'Abonnement Espace Tonkin',
+    //     tarif3 : 0,
+    //     billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne',
+    //     //adresse de la billetterie de ce concert
+    //     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    // },
+
+    {nb:2,
+        id: 'csw-jet', 
+    quote : 'En première partie, entre dialogues harmoniques et joutes rythmiques, André, Benoît et Louis jouent le jeu approprié à chacune des petites histoires qu’ils savent si bien nous raconter ! \n En seconde partie, Jet Whistle réunit cinq amis musiciens proposant chacun leurs propres influences musicales allant du free jazz au hip hop, en passant par Pierre Boulez.',
+    desc : "C’est avec un grand bonheur que le trio Charlier / Sourisse / Winsberg a fait revivre la musique du monstre sacré du saxophone, Michael Brecker, à travers leur hommage «Tales from Michael», unanimement salué par le monde du Jazz. Aujourd’hui, le trio au son chaleureux revient sur scène avec des compositions originales et un nouveau double album : «Le Monde à l’envers». Le quintet Jet Whistle est à la recherche d'effets sonores et d'atmosphères électroniques. Beaucoup de place est laissée à l'improvisation et chaque musicien possède une grande liberté de jeu.",
+    img1 : CSW,
+    img2 : Jet,
+    day : '11',
+    month : 'oct.',
+    year : '2022',
+    hour : '20h00 - 22h00',
+    place : 'Theatre Astree',
+    nomTarif1 : 'Tarif VA',
+    tarif1 : 18,
+    nomTarif2 : 'Tarif réduit chômeurs/étudiants',
+    tarif2 : 12,
+    nomTarif3 : 'Abonnement Espace Tonkin',
+    tarif3 : 10,
+    billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/la-rotonde-ishkero-ensemble-jazz-insa',
+    duo:true,
+    name: 'Charlier Sourisse Winsberg - Jet Whistle',
+    nom1: 'Charlier-Sourisse-Winsberg',
+    nom2: 'Jet Whistle',
+    disponibiliteTarifs : false,
+    },
+
+    {
+        nb : 1, //numéro de repérage pour affichage
+        id: 'Emile', //adresse url pour affichage
+        name: "Emile Londonien", //nom affiché
+        quote : '"Issu de la scène strasbourgeoise et du collectif Omezis qui regroupe une vingtaine d’artistes, musiciens, Dj’s, vidéastes, Emile Londonien s’imprègne de la scène jazz anglaise de ces quinze dernières années pour en proposer une version personnelle !"',
+        //premier texte
+        desc : "Emile Londonien c'est un trio avec Nils Boyny au clavier, Matthieu Drago à la batterie etThéo Tritsch à la guitare. Un premier album, à paraitre début 2023, est en cours d’enregistrement avec des invités comme Emile Parisien, Thomas de Pourquery ou Leon Phal. On les retrouvera dès cet été sur la compilation « Past And Future ! » de Jazz à Vienne consacrée à la nouvelle scène.",
+        //deuxième texte
+        img1 : Emile2, //image header
+        img2 : Emile, //image milieu de texte
+        day : '15', 
+        month : 'oct.',
+        year : '2022',
+        hour : '', //la date précise du concert
+        place : 'Toï Toï', //l'endroit du concert
+        nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
+        tarif1 : 0,
+        nomTarif2 : 'Tarif réduit chômeurs/étudiants',
+        tarif2 : 0,
+        nomTarif3 : 'Abonnement Espace Tonkin',
+        tarif3 : 0,
+        billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne',
+        //adresse de la billetterie de ce concert
+        duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+        disponibiliteTarifs : false,
+    },
+
+    
+
+    // {
+    //     nb : 4, //numéro de repérage pour affichage
+    //     id: 'Jet', //adresse url pour affichage
+    //     name: "Jet Whistle", //nom affiché
+    //     quote : '"Jet Whistle réunit cinq amis musiciens proposant chacun leurs propres influences musicales allant du free jazz au hip hop, en passant par Pierre Boulez."',
+    //     //premier texte
+    //     desc : "Ce quintet est à la recherche d'effets sonores et d'atmosphères électroniques. Beaucoup de place est laissée à l'improvisation et chaque musicien possède une grande liberté de jeu. De plus 'Jet Whistle' est un terme de musique contemporaine concernant la flûte traversière qui peut s'apparenter à un amas de souffle très fort. Le mélange des timbres flûte traversière et trombone ainsi que les multiples pédales d'effets de chacun ajoutent une couleur particulière à l'ensemble et dessine son empreinte sonore. Le répertoire tourne autour des compositions de Fanny Martin, la flûtiste à l'origine de ce projet.",
+    //     //deuxième texte
+    //     img1 : Jet, //image header
+    //     img2 : Jet2, //image milieu de texte
+    //     day : '?', 
+    //     month : '?',
+    //     year : '?',
+    //     hour : '? - ?', //la date précise du concert
+    //     place : '?', //l'endroit du concert
+    //     nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
+    //     tarif1 : 0,
+    //     nomTarif2 : 'Tarif réduit chômeurs/étudiants',
+    //     tarif2 : 0,
+    //     nomTarif3 : 'Abonnement Espace Tonkin',
+    //     tarif3 : 0,
+    //     billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne',
+    //     //adresse de la billetterie de ce concert
+    //     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    // },
+
+    {
+        nb : 4, //numéro de repérage pour affichage
+        id: 'Phal', //adresse url pour affichage
+        name: "Leon Phal Quintet", //nom affiché
+        quote : '"De ces confrontations entre acoustique et électronique, ferveur jazz et fièvre dancefloor, échappées rêveuses et beats millimétrés, résulte une salutaire symbiose entre énergie contagieuse et rare élégance. "',
+        //premier texte
+        desc : "Saxophoniste prometteur, Léon Phal fait partie de cette jeune génération de musiciens de jazz biberonnée aux classiques, dont il s’affranchit tout en leur rendant hommage à chaque note avec brio, qu’il s’agisse du RH Factor de Roy Hargrove ou du « Voodoo » de D’Angelo. Entouré de ses complices de toujours, sa maîtrise de l’instrument, son sens inouï de la mélodie et la délicatesse de ses compositions amplifiées par un groove dévastateur, présagent un bel avenir à ce franco-suisse originaire de Champagne.",
+        //deuxième texte
+        img1 : Phal, //image header
+        img2 : Phal2, //image milieu de texte
+        day : '19', 
+        month : 'oct.',
+        year : '2022',
+        hour : '', //la date précise du concert
+        place : 'Périscope', //l'endroit du concert
+        nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
+        tarif1 : 0,
+        nomTarif2 : 'Tarif réduit chômeurs/étudiants',
+        tarif2 : 0,
+        nomTarif3 : 'Abonnement Espace Tonkin',
+        tarif3 : 0,
+        billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne',
+        //adresse de la billetterie de ce concert
+        duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+        disponibiliteTarifs : false,
+    },
+
+    {nb:3,
+        id: 'gto-oscar', 
+    quote : 'En première partie, Oscar Jerome a perfectionné ses talents de musicien et d’écriture depuis son plus jeune âge. Il a grandi en tant que guitariste, mais aussi chanteur et compositeur de nombreuses formations de la scène musicale florissante du sud de Londres.   En seconde partie, au-delà du simple groupe de musique, le Gin Tonic Orchestra se définit aussi comme une idée, un concept, une pensée… Le GTO aspire simplement à faire danser et donner de l’amour à tous ceux qui ont la curiosité de goûter à cette mystérieuse mixture.',
+    desc : 'Oscar Jerome puise son inspiration dans la politique, la spiritualité musicale ou ses propres expériences pour ses textes. Sa vision créative est de toujours créer une musique sincère tout en rendant hommage à ses innombrables inspirations. Avec une performance live acclamée qui l’a conduit sur de nombreux shows comme le prestigieux Blue Note Jazz et Le Poisson Rouge à New York, Oscar Jerome poursuit son ascension.   Gin Tonic Orchestra est un groupe de Saint-Etienne fondé par le producteur et musicien Victor Dijoud (Kaffe Crème) ainsi que le percussionniste Leo Puccio, auxquels s’ajoutent de multiples personnalités dans le studio et sur la scène. Oscillant entre future jazz, latin vibes et broken beat l’alchimie trouvée par la formation se révèle assez imparable, elle a d’ailleurs collaboré avec l’une des légendes de la scène UK, Kaidi Tatham, sur son 1er EP sorti sur Mother Tongue.',
+    img1 : Oscar,
+    img2 : GTO,
+    day : '20',
+    month : 'oct.',
+    year : '2022',
+    hour : '',
+    place : 'Périscope',
+    nomTarif1 : 'Tarif VA',
+    tarif1 : 18,
+    nomTarif2 : 'Tarif réduit chômeurs/étudiants',
+    tarif2 : 12,
+    nomTarif3 : 'Abonnement Espace Tonkin',
+    tarif3 : 10,
+    billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/la-rotonde-ishkero-ensemble-jazz-insa',
+    duo:true,
+    name: 'Oscar Jerome - Gin Tonic Orchestra',
+    nom1: 'Oscar Jerome',
+    nom2: 'Gin Tonic Orchestra',
+    disponibiliteTarifs : false,
+},
+
+    // {
+    //     nb : 3, //numéro de repérage pour affichage
+    //     id: 'GTO', //adresse url pour affichage
+    //     name: "Gin Tonic Orchestra", //nom affiché
+    //     quote : '"Au-delà du simple groupe de musique, le Gin Tonic Orchestra se définit aussi comme une idée, un concept, une pensée… Le GTO aspire simplement à faire danser et donner de l’amour à tous ceux qui ont la curiosité de goûter à cette mystérieuse mixture."',
+    //     //premier texte
+    //     desc : "Gin Tonic Orchestra est un groupe de Saint-Etienne fondé par le producteur et musicien Victor Dijoud (Kaffe Crème) ainsi que le percussionniste Leo Puccio, auxquels s’ajoutent de multiples personnalités dans le studio et sur la scène. Oscillant entre future jazz, latin vibes et broken beat l’alchimie trouvée par la formation se révèle assez imparable, elle a d’ailleurs collaboré avec l’une des légendes de la scène UK, Kaidi Tatham, sur son 1er EP sorti sur Mother Tongue.",
+    //     //deuxième texte
+    //     img1 : GTO, //image header
+    //     img2 : GTO2, //image milieu de texte
+    //     day : '?', 
+    //     month : '?',
+    //     year : '?',
+    //     hour : '? - ?', //la date précise du concert
+    //     place : '?', //l'endroit du concert
+    //     nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
+    //     tarif1 : 0,
+    //     nomTarif2 : 'Tarif réduit chômeurs/étudiants',
+    //     tarif2 : 0,
+    //     nomTarif3 : 'Abonnement Espace Tonkin',
+    //     tarif3 : 0,
+    //     billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne',
+    //     //adresse de la billetterie de ce concert
+    //     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    // },
+
+    // {
+    //     nb : 5, //numéro de repérage pour affichage
+    //     id: 'Oscar', //adresse url pour affichage
+    //     name: "Oscar Jerome", //nom affiché
+    //     quote : '"Oscar Jerome a perfectionné ses talents de musicien et d’écriture depuis son plus jeune âge. Il a grandi en tant que guitariste, mais aussi chanteur et compositeur de nombreuses formations de la scène musicale florissante du sud de Londres."',
+    //     //premier texte
+    //     desc : "Oscar Jerome puise son inspiration dans la politique, la spiritualité musicale ou ses propres expériences pour ses textes. Sa vision créative est de toujours créer une musique sincère tout en rendant hommage à ses innombrables inspirations. Avec une performance live acclamée qui l’a conduit sur de nombreux shows comme le prestigieux Blue Note Jazz et Le Poisson Rouge à New York, Oscar Jerome poursuit son ascension.",
+    //     //deuxième texte
+    //     img1 : Oscar, //image header
+    //     img2 : Oscar2, //image milieu de texte
+    //     day : '?', 
+    //     month : '?',
+    //     year : '?',
+    //     hour : '? - ?', //la date précise du concert
+    //     place : '?', //l'endroit du concert
+    //     nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
+    //     tarif1 : 0,
+    //     nomTarif2 : 'Tarif réduit chômeurs/étudiants',
+    //     tarif2 : 0,
+    //     nomTarif3 : 'Abonnement Espace Tonkin',
+    //     tarif3 : 0,
+    //     billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne',
+    //     //adresse de la billetterie de ce concert
+    //     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    // }
+
+]
 
 const dataAnc=[
     {nb : 11,

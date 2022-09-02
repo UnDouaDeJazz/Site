@@ -76,7 +76,8 @@ function Concert() {
 
             <p id="heure">{data.hour}</p>
             <hr id="concertHr"/>
-            <h3 class="tarif">Tarifs :</h3>
+            <p class="tarif">Billeterie bientôt disponible !</p>
+            {/* <h3 class="tarif">Tarifs :</h3>
             <p class="tarif">
                 {data.nomTarif1} : <br/>
                 <span>{data.tarif1}€</span>
@@ -91,7 +92,7 @@ function Concert() {
             </p>
             <a href={data.billeterie}>
             <button id="billeterieConcert">BILLETTERIE</button>
-            </a>
+            </a> */}
         </div>
         <div id="infosGroupe">
         <img src={data.img1} alt="blast" class="header"/>
