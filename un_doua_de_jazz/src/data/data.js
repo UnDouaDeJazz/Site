@@ -355,7 +355,8 @@ const data=[
     {nb:2,
         id: 'csw-jet', 
     quote : 'En première partie, entre dialogues harmoniques et joutes rythmiques, André, Benoît et Louis jouent le jeu approprié à chacune des petites histoires qu’ils savent si bien nous raconter ! \n En seconde partie, Jet Whistle réunit cinq amis musiciens proposant chacun leurs propres influences musicales allant du free jazz au hip hop, en passant par Pierre Boulez.',
-    desc : "C’est avec un grand bonheur que le trio Charlier / Sourisse / Winsberg a fait revivre la musique du monstre sacré du saxophone, Michael Brecker, à travers leur hommage «Tales from Michael», unanimement salué par le monde du Jazz. Aujourd’hui, le trio au son chaleureux revient sur scène avec des compositions originales et un nouveau double album : «Le Monde à l’envers». Le quintet Jet Whistle est à la recherche d'effets sonores et d'atmosphères électroniques. Beaucoup de place est laissée à l'improvisation et chaque musicien possède une grande liberté de jeu.",
+    desc : "C’est avec un grand bonheur que le trio Charlier / Sourisse / Winsberg a fait revivre la musique du monstre sacré du saxophone, Michael Brecker, à travers leur hommage «Tales from Michael», unanimement salué par le monde du Jazz. Aujourd’hui, le trio au son chaleureux revient sur scène avec des compositions originales et un nouveau double album : «Le Monde à l’envers».",
+    desc2 : "Le quintet Jet Whistle est à la recherche d'effets sonores et d'atmosphères électroniques. Beaucoup de place est laissée à l'improvisation et chaque musicien possède une grande liberté de jeu.",
     img1 : CSW,
     img2 : Jet,
     day : '11',
@@ -384,6 +385,7 @@ const data=[
         quote : '"Issu de la scène strasbourgeoise et du collectif Omezis qui regroupe une vingtaine d’artistes, musiciens, Dj’s, vidéastes, Emile Londonien s’imprègne de la scène jazz anglaise de ces quinze dernières années pour en proposer une version personnelle !"',
         //premier texte
         desc : "Emile Londonien c'est un trio avec Nils Boyny au clavier, Matthieu Drago à la batterie etThéo Tritsch à la guitare. Un premier album, à paraitre début 2023, est en cours d’enregistrement avec des invités comme Emile Parisien, Thomas de Pourquery ou Leon Phal. On les retrouvera dès cet été sur la compilation « Past And Future ! » de Jazz à Vienne consacrée à la nouvelle scène.",
+        desc2 : '',
         //deuxième texte
         img1 : Emile2, //image header
         img2 : Emile, //image milieu de texte
@@ -439,6 +441,7 @@ const data=[
         quote : '"De ces confrontations entre acoustique et électronique, ferveur jazz et fièvre dancefloor, échappées rêveuses et beats millimétrés, résulte une salutaire symbiose entre énergie contagieuse et rare élégance. "',
         //premier texte
         desc : "Saxophoniste prometteur, Léon Phal fait partie de cette jeune génération de musiciens de jazz biberonnée aux classiques, dont il s’affranchit tout en leur rendant hommage à chaque note avec brio, qu’il s’agisse du RH Factor de Roy Hargrove ou du « Voodoo » de D’Angelo. Entouré de ses complices de toujours, sa maîtrise de l’instrument, son sens inouï de la mélodie et la délicatesse de ses compositions amplifiées par un groove dévastateur, présagent un bel avenir à ce franco-suisse originaire de Champagne.",
+        desc2 : '',
         //deuxième texte
         img1 : Phal, //image header
         img2 : Phal2, //image milieu de texte
@@ -462,7 +465,8 @@ const data=[
     {nb:3,
         id: 'gto-oscar', 
     quote : 'En première partie, Oscar Jerome a perfectionné ses talents de musicien et d’écriture depuis son plus jeune âge. Il a grandi en tant que guitariste, mais aussi chanteur et compositeur de nombreuses formations de la scène musicale florissante du sud de Londres.   En seconde partie, au-delà du simple groupe de musique, le Gin Tonic Orchestra se définit aussi comme une idée, un concept, une pensée… Le GTO aspire simplement à faire danser et donner de l’amour à tous ceux qui ont la curiosité de goûter à cette mystérieuse mixture.',
-    desc : 'Oscar Jerome puise son inspiration dans la politique, la spiritualité musicale ou ses propres expériences pour ses textes. Sa vision créative est de toujours créer une musique sincère tout en rendant hommage à ses innombrables inspirations. Avec une performance live acclamée qui l’a conduit sur de nombreux shows comme le prestigieux Blue Note Jazz et Le Poisson Rouge à New York, Oscar Jerome poursuit son ascension.   Gin Tonic Orchestra est un groupe de Saint-Etienne fondé par le producteur et musicien Victor Dijoud (Kaffe Crème) ainsi que le percussionniste Leo Puccio, auxquels s’ajoutent de multiples personnalités dans le studio et sur la scène. Oscillant entre future jazz, latin vibes et broken beat l’alchimie trouvée par la formation se révèle assez imparable, elle a d’ailleurs collaboré avec l’une des légendes de la scène UK, Kaidi Tatham, sur son 1er EP sorti sur Mother Tongue.',
+    desc : 'Oscar Jerome puise son inspiration dans la politique, la spiritualité musicale ou ses propres expériences pour ses textes. Sa vision créative est de toujours créer une musique sincère tout en rendant hommage à ses innombrables inspirations. Avec une performance live acclamée qui l’a conduit sur de nombreux shows comme le prestigieux Blue Note Jazz et Le Poisson Rouge à New York, Oscar Jerome poursuit son ascension.',
+    desc2 : 'Gin Tonic Orchestra est un groupe de Saint-Etienne fondé par le producteur et musicien Victor Dijoud (Kaffe Crème) ainsi que le percussionniste Leo Puccio, auxquels s’ajoutent de multiples personnalités dans le studio et sur la scène. Oscillant entre future jazz, latin vibes et broken beat l’alchimie trouvée par la formation se révèle assez imparable, elle a d’ailleurs collaboré avec l’une des légendes de la scène UK, Kaidi Tatham, sur son 1er EP sorti sur Mother Tongue.',
     img1 : Oscar,
     img2 : GTO,
     day : '20',

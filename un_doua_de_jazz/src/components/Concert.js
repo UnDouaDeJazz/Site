@@ -99,6 +99,8 @@ function Concert() {
         <p id="quoteConcert">“{data.quote}”</p>
         <img src={data.img2} alt="blast"/>
         <p id="descrConcert">{data.desc}</p>
+        <p id="descrConcert">{data.desc2}</p>
+        
         </div>
 
     </div>
