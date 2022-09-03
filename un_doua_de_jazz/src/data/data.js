@@ -490,8 +490,8 @@ const data=[
         name: "Leon Phal Quintet", //nom affiché
         quote : '"De ces confrontations entre acoustique et électronique, ferveur jazz et fièvre dancefloor, échappées rêveuses et beats millimétrés, résulte une salutaire symbiose entre énergie contagieuse et rare élégance. "',
         //premier texte
-        desc2 : "Saxophoniste prometteur, Léon Phal fait partie de cette jeune génération de musiciens de jazz biberonnée aux classiques, dont il s’affranchit tout en leur rendant hommage à chaque note avec brio, qu’il s’agisse du RH Factor de Roy Hargrove ou du « Voodoo » de D’Angelo. Entouré de ses complices de toujours, sa maîtrise de l’instrument, son sens inouï de la mélodie et la délicatesse de ses compositions amplifiées par un groove dévastateur, présagent un bel avenir à ce franco-suisse originaire de Champagne.",
-        desc : '',
+        desc : "Saxophoniste prometteur, Léon Phal fait partie de cette jeune génération de musiciens de jazz biberonnée aux classiques, dont il s’affranchit tout en leur rendant hommage à chaque note avec brio, qu’il s’agisse du RH Factor de Roy Hargrove ou du « Voodoo » de D’Angelo. Entouré de ses complices de toujours, sa maîtrise de l’instrument, son sens inouï de la mélodie et la délicatesse de ses compositions amplifiées par un groove dévastateur, présagent un bel avenir à ce franco-suisse originaire de Champagne.",
+        desc2 : '',
         //deuxième texte
         img1 : Phal, //image header
         img2 : Phal2, //image milieu de texte
