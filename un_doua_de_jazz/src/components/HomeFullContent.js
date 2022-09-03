@@ -12,17 +12,31 @@ function Case(number){
 
     if(data.duo===true){
         return(
-            <div class="deuxParties">
+            // <div class="deuxParties">
+
+            //     <NavLink to={"/home/concert/"+data.id}>
+            //         <div class="img">
+            //             <img src={data.img1} alt={data.nom1}/>
+            //             <div class="vl"/>
+            //             <img src={data.img2} alt={data.nom2}/>
+            //             <p class="date"><span>{data.day}</span><br/>{data.month}</p>
+
+            //             <p class="name"><span class="partie">Partie 1 - </span>{data.nom1}</p>
+            //             <p class="name"><span class="partie">Partie 2 - </span>{data.nom2}</p>
+            //         </div>
+                    
+            //     </NavLink>
+            // </div>
+
+            <div class="unePartie">
 
                 <NavLink to={"/home/concert/"+data.id}>
                     <div class="img">
-                        <img src={data.img1} alt={data.nom1}/>
-                        <div class="vl"/>
-                        <img src={data.img2} alt={data.nom2}/>
+                        <img src={data.imgMenu} alt={data.nom2}/>
                         <p class="date"><span>{data.day}</span><br/>{data.month}</p>
 
-                        <p class="name"><span class="partie">Partie 1 - </span>{data.nom1}</p>
-                        <p class="name"><span class="partie">Partie 2 - </span>{data.nom2}</p>
+                        <p class="name">{data.nom2}</p>
+                        <p class="namePremierePartie"><span class="partie">Première partie : </span>{data.nom1}</p>
                     </div>
                     
                 </NavLink>
@@ -34,7 +48,7 @@ function Case(number){
 
                 <NavLink to={"/home/concert/"+data.id}>
                     <div class="img">
-                        <img src={data.img1} alt={data.name}/>
+                        <img src={data.imgMenu} alt={data.name}/>
                         <p class="date"><span>{data.day}</span><br/>{data.month}</p>
 
                         <p class="name">{data.name}</p>

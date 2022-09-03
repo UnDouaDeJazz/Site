@@ -4,7 +4,7 @@ import './Benevole.css'
 import './Concert.css'
 import './Artistes.css';
 import { useParams } from 'react-router-dom'
-import HomeContent from "./HomeContent.js"
+import HomeFullContent from "./HomeFullContent.js"
 import HeaderHome from "./HeaderHome.js"
 import Artistes from "./Artistes.js"
 import {donnees} from "../data/data.js"
@@ -16,12 +16,14 @@ function arrierePlan(endroit){
     if(endroit==="home"){
         return(
     <div id="blur">
+
         <div id="headerWrap">
             <HeaderHome/>
         </div>
+
         <div id="artistesWrapper">
           
-                <HomeContent/>
+                <HomeFullContent/>
         </div>
 
     </div>);
@@ -48,13 +50,15 @@ function Concert() {
         retour += "artistes";
     }
     //const arrierePlan = arriere(endroit);
+    var nomPremierePartie=null;
+    if(data.duo === true){
+        nomPremierePartie=(<div id="divPremierePartie"><p id="premierePartie">Première partie</p><p id="namePremierePartie">{data.nom1.toLocaleUpperCase()}</p></div>);
+    }
   return (
       <div id="concertTotal">
 
     <div id="home">
-
         {arriere}
-
 
 
     </div>
@@ -68,15 +72,16 @@ function Concert() {
         <p id="name">
                 {data.name.toLocaleUpperCase()}
             </p>
+            {nomPremierePartie}
             <p id="date">
                 <span>{data.day}</span><br/>{data.month}
             </p>
 
-            <p id="lieu">{data.place}</p>
+            <a href={data.placeIndications}><p id="lieu">{data.place}</p></a>
 
             <p id="heure">{data.hour}</p>
             <hr id="concertHr"/>
-            <p class="tarif">Billeterie bientôt disponible !</p>
+            <p class="tarif">Billetterie bientôt disponible !</p>
             {/* <h3 class="tarif">Tarifs :</h3>
             <p class="tarif">
                 {data.nomTarif1} : <br/>
@@ -97,9 +102,10 @@ function Concert() {
         <div id="infosGroupe">
         <img src={data.img1} alt="blast" class="header"/>
         <p id="quoteConcert">“{data.quote}”</p>
+
+        <p id="descrConcert">{data.desc2}</p>
         <img src={data.img2} alt="blast"/>
         <p id="descrConcert">{data.desc}</p>
-        <p id="descrConcert">{data.desc2}</p>
         
         </div>
 
@@ -107,6 +113,10 @@ function Concert() {
     </div>
 
   );
+
+
+
+
 }
 
 export default Concert;

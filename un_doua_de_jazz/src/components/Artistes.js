@@ -2,38 +2,57 @@
 import Header from "./Header.js"
 import disc from "../media/headerDiscComp.jpg";
 
-import {donneesNb, donneesAnciennesNb, donneesSize, donneesAnciennesSize} from '../data/data.js';
+import {donneesPageArtistesActuelsNb, donneesAnciennesNb, donneesPageArtistesActuelsSize, donneesAnciennesSize} from '../data/data.js';
 import "./Artistes.css"
 import { NavLink } from 'react-router-dom';
 
-function ArtistesActuels(number){
-    const data=donneesNb(number);
+// function ArtistesActuels(number){
+//     const data=donneesNb(number);
 
-    if(data.duo===true){
-        return(
-            <div class="deuxParties">
+//     if(data.duo===true){
+//         return(
+//             <div class="deuxParties">
 
-                <NavLink to={"/artistes/concert/"+data.id} style={{ textDecoration: 'none' }}>
-                    <div class="img">
-                        <img src={data.img1} alt={data.nom1}/>
-                        <div class="vl"/>
-                        <img src={data.img2} alt={data.nom2}/>
-                        <p class="date"><span>{data.day}</span><br/>{data.month}</p>
+//                 <NavLink to={"/artistes/concert/"+data.id} style={{ textDecoration: 'none' }}>
+//                     <div class="img">
+//                         <img src={data.img1} alt={data.nom1}/>
+//                         <div class="vl"/>
+//                         <img src={data.img2} alt={data.nom2}/>
+//                         <p class="date"><span>{data.day}</span><br/>{data.month}</p>
 
-                        <p class="name"><span class="partie">Partie 1 - </span>{data.nom1}</p>
-                        <p class="name"><span class="partie">Partie 2 - </span>{data.nom2}</p>
-                    </div>
+//                         <p class="name"><span class="partie">Partie 1 - </span>{data.nom1}</p>
+//                         <p class="name"><span class="partie">Partie 2 - </span>{data.nom2}</p>
+//                     </div>
                     
-                </NavLink>
-            </div>
-        );
-    }else{
+//                 </NavLink>
+//             </div>
+//         );
+//     }else{
+//         return(
+//         <div class="unePartie">
+
+//                 <NavLink to={"/artistes/concert/"+data.id} style={{ textDecoration: 'none' }}>
+//                     <div class="img">
+//                         <img src={data.img1} alt={data.name}/>
+//                         <p class="date"><span>{data.day}</span><br/>{data.month}</p>
+
+//                         <p class="name">{data.name}</p>
+//                     </div>
+                    
+//                 </NavLink>
+//             </div>
+//         );
+//     }
+// }
+
+function ArtistesActuels(number){
+    const data=donneesPageArtistesActuelsNb(number);
         return(
         <div class="unePartie">
 
                 <NavLink to={"/artistes/concert/"+data.id} style={{ textDecoration: 'none' }}>
                     <div class="img">
-                        <img src={data.img1} alt={data.name}/>
+                        <img src={data.img} alt={data.name}/>
                         <p class="date"><span>{data.day}</span><br/>{data.month}</p>
 
                         <p class="name">{data.name}</p>
@@ -42,7 +61,6 @@ function ArtistesActuels(number){
                 </NavLink>
             </div>
         );
-    }
 }
 
 function ArtistesAnciens(number){
@@ -76,7 +94,7 @@ function ArtistesAnciens(number){
 function TableActuels(){
 
     var children=[];
-    for(let i=1;i<=donneesSize();i++){
+    for(let i=1;i<=donneesPageArtistesActuelsSize();i++){
         children.push(ArtistesActuels(i));
     }
     var retour=(
@@ -115,7 +133,7 @@ function Artistes() {
     ];
 
 
-    if(donneesSize()>0){
+    if(donneesPageArtistesActuelsSize()>0){
 
         contenu.push(<h1>Nos Artistes {new Date().getFullYear()}</h1>);
         contenu.push(TableActuels());

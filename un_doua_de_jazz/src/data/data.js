@@ -323,10 +323,56 @@ const partenaires=[
     }
 
 ]*/
+const dataPageArtistesActuels=[
+    {nb:2,
+    id: 'CSW',
+    name: 'Charlier-Sourisse-Winsberg',
+    img: CSW2,
+    day : '18',
+    month : 'oct.',},
+
+    {nb:3,
+        id: 'CSW',
+        name: 'Jet Whistle',
+        img: Jet,
+        day : '18',
+        month : 'oct.',},
+
+        {nb:1,
+        id:'Emile',
+        day : '15', 
+        month : 'oct.',
+        name: "Emile Londonien", //nom affiché
+        img : Emile2,
+    },
+    {nb:4,
+        id: 'Phal', //adresse url pour affichage
+            name: "Leon Phal Quintet", //nom affiché
+            img : Phal, //image carrée du menu
+            day : '19', 
+            month : 'oct.',
+    },
+        
+    {nb:5,
+        id: 'oscar',
+    img : Oscar, //image carrée du menu
+    name : 'Oscar Jerome',
+    day : '20',
+    month : 'oct.'},
+    {nb:6,
+    id: 'oscar',
+name: 'Gin Tonic',
+
+day : '20',
+month : 'oct.',
+img:GTO},
+    
+]
+
 
 const data=[
 
-    // {
+    // {data
     //     nb : 1, //numéro de repérage pour affichage
     //     id: 'CSW', //adresse url pour affichage
     //     name: "Charlier-Sourisse-Winsberg", //nom affiché
@@ -352,18 +398,20 @@ const data=[
     //     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
     // },
 
-    {nb:1,
-        id: 'csw-jet', 
-    quote : 'En première partie, entre dialogues harmoniques et joutes rythmiques, André, Benoît et Louis jouent le jeu approprié à chacune des petites histoires qu’ils savent si bien nous raconter ! \n En seconde partie, Jet Whistle réunit cinq amis musiciens proposant chacun leurs propres influences musicales allant du free jazz au hip hop, en passant par Pierre Boulez.',
-    desc : "C’est avec un grand bonheur que le trio Charlier / Sourisse / Winsberg a fait revivre la musique du monstre sacré du saxophone, Michael Brecker, à travers leur hommage «Tales from Michael», unanimement salué par le monde du Jazz. Aujourd’hui, le trio au son chaleureux revient sur scène avec des compositions originales et un nouveau double album : «Le Monde à l’envers».",
-    desc2 : "Le quintet Jet Whistle est à la recherche d'effets sonores et d'atmosphères électroniques. Beaucoup de place est laissée à l'improvisation et chaque musicien possède une grande liberté de jeu.",
+    {nb:2,
+        id: 'CSW', 
+    quote : 'Entre dialogues harmoniques et joutes rythmiques, André, Benoît et Louis jouent le jeu approprié à chacune des petites histoires qu’ils savent si bien nous raconter ! \n En première partie, Jet Whistle réunit cinq amis musiciens proposant chacun leurs propres influences musicales allant du free jazz au hip hop, en passant par Pierre Boulez.',
+    desc2 : "C’est avec un grand bonheur que le trio Charlier / Sourisse / Winsberg a fait revivre la musique du monstre sacré du saxophone, Michael Brecker, à travers leur hommage «Tales from Michael», unanimement salué par le monde du Jazz. Aujourd’hui, le trio au son chaleureux revient sur scène avec des compositions originales et un nouveau double album : «Le Monde à l’envers».",
+    desc : "Le quintet Jet Whistle est à la recherche d'effets sonores et d'atmosphères électroniques. Beaucoup de place est laissée à l'improvisation et chaque musicien possède une grande liberté de jeu.",
     img1 : CSW,
     img2 : Jet,
-    day : '11',
+    imgMenu : CSW2, // image carrée du menu
+    day : '18',
     month : 'oct.',
     year : '2022',
     hour : '20h00 - 22h00',
     place : 'Theatre Astree',
+    placeIndications : 'https://theatre-astree.univ-lyon1.fr/acces-2/',
     nomTarif1 : 'Tarif VA',
     tarif1 : 18,
     nomTarif2 : 'Tarif réduit chômeurs/étudiants',
@@ -372,14 +420,14 @@ const data=[
     tarif3 : 10,
     billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/la-rotonde-ishkero-ensemble-jazz-insa',
     duo:true,
-    name: 'Charlier Sourisse Winsberg - Jet Whistle',
-    nom1: 'Charlier-Sourisse-Winsberg',
-    nom2: 'Jet Whistle',
+    name: 'Charlier-Sourisse-Winsberg',
+    nom2: 'Charlier-Sourisse-Winsberg',
+    nom1: 'Jet Whistle',
     disponibiliteTarifs : false,
     },
 
     {
-        nb : 2, //numéro de repérage pour affichage
+        nb : 1, //numéro de repérage pour affichage
         id: 'Emile', //adresse url pour affichage
         name: "Emile Londonien", //nom affiché
         quote : '"Issu de la scène strasbourgeoise et du collectif Omezis qui regroupe une vingtaine d’artistes, musiciens, Dj’s, vidéastes, Emile Londonien s’imprègne de la scène jazz anglaise de ces quinze dernières années pour en proposer une version personnelle !"',
@@ -389,11 +437,13 @@ const data=[
         //deuxième texte
         img1 : Emile2, //image header
         img2 : Emile, //image milieu de texte
+        imgMenu : Emile2,
         day : '15', 
         month : 'oct.',
         year : '2022',
         hour : '', //la date précise du concert
         place : 'Toï Toï', //l'endroit du concert
+        placeIndications : 'https://toitoilezinc.fr/infos-pratiques/',
         nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
         tarif1 : 0,
         nomTarif2 : 'Tarif réduit chômeurs/étudiants',
@@ -440,16 +490,18 @@ const data=[
         name: "Leon Phal Quintet", //nom affiché
         quote : '"De ces confrontations entre acoustique et électronique, ferveur jazz et fièvre dancefloor, échappées rêveuses et beats millimétrés, résulte une salutaire symbiose entre énergie contagieuse et rare élégance. "',
         //premier texte
-        desc : "Saxophoniste prometteur, Léon Phal fait partie de cette jeune génération de musiciens de jazz biberonnée aux classiques, dont il s’affranchit tout en leur rendant hommage à chaque note avec brio, qu’il s’agisse du RH Factor de Roy Hargrove ou du « Voodoo » de D’Angelo. Entouré de ses complices de toujours, sa maîtrise de l’instrument, son sens inouï de la mélodie et la délicatesse de ses compositions amplifiées par un groove dévastateur, présagent un bel avenir à ce franco-suisse originaire de Champagne.",
-        desc2 : '',
+        desc2 : "Saxophoniste prometteur, Léon Phal fait partie de cette jeune génération de musiciens de jazz biberonnée aux classiques, dont il s’affranchit tout en leur rendant hommage à chaque note avec brio, qu’il s’agisse du RH Factor de Roy Hargrove ou du « Voodoo » de D’Angelo. Entouré de ses complices de toujours, sa maîtrise de l’instrument, son sens inouï de la mélodie et la délicatesse de ses compositions amplifiées par un groove dévastateur, présagent un bel avenir à ce franco-suisse originaire de Champagne.",
+        desc : '',
         //deuxième texte
         img1 : Phal, //image header
         img2 : Phal2, //image milieu de texte
+        imgMenu : Phal, //image carrée du menu
         day : '19', 
         month : 'oct.',
         year : '2022',
         hour : '', //la date précise du concert
         place : 'Périscope', //l'endroit du concert
+        placeIndications : 'https://www.periscope-lyon.com/accessibilite/',
         nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
         tarif1 : 0,
         nomTarif2 : 'Tarif réduit chômeurs/étudiants',
@@ -463,17 +515,20 @@ const data=[
     },
 
     {nb:4,
-        id: 'gto-oscar', 
-    quote : 'En première partie, Oscar Jerome a perfectionné ses talents de musicien et d’écriture depuis son plus jeune âge. Il a grandi en tant que guitariste, mais aussi chanteur et compositeur de nombreuses formations de la scène musicale florissante du sud de Londres.   En seconde partie, au-delà du simple groupe de musique, le Gin Tonic Orchestra se définit aussi comme une idée, un concept, une pensée… Le GTO aspire simplement à faire danser et donner de l’amour à tous ceux qui ont la curiosité de goûter à cette mystérieuse mixture.',
-    desc : 'Oscar Jerome puise son inspiration dans la politique, la spiritualité musicale ou ses propres expériences pour ses textes. Sa vision créative est de toujours créer une musique sincère tout en rendant hommage à ses innombrables inspirations. Avec une performance live acclamée qui l’a conduit sur de nombreux shows comme le prestigieux Blue Note Jazz et Le Poisson Rouge à New York, Oscar Jerome poursuit son ascension.',
-    desc2 : 'Gin Tonic Orchestra est un groupe de Saint-Etienne fondé par le producteur et musicien Victor Dijoud (Kaffe Crème) ainsi que le percussionniste Leo Puccio, auxquels s’ajoutent de multiples personnalités dans le studio et sur la scène. Oscillant entre future jazz, latin vibes et broken beat l’alchimie trouvée par la formation se révèle assez imparable, elle a d’ailleurs collaboré avec l’une des légendes de la scène UK, Kaidi Tatham, sur son 1er EP sorti sur Mother Tongue.',
+        id: 'oscar', 
+    quote : 'Oscar Jerome a perfectionné ses talents de musicien et d’écriture depuis son plus jeune âge. Il a grandi en tant que guitariste, mais aussi chanteur et compositeur de nombreuses formations de la scène musicale florissante du sud de Londres. En première partie, au-delà du simple groupe de musique, le Gin Tonic Orchestra se définit aussi comme une idée, un concept, une pensée… Le GTO aspire simplement à faire danser et donner de l’amour à tous ceux qui ont la curiosité de goûter à cette mystérieuse mixture.',
+    desc2 : 'Oscar Jerome puise son inspiration dans la politique, la spiritualité musicale ou ses propres expériences pour ses textes. Sa vision créative est de toujours créer une musique sincère tout en rendant hommage à ses innombrables inspirations. Avec une performance live acclamée qui l’a conduit sur de nombreux shows comme le prestigieux Blue Note Jazz et Le Poisson Rouge à New York, Oscar Jerome poursuit son ascension.',
+    desc : 'Gin Tonic Orchestra est un groupe de Saint-Etienne fondé par le producteur et musicien Victor Dijoud (Kaffe Crème) ainsi que le percussionniste Leo Puccio, auxquels s’ajoutent de multiples personnalités dans le studio et sur la scène. Oscillant entre future jazz, latin vibes et broken beat l’alchimie trouvée par la formation se révèle assez imparable, elle a d’ailleurs collaboré avec l’une des légendes de la scène UK, Kaidi Tatham, sur son 1er EP sorti sur Mother Tongue.',
     img1 : Oscar,
     img2 : GTO,
+    imgMenu : Oscar, //image carrée du menu
+
     day : '20',
     month : 'oct.',
     year : '2022',
     hour : '',
-    place : 'Périscope',
+        placeIndications : 'https://www.periscope-lyon.com/accessibilite/',
+        place : 'Périscope',
     nomTarif1 : 'Tarif VA',
     tarif1 : 18,
     nomTarif2 : 'Tarif réduit chômeurs/étudiants',
@@ -482,9 +537,9 @@ const data=[
     tarif3 : 10,
     billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/la-rotonde-ishkero-ensemble-jazz-insa',
     duo:true,
-    name: 'Oscar Jerome - Gin Tonic Orchestra',
-    nom1: 'Oscar Jerome',
-    nom2: 'Gin Tonic Orchestra',
+    name: 'Oscar Jerome',
+    nom2: 'Oscar Jerome',
+    nom1: 'Gin Tonic',
     disponibiliteTarifs : false,
 },
 
@@ -646,6 +701,17 @@ function donneesNb(number){
     
 }
 
+
+function donneesPageArtistesActuels(string){
+    return dataPageArtistesActuels.find(el => el.id===string);
+    
+}
+
+function donneesPageArtistesActuelsNb(number){
+    return dataPageArtistesActuels.find(el => el.nb===number);
+    
+}
+
 function donneesAnciennes(string){
     return dataAnc.find(el => el.id===string);
 }
@@ -675,5 +741,13 @@ function donneesAnciennesSize(){
     return dataAnc.length;
 }
 
-export {partenaireNb, partenairesSize, partenaire, donnees, donneesNb, donneesAnciennes, donneesAnciennesNb, donneesSize, donneesAnciennesSize};
+function donneesPageArtistesActuelsSize(){
+    console.log(dataPageArtistesActuels.length);
+    return dataPageArtistesActuels.length;
+
+}
+
+
+
+export {donneesPageArtistesActuelsSize, donneesPageArtistesActuelsNb, donneesPageArtistesActuels, partenaireNb, partenairesSize, partenaire, donnees, donneesNb, donneesAnciennes, donneesAnciennesNb, donneesSize, donneesAnciennesSize};
 

@@ -9,10 +9,10 @@
     color:white;
     margin-bottom: 7.5vw;
 }
-#gridProg .deuxParties .img .name span{
+#gridProg .namePremierePartie span{
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
-    font-size:1.15vw;
+    font-size:1.10vw;
 
     margin-bottom: 0px; 
 }
@@ -54,6 +54,15 @@
     text-align: left;
     margin-left: 0.15vw;
     margin-bottom: 0px;
+}
+
+#gridProg .namePremierePartie{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 0.15vw;
+  margin-bottom: 0px;
+  font-size: 1.20vw;
 }
 
 
@@ -162,12 +171,16 @@
     font-size:4vw;
     margin:1vw;
   }
-  #gridProg .deuxParties .img .name span{
+  #gridProg .namePremierePartie span{
     font-size:2vw;
     margin:1vw;
   }
   #gridProg .name{
     margin-left:0vw;
+  }
+
+  #gridProg .namePremierePartie{
+    font-size: 3vw;
   }
   #gridProg .unePartie .img img{
     width: 24vw;
