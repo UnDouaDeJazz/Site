@@ -409,7 +409,7 @@ const data=[
     day : '18',
     month : 'oct.',
     year : '2022',
-    hour : '20h00 - 22h00',
+    hour : '',
     place : 'Theatre Astree',
     placeIndications : 'https://theatre-astree.univ-lyon1.fr/acces-2/',
     nomTarif1 : 'Tarif VA',
@@ -418,7 +418,7 @@ const data=[
     tarif2 : 12,
     nomTarif3 : 'Abonnement Espace Tonkin',
     tarif3 : 10,
-    billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/la-rotonde-ishkero-ensemble-jazz-insa',
+    billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz',
     duo:true,
     name: 'Charlier-Sourisse-Winsberg',
     nom2: 'Charlier-Sourisse-Winsberg',
@@ -450,7 +450,7 @@ const data=[
         tarif2 : 0,
         nomTarif3 : 'Abonnement Espace Tonkin',
         tarif3 : 0,
-        billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne',
+        billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz',
         //adresse de la billetterie de ce concert
         duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
         disponibiliteTarifs : false,
@@ -508,7 +508,7 @@ const data=[
         tarif2 : 0,
         nomTarif3 : 'Abonnement Espace Tonkin',
         tarif3 : 0,
-        billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne',
+        billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz',
         //adresse de la billetterie de ce concert
         duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
         disponibiliteTarifs : false,
@@ -535,7 +535,7 @@ const data=[
     tarif2 : 12,
     nomTarif3 : 'Abonnement Espace Tonkin',
     tarif3 : 10,
-    billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/la-rotonde-ishkero-ensemble-jazz-insa',
+    billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz',
     duo:true,
     name: 'Oscar Jerome',
     nom2: 'Oscar Jerome',
