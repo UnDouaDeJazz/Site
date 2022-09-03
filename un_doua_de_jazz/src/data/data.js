@@ -352,7 +352,7 @@ const data=[
     //     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
     // },
 
-    {nb:2,
+    {nb:1,
         id: 'csw-jet', 
     quote : 'En première partie, entre dialogues harmoniques et joutes rythmiques, André, Benoît et Louis jouent le jeu approprié à chacune des petites histoires qu’ils savent si bien nous raconter ! \n En seconde partie, Jet Whistle réunit cinq amis musiciens proposant chacun leurs propres influences musicales allant du free jazz au hip hop, en passant par Pierre Boulez.',
     desc : "C’est avec un grand bonheur que le trio Charlier / Sourisse / Winsberg a fait revivre la musique du monstre sacré du saxophone, Michael Brecker, à travers leur hommage «Tales from Michael», unanimement salué par le monde du Jazz. Aujourd’hui, le trio au son chaleureux revient sur scène avec des compositions originales et un nouveau double album : «Le Monde à l’envers».",
@@ -379,7 +379,7 @@ const data=[
     },
 
     {
-        nb : 1, //numéro de repérage pour affichage
+        nb : 2, //numéro de repérage pour affichage
         id: 'Emile', //adresse url pour affichage
         name: "Emile Londonien", //nom affiché
         quote : '"Issu de la scène strasbourgeoise et du collectif Omezis qui regroupe une vingtaine d’artistes, musiciens, Dj’s, vidéastes, Emile Londonien s’imprègne de la scène jazz anglaise de ces quinze dernières années pour en proposer une version personnelle !"',
@@ -435,7 +435,7 @@ const data=[
     // },
 
     {
-        nb : 4, //numéro de repérage pour affichage
+        nb : 3, //numéro de repérage pour affichage
         id: 'Phal', //adresse url pour affichage
         name: "Leon Phal Quintet", //nom affiché
         quote : '"De ces confrontations entre acoustique et électronique, ferveur jazz et fièvre dancefloor, échappées rêveuses et beats millimétrés, résulte une salutaire symbiose entre énergie contagieuse et rare élégance. "',
@@ -462,7 +462,7 @@ const data=[
         disponibiliteTarifs : false,
     },
 
-    {nb:3,
+    {nb:4,
         id: 'gto-oscar', 
     quote : 'En première partie, Oscar Jerome a perfectionné ses talents de musicien et d’écriture depuis son plus jeune âge. Il a grandi en tant que guitariste, mais aussi chanteur et compositeur de nombreuses formations de la scène musicale florissante du sud de Londres.   En seconde partie, au-delà du simple groupe de musique, le Gin Tonic Orchestra se définit aussi comme une idée, un concept, une pensée… Le GTO aspire simplement à faire danser et donner de l’amour à tous ceux qui ont la curiosité de goûter à cette mystérieuse mixture.',
     desc : 'Oscar Jerome puise son inspiration dans la politique, la spiritualité musicale ou ses propres expériences pour ses textes. Sa vision créative est de toujours créer une musique sincère tout en rendant hommage à ses innombrables inspirations. Avec une performance live acclamée qui l’a conduit sur de nombreux shows comme le prestigieux Blue Note Jazz et Le Poisson Rouge à New York, Oscar Jerome poursuit son ascension.',

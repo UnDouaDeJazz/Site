@@ -11,7 +11,7 @@ function HeaderHome() {
       <div>
         <div id="homeHeader">
           <img src={header} id="imgHeader" alt="Concert - UnDouaDeJazz" />
-          <HashLink to="/home-full#header"><img src={logoTransparent} className="imgLogo" alt="Logo Un Doua De Jazz" id="imgLogo"/></HashLink>
+          <img src={logoTransparent} className="imgLogo" alt="Logo Un Doua De Jazz" id="imgLogo"/>
           <HashLink to="#artistesWrapper"><button id="btnArtistes">VOIR LES ARTISTES</button></HashLink>
         </div>
 
