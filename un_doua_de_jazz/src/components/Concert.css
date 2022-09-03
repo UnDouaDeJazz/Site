@@ -19,8 +19,12 @@ p{
 }
 #blur{
     filter:blur(0.15vw);  
-    z-index:-1;
+    /* z-index:-1; */
     position:relative;
+
+
+    height: fit-content;
+    width: fit-content;  
 }
 
 #concert{
@@ -199,7 +203,7 @@ h3{
     #descrConcert{
         font-size: 3.5vw;
     }#blur{
-        filter:blur(0.25vw);  
+        filter:blur(0.25vw);
     }
     
 }

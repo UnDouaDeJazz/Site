@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 import './Home.css';
 import './Benevole.css'
 import './Concert.css'
@@ -8,15 +8,17 @@ import HomeFullContent from "./HomeFullContent.js"
 import HeaderHome from "./HeaderHome.js"
 import Artistes from "./Artistes.js"
 import {donnees} from "../data/data.js"
+import { useHistory } from 'react-router-dom';
 
 
 
 
 function arrierePlan(endroit){
+
+    
     if(endroit==="home"){
         return(
     <div id="blur">
-
         <div id="headerWrap">
             <HeaderHome/>
         </div>
@@ -25,7 +27,6 @@ function arrierePlan(endroit){
           
                 <HomeFullContent/>
         </div>
-
     </div>);
     }
     else if(endroit==="artistes"){
@@ -56,13 +57,13 @@ function Concert() {
     }
   return (
       <div id="concertTotal">
-
+    <NavLink to={retour}>
     <div id="home">
         {arriere}
 
 
     </div>
-
+</NavLink>
     <div id="concert">
         <div id="infosConcert">
 
