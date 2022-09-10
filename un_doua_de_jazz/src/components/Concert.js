@@ -55,35 +55,78 @@ function Concert() {
     if(data.duo === true){
         nomPremierePartie=(<div id="divPremierePartie"><p id="premierePartie">Première partie</p><p id="namePremierePartie">{data.nom1.toLocaleUpperCase()}</p></div>);
     }
-  return (
-      <div id="concertTotal">
-    <NavLink to={retour}>
-    <div id="home">
-        {arriere}
 
 
-    </div>
-</NavLink>
-    <div id="concert">
-        <div id="infosConcert">
+    var infosConcert=null;
+    if(data.gratuit === true){
+        if(data.reservable === true){
+            infosConcert=(<div id="infosConcert">
 
-    <NavLink to={retour}>
-        <button id="retour"> {"←"} </button>
-    </NavLink>
-        <p id="name">
-                {data.name.toLocaleUpperCase()}
-            </p>
-            {nomPremierePartie}
-            <p id="date">
-                <span>{data.day}</span><br/>{data.month}
-            </p>
+        <NavLink to={retour}>
+            <button id="retour"> {"←"} </button>
+        </NavLink>
+            <p id="name">
+                    {data.name.toLocaleUpperCase()}
+                </p>
+                {nomPremierePartie}
+                <p id="date">
+                    <span>{data.day}</span><br/>{data.month}
+                </p>
+    
+                <a href={data.placeIndications}><p id="lieu">{data.place}</p></a>
+    
+                <p id="heure">{data.hour}</p>
+                <hr id="concertHr"/>
+                {/* <p class="tarif">Billetterie bientôt disponible !</p> */}
+                <h3 class="tarif">Concert gratuit</h3>
+                <a href={data.billeterie}>
+                <button id="billeterieConcert">BILLETTERIE</button>
+    
+                </a>
+            </div>);
+        }else{
+            infosConcert=(<div id="infosConcert">
 
-            <a href={data.placeIndications}><p id="lieu">{data.place}</p></a>
+            <NavLink to={retour}>
+                <button id="retour"> {"←"} </button>
+            </NavLink>
+                <p id="name">
+                        {data.name.toLocaleUpperCase()}
+                    </p>
+                    {nomPremierePartie}
+                    <p id="date">
+                        <span>{data.day}</span><br/>{data.month}
+                    </p>
+        
+                    <a href={data.placeIndications}><p id="lieu">{data.place}</p></a>
+        
+                    <p id="heure">{data.hour}</p>
+                    <hr id="concertHr"/>
+                    {/* <p class="tarif">Billetterie bientôt disponible !</p> */}
+                    <h3 class="tarif">Concert gratuit sans réservations</h3>
+                </div>);
+        }
+        
+    }else{
+        infosConcert=(<div id="infosConcert">
 
-            <p id="heure">{data.hour}</p>
-            <hr id="concertHr"/>
-            {/* <p class="tarif">Billetterie bientôt disponible !</p> */}
-            {/* <h3 class="tarif">Tarifs :</h3>
+        <NavLink to={retour}>
+            <button id="retour"> {"←"} </button>
+        </NavLink>
+            <p id="name">
+                    {data.name.toLocaleUpperCase()}
+                </p>
+                {nomPremierePartie}
+                <p id="date">
+                    <span>{data.day}</span><br/>{data.month}
+                </p>
+    
+                <a href={data.placeIndications}><p id="lieu">{data.place}</p></a>
+    
+                <p id="heure">{data.hour}</p>
+                <hr id="concertHr"/>
+                {/* <p class="tarif">Billetterie bientôt disponible !</p> */}
+                <h3 class="tarif">Tarifs :</h3>
             <p class="tarif">
                 {data.nomTarif1} : <br/>
                 <span>{data.tarif1}€</span>
@@ -95,18 +138,31 @@ function Concert() {
             <p class="tarif">
                 {data.nomTarif3}: <br/>
                 <span>{data.tarif3}€</span>
-  </p>*/}
+  </p>
             <a href={data.billeterie}>
             <button id="billeterieConcert">BILLETTERIE</button>
+
             </a>
-        </div>
+            </div>);
+    }
+  return (
+      <div id="concertTotal">
+    <NavLink to={retour}>
+    <div id="home">
+        {arriere}
+
+
+    </div>
+</NavLink>
+    <div id="concert">
+        {infosConcert}
         <div id="infosGroupe">
         <img src={data.img1} alt="blast" class="header"/>
-        <p id="quoteConcert">“{data.quote}”</p>
+        {data.quote}
 
-        <p id="descrConcert">{data.desc2}</p>
+        {data.desc2}
         <img src={data.img2} alt="blast"/>
-        <p id="descrConcert">{data.desc}</p>
+        {data.desc}
         
         </div>
 
