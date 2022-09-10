@@ -78,6 +78,7 @@ function Concert() {
                 <p id="heure">{data.hour}</p>
                 <hr id="concertHr"/>
                 {/* <p class="tarif">Billetterie bientôt disponible !</p> */}
+                {data.partenariat}
                 <h3 class="tarif">Concert gratuit</h3>
                 <a href={data.billeterie}>
                 <button id="billeterieConcert">BILLETTERIE</button>
@@ -103,7 +104,13 @@ function Concert() {
                     <p id="heure">{data.hour}</p>
                     <hr id="concertHr"/>
                     {/* <p class="tarif">Billetterie bientôt disponible !</p> */}
+                    {data.partenariat}
                     <h3 class="tarif">Concert gratuit sans réservations</h3>
+
+            <a href={data.billeterie}>
+            <button id="billeterieConcert">DETAILS</button>
+
+            </a>
                 </div>);
         }
         
@@ -126,6 +133,7 @@ function Concert() {
                 <p id="heure">{data.hour}</p>
                 <hr id="concertHr"/>
                 {/* <p class="tarif">Billetterie bientôt disponible !</p> */}
+                {data.partenariat}
                 <h3 class="tarif">Tarifs :</h3>
             <p class="tarif">
                 {data.nomTarif1} : <br/>

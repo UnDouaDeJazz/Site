@@ -28,6 +28,8 @@ import Cimes from '../media/cimes.jpg';
 import Cimes2 from '../media/cimes2.jpg';
 import Zeph from '../media/zeph.jpg';
 import Zeph2 from '../media/zeph2.jpg';
+import Gaspard from '../media/gaspard.jpg';
+import Gaspard2 from '../media/gaspard2.jpg';
 
 import villeurbanne from '../media/logo-villeurbanne.png'
 import lyon from '../media/logo-lyon.jpg'
@@ -169,7 +171,7 @@ const partenaires=[
 ]*/
 
 const dataPageArtistesActuels=[
-    {nb:2,
+    {nb:4,
     id: 'CSW',
     name: 'Charlier-Sourisse-Winsberg',
     img: CSW2,
@@ -190,7 +192,14 @@ const dataPageArtistesActuels=[
         name: "Emile Londonien", //nom affiché
         img : Emile2,
     },
-    {nb:4,
+
+{nb:2,
+    id: 'baradel',
+img : Gaspard, //image carrée du menu
+name : 'Gaspard Baradel',
+day : '17',
+month : 'oct.'},
+    {nb:5,
         id: 'Phal', //adresse url pour affichage
             name: "Leon Phal Quintet", //nom affiché
             img : Phal, //image carrée du menu
@@ -198,15 +207,15 @@ const dataPageArtistesActuels=[
             month : 'oct.',
     },
         
-    {nb:5,
+    {nb:7,
         id: 'oscar',
     img : Oscar, //image carrée du menu
     name : 'Oscar Jerome',
     day : '20',
     month : 'oct.'},
-    {nb:6,
-    id: 'oscar',
-name: 'Gin Tonic',
+{nb:6,
+id: 'oscar',
+name: 'Gin Tonic Orchestra',
 
 day : '20',
 month : 'oct.',
@@ -259,11 +268,11 @@ Samuel Neyhousser : batterie
         tarif2 : 0,
         nomTarif3 : 'Abonnement Espace Tonkin',
         tarif3 : 0,
-        billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz',
+        billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/concert-zeph',
         //adresse de la billetterie de ce concert
         duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
         gratuit : true, 
-        reservable : true,
+        reservable : false,
         disponibiliteTarifs : false,
     },
 {
@@ -272,7 +281,13 @@ Samuel Neyhousser : batterie
         name: "La Litanie Des Cimes", //nom affiché
         quote : <p id="quoteConcert">"Les prières de La Litanie des Cimes sont païennes. Fouillis intime contre clarté commune, vivacité du trait contre délicatesse mélodique, sacré boisé contre contemplation acharnée."</p>,
         //premier texte
-        desc : <p id="descrConcert"> Créé en 2019, par le violoniste Clément Janinet avec Élodie Pasquier aux clarinettes et Bruno Ducret au violoncelle, La Litanie des Cimes joue avec les grands mouvements, les tempos lents d’apparence, et des contemplations harmoniques. Au sein de ce trio, l’improvisation est libre et introspective sans être recluse. Les harmonies échangées sont sans cesse rebattues par la répétition des motifs. On y entendrait presque des dialogues agités. L’énergie y est ardente. Fouillis intime contre clarté commune, vivacité du trait contre délicatesse mélodique. Cette musique, très ouverte, pourrait sonner comme la bande son d’un film sur la fin d’un monde, entendue depuis le sommet des grands arbres </p>,
+        desc : <p id="descrConcert"> Créé en 2019, par le violoniste Clément Janinet avec Élodie Pasquier aux clarinettes et Bruno Ducret au violoncelle, La Litanie des Cimes joue avec les grands mouvements, les tempos lents d’apparence, et des contemplations harmoniques. Au sein de ce trio, l’improvisation est libre et introspective sans être recluse. Les harmonies échangées sont sans cesse rebattues par la répétition des motifs. On y entendrait presque des dialogues agités. L’énergie y est ardente. Fouillis intime contre clarté commune, vivacité du trait contre délicatesse mélodique. Cette musique, très ouverte, pourrait sonner comme la bande son d’un film sur la fin d’un monde, entendue depuis le sommet des grands arbres 
+        <br/><br/>
+        Clément Janinet : violon
+        <br/>
+Élodie Pasquier : clarinettes
+<br/>
+Bruno Ducret : violoncelle</p>,
         desc2 : '',
         //deuxième texte
         img1 : Cimes, //image header
@@ -283,32 +298,53 @@ Samuel Neyhousser : batterie
         year : '2022',
         hour : '19h00 - 21h00', //la date précise du concert
         place : "Maison du livre, de l'image et du son",//l'endroit du concert
-        placeIndications : 'https://mediatheques.villeurbanne.fr/2016/05/maison-du-livre-de-limage-et-du-son/',
+        placeIndications : 'https://mediatheques.villeurbanne.fr/2020/09/venir-2/',
         nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
         tarif1 : 0,
         nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e",
         tarif2 : 0,
         nomTarif3 : 'Abonnement Espace Tonkin',
         tarif3 : 0,
-        billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz',
+        billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/concert-litanie-des-cimes',
         //adresse de la billetterie de ce concert
         duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
         gratuit : true,
         reservable : false,
         disponibiliteTarifs : false,
+        partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
     },
 
-    {nb:4,
+    {nb:5,
         id: 'CSW', 
     quote : <p id="quoteConcert">"C’est avec un grand bonheur que le trio Charlier / Sourisse / Winsberg a fait revivre la musique du monstre sacré du saxophone, Michael Brecker, à travers leur hommage « Tales from Michael», unanimement salué par le monde du Jazz.<br/><br/>En première partie, Jet Whistle réunit cinq amis musiciens proposant chacun leurs propres influences musicales allant du free jazz au hip hop, en passant par Pierre Boulez."</p>,
-    desc2 : <p id="descrConcert">Aujourd’hui, le trio au son chaleureux revient sur scène avec des compositions originales et un nouveau double album : « Le Monde à l’envers ». Entre dialogues harmoniques et joutes rythmiques, André, Benoît et Louis jouent le jeu approprié à chacune des petites histoires qu’ils savent si bien nous raconter.</p>,
+    desc2 : <p id="descrConcert">Aujourd’hui, le trio au son chaleureux revient sur scène avec des compositions originales et un nouveau double album : « Le Monde à l’envers ». Entre dialogues harmoniques et joutes rythmiques, André, Benoît et Louis jouent le jeu approprié à chacune des petites histoires qu’ils savent si bien nous raconter.
+    <br/><br/>
+
+André Charlier : batterie, percussion<br/>
+
+Benoît Sourisse : orgue, Fender Rhodes<br/>
+
+Louis Winsberg : guitare
+    </p>,
     desc : <p id="descrConcert">Le quintet Jet Whistle est à la recherche d'effets sonores et d'atmosphères électroniques. Beaucoup de place est laissée à l'improvisation et chaque musicien possède une grande liberté de jeu. De plus 'Jet Whistle' est un terme de musique contemporaine concernant la flûte traversière qui peut s'apparenter à un amas de souffle très fort. 
     <br/><br/>
     
     Le mélange des timbres flûte traversière et trombone ainsi que les multiples pédales d'effets de chacun ajoutent une couleur particulière à l'ensemble et dessine son empreinte sonore. 
     <br/><br/>
     
-    Le répertoire tourne autour des compositions de Fanny Martin, la flûtiste à l'origine de ce projet.</p>,
+    Le répertoire tourne autour des compositions de Fanny Martin, la flûtiste à l'origine de ce projet.
+    <br/><br/>
+    Fanny Martin : flûte traversière
+    <br/>
+Jules Regard : trombone
+<br/>
+Adlane Aliouche : clavier
+<br/>
+Théo Fardèle : basse
+<br/>
+Elvin Mikaelian : batterie
+
+</p>,
     img1 : CSW,
     img2 : Jet,
     imgMenu : CSW2, // image carrée du menu
@@ -347,7 +383,17 @@ Samuel Neyhousser : batterie
         Influencé par Yussef Kamaal, The Comet Is Coming, Atjazz, SunRa, mais aussi Ornette Coleman ou Thelonious Monket par les scènes, Broken Beat, Jazz, House, Hip Hop, Emile Londonien incarne ainsi à merveille cette « next gen » du jazz français aux cotés de Léon Phal, dont ils sont proches. Débarrassée des étiquettes, elle mixe sans complexe la tradition et les musiques actuelles avec le dancefloor pour mètre étalon. 
         <br/><br/>
         
-        Un premier album, à paraitre début 2023, est en cours d’enregistrement avec des invités comme Emile Parisien, Thomas de Pourquery ou Léon Phal.</p>,
+        Un premier album, à paraitre début 2023, est en cours d’enregistrement avec des invités comme Emile Parisien, Thomas de Pourquery ou Léon Phal.
+        <br/><br/>
+        
+        Nils Boyny : clavier
+        <br/>
+Matthieu Drago : batterie 
+<br/>
+Théo Tritsch : guitare</p>,
+        
+
+        
         desc2 : '',
         //deuxième texte
         img1 : Emile2, //image header
@@ -366,6 +412,54 @@ Samuel Neyhousser : batterie
         nomTarif3 : 'Tarif solidaire',
         tarif3 : "10€ - 15",
         billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/emile-londonien',
+        //adresse de la billetterie de ce concert
+        duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+        disponibiliteTarifs : true,
+        gratuit : false,
+    },
+
+    {
+        nb :4, //numéro de repérage pour affichage
+        id: 'baradel', //adresse url pour affichage
+        name: "Gaspard Baradel", //nom affiché
+        quote : <p id="quoteConcert">"Le Gaspard Baradel quartet est un groupe de jazz originaire de Clermont-Ferrand né de l'envie de construire et de partager une musique nouvelle, à travers les compositions originales du saxophoniste."</p>,
+        //premier texte
+        desc : <p id="descrConcert">Grâce à une excellente maîtrise instrumentale, une recherche musicale sans relâche et ses nombreux voyages et rencontres, le saxophoniste Gaspard Baradel a su construire, malgré son jeune âge, une identité à part et affirmée.
+        <br/><br/>
+        Ses compositions reflètent le savant mélange de ses influences, très éclectiques, réunissant les nombreux styles et groupes qui ont façonné sa personnalité musicale : allant de la musique classique, témoin de son premier rapport à l'instrument, du rock de Deep Purple et Led Zeppelin, le psychédélisme des Pink Floyd, les Doors, Jimi Hendrix, jusqu'au monde du jazz, aussi vaste qu'inspirant avec des artistes incontournables tels que Miles Davis, Sonny Rollins, Archie Shepp, John Coltrane, Kenny Garrett, Joshua Redman, Chris Potter, et bien d'autres.
+        <br/><br/>
+        Servie par des musiciens qui sont autant d’amis, la musique du quartet de Gaspard Baradel s'en retrouve sublimée, laissant à chaque protagoniste la place suffisante pour exprimer sa virtuosité. Tantôt calme, apaisée, douce et fragile, tantôt fougueuse, saisissante, explosive et guerrière, les mélodies du Gaspard Baradel Quartet ne laissent pas indifférent.
+        <br/><br/>
+        Le quartet de Gaspard Baradel a été sélectionné par le dispositif de soutien à l'émergence Jazz(s)RA. Il est également sélectionné finaliste de tremplins renommés tels que Jazz à Vienne, ou encore Jazz à Avignon.
+        <br/><br/>
+        Gaspard Baradel : saxophone
+        <br/>
+        Antoine Bacherot : piano
+        <br/>
+        Cyril Billot : contrebasse
+        <br/>
+        Josselin Hazard : batterie</p>,
+        
+
+        
+        desc2 : '',
+        //deuxième texte
+        img1 :Gaspard, //image header
+        img2 : Gaspard2, //image milieu de texte
+        imgMenu : Gaspard,
+        day : '17', 
+        month : 'oct.',
+        year : '2022',
+        hour : '20h00', //la date précise du concert
+        place : 'La Rotonde INSA Lyon', //l'endroit du concert
+        placeIndications : 'https://rotonde.asso-insa-lyon.fr/',
+        nomTarif1 : 'Tarif carte VA', //tous les tarifs (3 maximum pour l'instant)
+        tarif1 : 4,
+        nomTarif2 : "Etudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e",
+        tarif2 : 5,
+        nomTarif3 : 'Plein tarif',
+        tarif3 : 8,
+        billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/concert-gaspard-baradel',
         //adresse de la billetterie de ce concert
         duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
         disponibiliteTarifs : true,
@@ -402,14 +496,24 @@ Samuel Neyhousser : batterie
     // },
 
     {
-        nb : 5, //numéro de repérage pour affichage
+        nb : 6, //numéro de repérage pour affichage
         id: 'Phal', //adresse url pour affichage
         name: "Leon Phal Quintet", //nom affiché
         quote : <p id="quoteConcert">"Saxophoniste prometteur, Léon Phal fait partie de cette jeune génération de musiciens de jazz biberonnée aux classiques, dont il s’affranchit tout en leur rendant hommage à chaque note avec brio, qu’il s’agisse du RH Factor de Roy Hargrove ou du « Voodoo » de D’Angelo."</p>,
         //premier texte
         desc : <p id="descrConcert">Entouré de ses complices de toujours, sa maîtrise de l’instrument, son sens inouï de la mélodie et la délicatesse de ses compositions amplifiées par un groove dévastateur, présagent un bel avenir à ce franco-suisse originaire de Aÿ en Champagne. Une fraîcheur et un talent qui n’ont pas échappé aux festivals Nancy Jazz Pulsations et Jazz à Vienne, dont il est coup sur coup le lauréat des tremplins 2019. 
         <br/><br/>
-        Sacré « Révélation » par les magazines Jazz News et Jazz Magazine pour la sortie de son premier album « Canto Bello », Léon Phal est à la tête d’un génial quintet dont les influences et l’imagination inspirent des improvisations remarquables. S’il flirte déjà dans la cour des grands du jazz contemporain, nul doute que son souffle, sa curiosité et son esprit libre le mèneront loin.</p>,
+        Sacré « Révélation » par les magazines Jazz News et Jazz Magazine pour la sortie de son premier album « Canto Bello », Léon Phal est à la tête d’un génial quintet dont les influences et l’imagination inspirent des improvisations remarquables. S’il flirte déjà dans la cour des grands du jazz contemporain, nul doute que son souffle, sa curiosité et son esprit libre le mèneront loin.
+        <br/><br/>
+        Léon Phal : saxophone
+        <br/>
+Zacharie Ksyk : trompette
+<br/>
+Gauthier Toux : claviers
+<br/>
+Arthur Alard : batterie
+<br/>
+Rémi Bouyssière : contrebasse</p>,
         desc2 : '',
         //deuxième texte
         img1 : Phal, //image header
@@ -434,7 +538,7 @@ Samuel Neyhousser : batterie
         gratuit : false,
     },
 
-    {nb:6,
+    {nb:7,
         id: 'oscar', 
     quote : <p id="quoteConcert">"Né à Norwich, Oscar a étudié au Trinity Laban de Londres avant de s'imposer comme l'un des musiciens de jazz les plus appréciés de la capitale.
     <br/><br/>
@@ -443,6 +547,22 @@ Samuel Neyhousser : batterie
 <br/><br/>
      Posant les bases de son héritage musical, son nouveau travail le voit s'ouvrir et explorer de nouvelles facettes de lui-même. « Sweet Isolation » est le début d'une série spéciale de musique d'Oscar Jerome.</p>,
     desc : <p id="descrConcert">En première partie, le Git Tonic Orchestra. Après un premier EP sorti en 2019 sur le label Mother Tongue et de nombreux concerts en Europe, le groupe made in Sainté n’a eu de cesse de se réinventer. Oscillant entre future jazz, rock indie et broken beat, l’alchimie trouvée par la formation se révèle assez imparable. Elle a d’ailleurs collaboré avec l’une des légendes de la scène UK, Kaidi Tatham. En live ou en studio, le Gin Tonic Orchestra se renouvelle, innove et expérimente : il replace au centre des clubs l’acoustique et le live. 
+    <br/><br/>
+    Victor Dijoud : claviers, synthétiseurs
+    <br/>
+Léo Puccio : batterie
+<br/>
+Léo Aoun : basse
+<br/>
+Clément Céni : guitare
+<br/>
+Théo Giroudon : machines
+<br/>
+Additionel :
+<br/>
+Antoine Martin : saxophone
+<br/>
+Pierre Mendola : flute
     </p>,
     img1 : Oscar,
     img2 : GTO,
@@ -464,7 +584,7 @@ Samuel Neyhousser : batterie
     duo:true,
     name: 'Oscar Jerome',
     nom2: 'Oscar Jerome',
-    nom1: 'Gin Tonic',
+    nom1: 'Gin Tonic Orchestra',
     disponibiliteTarifs : true,
     gratuit : false
 },

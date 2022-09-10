@@ -86,6 +86,9 @@ h3{
     font-weight: 300;
     font-size:1.25vw;
     margin-left: 1vw;
+}.Partenariat{
+    font-size: 1.5vw;   
+    margin-left:1vw;
 }
 
 #billeterieConcert{
@@ -186,6 +189,8 @@ h3{
         font-size: 6vw;
     }#concert .tarif{
         font-size: 4vw;   
+    }#concert .Partenariat{
+        font-size: 4.5vw;   
     }#lieu{
         font-size: 3.3vw;
     }#heure{
