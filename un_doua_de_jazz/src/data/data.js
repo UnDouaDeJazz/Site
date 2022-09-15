@@ -42,6 +42,10 @@ import cfc22 from '../media/logo-cfc22.png'
 import alumni from '../media/logo-alumni.jpg'
 import grandlyon from '../media/logo-grandlyon.png'
 import jsmusique from '../media/logo-jsmusique.jpg'
+import baguetterie from '../media/logo-baguetterie.jpg'
+import ministere from '../media/logo-ministere.png'
+import aura from '../media/logo-aura.png'
+import mediatheques from '../media/logo-mediatheques.jpg'
 
 const partenaires=[
     {
@@ -87,6 +91,22 @@ const partenaires=[
     },{
         name : "jsmusique",
         img1: jsmusique,
+        link: ""
+    },{
+        name : "baguetterie",
+        img1: baguetterie,
+        link: ""
+    },{
+        name : "ministere_*de_la_culture",
+        img1: ministere,
+        link: ""
+    },{
+        name : "aura",
+        img1: aura,
+        link: ""
+    },{
+        name : "mediatheques",
+        img1: mediatheques,
         link: ""
     },
 ]
@@ -542,11 +562,11 @@ Rémi Bouyssière : contrebasse</p>,
         id: 'oscar', 
     quote : <p id="quoteConcert">"Né à Norwich, Oscar a étudié au Trinity Laban de Londres avant de s'imposer comme l'un des musiciens de jazz les plus appréciés de la capitale.
     <br/><br/>
-    En première partie, le Gin Tonic Orchestra, c’est avant tout une bande de copains qui se retrouve autour de la musique et réunit tous les amoureux du son. Pour 2022, le collectif de musiciens et DJs vous a préparé un live sous un tout nouveau format !"</p>,
+    Le Gin Tonic Orchestra, c’est avant tout une bande de copains qui se retrouve autour de la musique et réunit tous les amoureux du son. Pour 2022, le collectif de musiciens et DJs vous a préparé un live sous un tout nouveau format !"</p>,
      desc2 : <p id="descrConcert">Oscar Jerome, suivant les traces de son père en tant que guitariste, a rapidement appris les bases et est devenu accro, citant George Benson, Wes Montgomery et John Coltrane comme ses principales influences. Explorant diverses avenues sonores, il s'est fait un nom sur la scène avec sa propre fusion rafraîchissante de jazz, de hip-hop, de soul et de funk, ce qui lui a valu une session live avec COLORS avant d'être nommé Guardians One To Watch en 2020. Reconnu à l'échelle mondiale pour sa guitare virtuose, il a composé le single « Abusey Junction » de Kokoroko et a participé à son enregistrement, en plus de travailler aux côtés de ses compagnons de Jazz ShabakaHutchings, Moses Boyd, Yussef Dayes et Lianne La Havas.Son premier album, « Breathe Deep », l'a emmené très loin. Il a donné des concerts en Australie et aux États-Unis, et a fait la première partie de la tournée de Kamasi Washington au Royaume-Uni, renforçant ainsi sa réputation d'artiste expérimenté. 
 <br/><br/>
      Posant les bases de son héritage musical, son nouveau travail le voit s'ouvrir et explorer de nouvelles facettes de lui-même. « Sweet Isolation » est le début d'une série spéciale de musique d'Oscar Jerome.</p>,
-    desc : <p id="descrConcert">En première partie, le Git Tonic Orchestra. Après un premier EP sorti en 2019 sur le label Mother Tongue et de nombreux concerts en Europe, le groupe made in Sainté n’a eu de cesse de se réinventer. Oscillant entre future jazz, rock indie et broken beat, l’alchimie trouvée par la formation se révèle assez imparable. Elle a d’ailleurs collaboré avec l’une des légendes de la scène UK, Kaidi Tatham. En live ou en studio, le Gin Tonic Orchestra se renouvelle, innove et expérimente : il replace au centre des clubs l’acoustique et le live. 
+    desc : <p id="descrConcert">Après un premier EP sorti en 2019 sur le label Mother Tongue et de nombreux concerts en Europe, le groupe made in Sainté n’a eu de cesse de se réinventer. Oscillant entre future jazz, rock indie et broken beat, l’alchimie trouvée par la formation se révèle assez imparable. Elle a d’ailleurs collaboré avec l’une des légendes de la scène UK, Kaidi Tatham. En live ou en studio, le Gin Tonic Orchestra se renouvelle, innove et expérimente : il replace au centre des clubs l’acoustique et le live. 
     <br/><br/>
     Victor Dijoud : claviers, synthétiseurs
     <br/>
@@ -776,6 +796,7 @@ function partenaireNb(number){
 }
 
 function partenairesSize(){
+    console.log(partenaires.length);
     return partenaires.length;
 }
 
