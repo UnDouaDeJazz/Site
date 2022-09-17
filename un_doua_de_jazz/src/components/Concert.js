@@ -53,7 +53,7 @@ function Concert() {
     //const arrierePlan = arriere(endroit);
     var nomPremierePartie=null;
     if(data.duo === true){
-        nomPremierePartie=(<div id="divPremierePartie"><p id="premierePartie">Première partie</p><p id="namePremierePartie">{data.nom1.toLocaleUpperCase()}</p></div>);
+        nomPremierePartie=(<div id="divPremierePartie"><p id="premierePartie">{data.nomPartie}</p><p id="namePremierePartie">{data.nom1.toLocaleUpperCase()}</p></div>);
     }
 
 
@@ -136,16 +136,16 @@ function Concert() {
                 {data.partenariat}
                 <h3 class="tarif">Tarifs :</h3>
             <p class="tarif">
-                {data.nomTarif1} : <br/>
-                <span>{data.tarif1}€</span>
+                {data.nomTarif1}<br/>
+                <span>{data.tarif1}</span>
             </p>
             <p class="tarif">
-                {data.nomTarif2} : <br/>
-                <span>{data.tarif2}€</span>
+                {data.nomTarif2}<br/>
+                <span>{data.tarif2}</span>
             </p>
             <p class="tarif">
-                {data.nomTarif3}: <br/>
-                <span>{data.tarif3}€</span>
+                {data.nomTarif3}<br/>
+                <span>{data.tarif3}</span>
   </p>
             <a href={data.billeterie}>
             <button id="billeterieConcert">BILLETTERIE</button>

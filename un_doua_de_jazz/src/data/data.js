@@ -30,6 +30,9 @@ import Zeph from '../media/zeph.jpg';
 import Zeph2 from '../media/zeph2.jpg';
 import Gaspard from '../media/gaspard.jpg';
 import Gaspard2 from '../media/gaspard2.jpg';
+import Gogo from '../media/gogo.png';
+import Duda from '../media/duda.jpg';
+import Duda2 from '../media/duda2.jpg';
 
 import villeurbanne from '../media/logo-villeurbanne.png'
 import lyon from '../media/logo-lyon.jpg'
@@ -191,21 +194,33 @@ const partenaires=[
 ]*/
 
 const dataPageArtistesActuels=[
-    {nb:4,
+    {nb:1,
+    id: 'zeph',
+name : 'Zeph',
+img: Zeph,
+day:'13',
+month:'oct.'},
+{nb:2,
+id: 'zeph',
+name : 'Supermarché GoGo',
+img: Gogo,
+day:'13',
+month:'oct.'},
+    {nb:6,
     id: 'CSW',
     name: 'Charlier-Sourisse-Winsberg',
     img: CSW2,
     day : '18',
     month : 'oct.',},
 
-    {nb:3,
+    {nb:5,
         id: 'CSW',
         name: 'Jet Whistle',
         img: Jet,
         day : '18',
         month : 'oct.',},
 
-        {nb:1,
+        {nb:3,
         id:'Emile',
         day : '15', 
         month : 'oct.',
@@ -213,13 +228,13 @@ const dataPageArtistesActuels=[
         img : Emile2,
     },
 
-{nb:2,
+{nb:4,
     id: 'baradel',
 img : Gaspard, //image carrée du menu
 name : 'Gaspard Baradel',
 day : '17',
 month : 'oct.'},
-    {nb:5,
+    {nb:7,
         id: 'Phal', //adresse url pour affichage
             name: "Leon Phal Quintet", //nom affiché
             img : Phal, //image carrée du menu
@@ -227,19 +242,26 @@ month : 'oct.'},
             month : 'oct.',
     },
         
-    {nb:7,
+    {nb:9,
         id: 'oscar',
     img : Oscar, //image carrée du menu
     name : 'Oscar Jerome',
     day : '20',
     month : 'oct.'},
-{nb:6,
+{nb:8,
 id: 'oscar',
 name: 'Gin Tonic Orchestra',
 
 day : '20',
 month : 'oct.',
 img:GTO},
+        
+{nb:10,
+    id: 'duda',
+img : Duda2, //image carrée du menu
+name : 'Joanna Duda',
+day : '21',
+month : 'oct.'},
     
 ]
 
@@ -251,9 +273,10 @@ const data=[
         nb : 1, //numéro de repérage pour affichage
         id: 'zeph', //adresse url pour affichage
         name: "Zeph", //nom affiché
-        quote : <p id="quoteConcert">"Préparez-vous à être emportés par la tornade de ZEPH ! Cet ensemble instrumental Lyonnais composé de 8 musiciens saura vous emmener vers les territoires du Groove."</p>,
+        quote : <p id="quoteConcert">"Préparez-vous à être emportés par la tornade de ZEPH ! Cet ensemble instrumental Lyonnais composé de 8 musiciens saura vous emmener vers les territoires du Groove. 
+        <br/><br/>Juste après jouera SupermarchéGoGo, l’union de deux amis musiciens de longue date, sous forme d’un DJ set 100% House."</p>,
         //premier texte
-        desc : <p id="descrConcert">Leur signature musicale : Une rythmique affirmée et des cuivres puissants qui se répondent en permanence. Ce groupe grand format, c'est aussi le beat, l'afro, l'impro, le métissage et par-dessus tout une fougue et une énergie unique ! En bref, une formation qui ne peut pas laisser indifférent.
+        desc2 : <p id="descrConcert">Leur signature musicale : Une rythmique affirmée et des cuivres puissants qui se répondent en permanence. Ce groupe grand format, c'est aussi le beat, l'afro, l'impro, le métissage et par-dessus tout une fougue et une énergie unique ! En bref, une formation qui ne peut pas laisser indifférent.
         <br/><br/>
 Benjamin Meunier : trompette
 <br/>
@@ -271,10 +294,10 @@ Quentin Fresnel : saxophone baryton
 <br/>
 Samuel Neyhousser : batterie
         </p>,
-        desc2 : '',
-        //deuxième texte
+        desc : <p id="descrConcert">Par ses compositions originales, le duo Supermarché GoGo propose une house moderne, qui fusionne des sonorités électroniques et acoustiques. Dans la lignée d’artistes tels que Björk ou Henri Wu, les univers de SMGG s’imprègnent de couleurs nu jazz et pop, pour une House électrisante.</p>,
+        //deuGoGoxième texte
         img1 : Zeph, //image header
-        img2 : Zeph2, //image milieu de texte
+        img2 : Gogo, //image milieu de texte
         imgMenu : Zeph,
         day : '13', 
         month : 'oct.',
@@ -282,16 +305,19 @@ Samuel Neyhousser : batterie
         hour : '21h00', //la date précise du concert
         place : "K-Fet",//l'endroit du concert
         placeIndications : 'https://kfet-insa.fr/',
-        nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
-        tarif1 : 0,
-        nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e",
-        tarif2 : 0,
-        nomTarif3 : 'Abonnement Espace Tonkin',
-        tarif3 : 0,
+        nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+        tarif1 : '0€',
+        nomTarif2 : "",
+        tarif2 : '',
+        nomTarif3 : '',
+        tarif3 : '',
         billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/concert-zeph',
         //adresse de la billetterie de ce concert
-        duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
         gratuit : true, 
+        duo:true,
+        nom2: 'Zeph',
+        nom1: 'Supermarché GoGo',
+        nomPartie :  'Juste après',
         reservable : false,
         disponibiliteTarifs : false,
     },
@@ -374,18 +400,19 @@ Elvin Mikaelian : batterie
     hour : '20h20',
     place : 'Theatre Astree',
     placeIndications : 'https://theatre-astree.univ-lyon1.fr/acces-2/',
-    nomTarif1 : 'Tarif VA',
-    tarif1 : 8,
-    nomTarif2 : "Etudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e",
-    tarif2 : 9.50,
-    nomTarif3 : 'Plein tarif (gratuit pour les - de 12 ans)',
-    tarif3 : 13.50,
+    nomTarif1 : 'Tarif VA : ',
+    tarif1 : '8€',
+    nomTarif2 : "Etudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+    tarif2 : '9.50€',
+    nomTarif3 : 'Plein tarif (gratuit pour les - de 12 ans) : ',
+    tarif3 : '13.50€',
     billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/xkck',
     duo:true,
     gratuit : false,
     name: 'Charlier-Sourisse-Winsberg',
     nom2: 'Charlier-Sourisse-Winsberg',
     nom1: 'Jet Whistle',
+    nomPartie : 'Première partie',
     disponibiliteTarifs : true,
     },
 
@@ -425,14 +452,15 @@ Théo Tritsch : guitare</p>,
         hour : '', //la date précise du concert
         place : 'Toï Toï', //l'endroit du concert
         placeIndications : 'https://toitoilezinc.fr/infos-pratiques/',
-        nomTarif1 : 'Tarif mini', //tous les tarifs (3 maximum pour l'instant)
-        tarif1 : 8.50,
-        nomTarif2 : 'Tarif réduit étudiants',
-        tarif2 : 7,
-        nomTarif3 : 'Tarif solidaire',
-        tarif3 : "10€ - 15",
+        nomTarif1 : 'Tarif mini : ', //tous les tarifs (3 maximum pour l'instant)
+        tarif1 : '8.50€',
+        nomTarif2 : 'Tarif réduit étudiants : ',
+        tarif2 : '7€',
+        nomTarif3 : 'Tarif solidaire : ',
+        tarif3 : "10€ - 15€",
         billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/emile-londonien',
         //adresse de la billetterie de ce concert
+        
         duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
         disponibiliteTarifs : true,
         gratuit : false,
@@ -442,22 +470,24 @@ Théo Tritsch : guitare</p>,
         nb :4, //numéro de repérage pour affichage
         id: 'baradel', //adresse url pour affichage
         name: "Gaspard Baradel", //nom affiché
-        quote : <p id="quoteConcert">"Le Gaspard Baradel quartet est un groupe de jazz originaire de Clermont-Ferrand né de l'envie de construire et de partager une musique nouvelle, à travers les compositions originales du saxophoniste."</p>,
+        quote : <p id="quoteConcert">"Le Gaspard Baradel Quartet réunit quatre musiciens de la région Auvergne Rhône-Alpes. Très investis dans la scène jazz locale, les membres du quartet ont depuis longtemps l’habitude de jouer ensemble à travers de nombreux projets musicaux."</p>,
         //premier texte
-        desc : <p id="descrConcert">Grâce à une excellente maîtrise instrumentale, une recherche musicale sans relâche et ses nombreux voyages et rencontres, le saxophoniste Gaspard Baradel a su construire, malgré son jeune âge, une identité à part et affirmée.
-        <br/><br/>
-        Ses compositions reflètent le savant mélange de ses influences, très éclectiques, réunissant les nombreux styles et groupes qui ont façonné sa personnalité musicale : allant de la musique classique, témoin de son premier rapport à l'instrument, du rock de Deep Purple et Led Zeppelin, le psychédélisme des Pink Floyd, les Doors, Jimi Hendrix, jusqu'au monde du jazz, aussi vaste qu'inspirant avec des artistes incontournables tels que Miles Davis, Sonny Rollins, Archie Shepp, John Coltrane, Kenny Garrett, Joshua Redman, Chris Potter, et bien d'autres.
-        <br/><br/>
-        Servie par des musiciens qui sont autant d’amis, la musique du quartet de Gaspard Baradel s'en retrouve sublimée, laissant à chaque protagoniste la place suffisante pour exprimer sa virtuosité. Tantôt calme, apaisée, douce et fragile, tantôt fougueuse, saisissante, explosive et guerrière, les mélodies du Gaspard Baradel Quartet ne laissent pas indifférent.
-        <br/><br/>
-        Le quartet de Gaspard Baradel a été sélectionné par le dispositif de soutien à l'émergence Jazz(s)RA. Il est également sélectionné finaliste de tremplins renommés tels que Jazz à Vienne, ou encore Jazz à Avignon.
-        <br/><br/>
-        Gaspard Baradel : saxophone
+        desc : <p id="descrConcert">Le Gaspard Baradel Quartet propose un répertoire original, basé sur les compositions du saxophoniste et s’inscrit dans la veine du jazz actuel, inspiré par les grands artistes américains d’aujourd’hui et d’hier. Les quatre protagonistes vous feront voyager avec une musique riche, nuancée et énergique, où interaction est le maître mot. 
         <br/>
-        Antoine Bacherot : piano
         <br/>
-        Cyril Billot : contrebasse
+        De 2019 à 2021 le Quartet de Gaspard Baradel a été sélectionné par le dispositif de soutien à l'émergence de l'association Jazz(s)RA. Au cours de l'année 2021 il a également obtenu le prix du public lors du tremplin européen de Jazz à Avignon ainsi que la mention spéciale coup de cœur du jury lors du tremplin national ReZZo Focal de Jazz à Vienne
         <br/>
+        <br/>
+        
+        Gaspard Baradel : saxophones alto et soprano
+        <br/>
+        
+        Antoine Bacherot : Piano
+        <br/>
+        
+        Cyril Billot : Contrebasse
+        <br/>
+        
         Josselin Hazard : batterie</p>,
         
 
@@ -473,12 +503,12 @@ Théo Tritsch : guitare</p>,
         hour : '20h00', //la date précise du concert
         place : 'La Rotonde INSA Lyon', //l'endroit du concert
         placeIndications : 'https://rotonde.asso-insa-lyon.fr/',
-        nomTarif1 : 'Tarif carte VA', //tous les tarifs (3 maximum pour l'instant)
-        tarif1 : 4,
-        nomTarif2 : "Etudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e",
-        tarif2 : 5,
-        nomTarif3 : 'Plein tarif',
-        tarif3 : 8,
+        nomTarif1 : 'Tarif carte VA : ', //tous les tarifs (3 maximum pour l'instant)
+        tarif1 : '4€',
+        nomTarif2 : "Etudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+        tarif2 : '5€',
+        nomTarif3 : 'Plein tarif : ',
+        tarif3 : '8€',
         billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/concert-gaspard-baradel',
         //adresse de la billetterie de ce concert
         duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
@@ -524,7 +554,7 @@ Théo Tritsch : guitare</p>,
         desc : <p id="descrConcert">Entouré de ses complices de toujours, sa maîtrise de l’instrument, son sens inouï de la mélodie et la délicatesse de ses compositions amplifiées par un groove dévastateur, présagent un bel avenir à ce franco-suisse originaire de Aÿ en Champagne. Une fraîcheur et un talent qui n’ont pas échappé aux festivals Nancy Jazz Pulsations et Jazz à Vienne, dont il est coup sur coup le lauréat des tremplins 2019. 
         <br/><br/>
         Sacré « Révélation » par les magazines Jazz News et Jazz Magazine pour la sortie de son premier album « Canto Bello », Léon Phal est à la tête d’un génial quintet dont les influences et l’imagination inspirent des improvisations remarquables. S’il flirte déjà dans la cour des grands du jazz contemporain, nul doute que son souffle, sa curiosité et son esprit libre le mèneront loin.
-        <br/><br/>
+        <br/><br/>scar Jerome
         Léon Phal : saxophone
         <br/>
 Zacharie Ksyk : trompette
@@ -545,12 +575,12 @@ Rémi Bouyssière : contrebasse</p>,
         hour : '21h00', //la date précise du concert
         place : 'Périscope', //l'endroit du concert
         placeIndications : 'https://www.periscope-lyon.com/accessibilite/',
-        nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
-        tarif1 : 14,
-        nomTarif2 : "Etudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e",
-        tarif2 : 10,
-        nomTarif3 : 'Tarif carte VA',
-        tarif3 : 8,
+        nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+        tarif1 : '14€',
+        nomTarif2 : "Etudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+        tarif2 : '10€',
+        nomTarif3 : 'Tarif carte VA : ',
+        tarif3 : '8€',
         billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/concert-leon-phal',
         //adresse de la billetterie de ce concert
         duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
@@ -594,19 +624,59 @@ Pierre Mendola : flute
     hour : '21h00',
         placeIndications : 'https://www.periscope-lyon.com/accessibilite/',
         place : 'Périscope',
-    nomTarif1 : 'Tarif VA',
-    tarif1 : 10,
-    nomTarif2 : "Etudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e",
-    tarif2 : 13,
-    nomTarif3 : 'Plein tarif',
-    tarif3 : 18,
+    nomTarif1 : 'Tarif VA : ',
+    tarif1 : '10€',
+    nomTarif2 : "Etudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+    tarif2 : '13€',
+    nomTarif3 : 'Plein tarif : ',
+    tarif3 : '18€',
     billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/concert-oscar-jerome-gin-tonic-orchestra',
     duo:true,
     name: 'Oscar Jerome',
     nom2: 'Oscar Jerome',
     nom1: 'Gin Tonic Orchestra',
+    nomPartie : 'Première partie',
     disponibiliteTarifs : true,
     gratuit : false
+},
+
+{
+    nb : 8, //numéro de repérage pour affichage
+    id: 'duda', //adresse url pour affichage
+    name: "Joanna Duda", //nom affiché
+    quote : <p id="quoteConcert">"La musique de Joanna Duda est comprise au sens large comme expérimentale avec des éléments d’improvisation, de jazz et d’IDM."</p>,
+    //premier texte
+    desc : <p id="descrConcert">Joanna Duda Trio a été formé à la fin de 2017 dans le cadre du travail sur mon album solo KEEN. À l’origine, je supposais que je jouerais du matériel solo avec le groupe, mais j’ai vite réalisé qu’avec l’élément humain externe, je voulais créer autre chose. En conséquence, nous avons créé un son acoustique dans lequel le rythme domine et l’électronique est la quatrième personne à égalité de droits dans le groupe.
+    <br/><br/>
+    Les compositions ont été créées progressivement au fil des années. La première est PVSM, dont le riff m’est venu lors d’un soundcheck en 2016. La plus récente est Grasshopper que j’ai écrite lors de ma résidence à Vaanta, en Finlande, fin 2019. Le postulat du travail de cette équipe est la pleine conscience et délibérément lent/sans stress, nous sommes donc entrés en studio pour enregistrer FUMITSUKE en décembre 2020. En un jour et demi, nous avons enregistré le matériel – plus d’une heure de musique. Toutes les chansons, sauf The Mark, sont mes compositions.
+    <br/><br/>
+    Joanna Duda : piano
+    <br/>
+    Maksymilian Mucha : contrebasse/fx
+    <br/>
+    Michal Bryndal : batterie </p>,
+    desc2 : '',
+    //deuxième texte
+    img1 : Duda, //image header
+    img2 : Duda2, //image milieu de texte
+    imgMenu : Duda2, //image carrée du menu
+    day : '21', 
+    month : 'oct.',
+    year : '2022',
+    hour : '21h00', //la date précise du concert
+    place : 'Périscope', //l'endroit du concert
+    placeIndications : 'https://www.periscope-lyon.com/accessibilite/',
+    nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+    tarif1 : '12€',
+    nomTarif2 : "Etudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+    tarif2 : '10€',
+    nomTarif3 : '',
+    tarif3 : '',
+    billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/concert-joanna-duda',
+    //adresse de la billetterie de ce concert
+    duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    disponibiliteTarifs : true,
+    gratuit : false,
 },
 
     // {

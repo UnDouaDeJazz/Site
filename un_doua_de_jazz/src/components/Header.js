@@ -15,6 +15,9 @@ function Header() {
           <HashLink to="/#header">
           <img src={logoCercle} className="imgLogo" alt="Logo Un Doua De Jazz" id="logoHeader"/>
           </HashLink>
+          <HashLink to="/#header">
+          <div id="btnAccueil" class="btnPasDrop"><p>Accueil</p></div></HashLink>
+          
           <div id="btnPropos" class="btnDrop"><p>A propos <span class="rotator"></span></p>
           <div class="dropContent">
                 <HashLink to="/about#header">Le Festival</HashLink>

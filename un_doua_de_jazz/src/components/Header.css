@@ -23,12 +23,31 @@
     top: 1.5vw;
 }
 
-#btnPropos{
+.btnPasDrop{
+    position:absolute;
+    background-color: transparent;
+    color:white;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    height: 3vw;
+
+    font-size: 1.1vw;
+    top: 1.5vw;
+}
+
+#btnAccueil{
     left: 8.5vw;
 }
 
-#btnInfos{
+#btnPropos{
     left: 18vw;
+}
+
+#btnInfos{
+    left: 27vw;
 }
 
 

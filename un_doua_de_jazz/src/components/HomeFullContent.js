@@ -36,7 +36,7 @@ function Case(number){
                         <p class="date"><span>{data.day}</span><br/>{data.month}</p>
 
                         <p class="name">{data.nom2}</p>
-                        <p class="namePremierePartie"><span class="partie">Première partie : </span>{data.nom1}</p>
+                        <p class="namePremierePartie"><span class="partie">{data.nomPartie} : </span> {data.nom1}</p>
                     </div>
                     
                 </NavLink>
