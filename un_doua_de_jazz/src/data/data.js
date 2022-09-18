@@ -317,7 +317,7 @@ Samuel Neyhousser : batterie
         duo:true,
         nom2: 'Zeph',
         nom1: 'Supermarché GoGo',
-        nomPartie :  'Juste après',
+        nomPartie :  'Suivi de ',
         reservable : false,
         disponibiliteTarifs : false,
     },
@@ -586,6 +586,7 @@ Rémi Bouyssière : contrebasse</p>,
         duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
         disponibiliteTarifs : true,
         gratuit : false,
+        partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
     },
 
     {nb:7,
@@ -637,7 +638,8 @@ Pierre Mendola : flute
     nom1: 'Gin Tonic Orchestra',
     nomPartie : 'Première partie',
     disponibiliteTarifs : true,
-    gratuit : false
+    gratuit : false,
+    partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
 },
 
 {
@@ -677,6 +679,7 @@ Pierre Mendola : flute
     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
     disponibiliteTarifs : true,
     gratuit : false,
+    partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
 },
 
     // {
