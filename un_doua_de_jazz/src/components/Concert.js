@@ -56,6 +56,18 @@ function Concert() {
         nomPremierePartie=(<div id="divPremierePartie"><p id="premierePartie">{data.nomPartie}</p><p id="namePremierePartie">{data.nom1.toLocaleUpperCase()}</p></div>);
     }
 
+    var boutonMasterclass=null;
+    var horaireMasterclass=null;
+    var texteMasterclass=null;
+    if(data.masterclass === true){
+        boutonMasterclass  =(
+        <a href={data.masterclassLien}>
+                <button id="billeterieConcert">Master Class</button>
+                </a>);
+        horaireMasterclass =(<p id="heure">{data.masterclassHoraire}</p>);
+        texteMasterclass = (<p id="descrConcert">{data.masterclassTexte}</p>)
+    }
+
 
     var infosConcert=null;
     if(data.gratuit === true){
@@ -76,12 +88,14 @@ function Concert() {
                 <a href={data.placeIndications}><p id="lieu">{data.place}</p></a>
     
                 <p id="heure">{data.hour}</p>
+                {horaireMasterclass}
                 <hr id="concertHr"/>
                 {/* <p class="tarif">Billetterie bientôt disponible !</p> */}
                 {data.partenariat}
                 <h3 class="tarif">Concert gratuit</h3>
                 <a href={data.billeterie}>
                 <button id="billeterieConcert">BILLETTERIE</button>
+                {boutonMasterclass}
     
                 </a>
             </div>);
@@ -102,6 +116,8 @@ function Concert() {
                     <a href={data.placeIndications}><p id="lieu">{data.place}</p></a>
         
                     <p id="heure">{data.hour}</p>
+                {horaireMasterclass}
+
                     <hr id="concertHr"/>
                     {/* <p class="tarif">Billetterie bientôt disponible !</p> */}
                     {data.partenariat}
@@ -109,6 +125,7 @@ function Concert() {
 
             <a href={data.billeterie}>
             <button id="billeterieConcert">DETAILS</button>
+            {boutonMasterclass}
 
             </a>
                 </div>);
@@ -131,6 +148,8 @@ function Concert() {
                 <a href={data.placeIndications}><p id="lieu">{data.place}</p></a>
     
                 <p id="heure">{data.hour}</p>
+                {horaireMasterclass}
+
                 <hr id="concertHr"/>
                 {/* <p class="tarif">Billetterie bientôt disponible !</p> */}
                 {data.partenariat}
@@ -149,7 +168,7 @@ function Concert() {
   </p>
             <a href={data.billeterie}>
             <button id="billeterieConcert">BILLETTERIE</button>
-
+            {boutonMasterclass}
             </a>
             </div>);
     }
@@ -169,6 +188,7 @@ function Concert() {
         {data.quote}
 
         {data.desc2}
+        {texteMasterclass}
         <img src={data.img2} alt="blast"/>
         {data.desc}
         

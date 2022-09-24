@@ -414,6 +414,10 @@ Elvin Mikaelian : batterie
     nom1: 'Jet Whistle',
     nomPartie : 'Première partie',
     disponibiliteTarifs : true,
+    masterclass : true,
+    masterclassLien : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/master-class-trio-charlier-sourisse-winsberg-1',
+    masterclassHoraire : '16h15 pour la Master Class',
+    masterclassTexte : "IMPORTANT : Dans l'après-midi, Un Doua de Jazz est heureux de proposer une Master Class animée par le trio ! Elle est ouverte à tous et à toutes et les réservations sont obligatoires.",
     },
 
     {
@@ -437,7 +441,7 @@ Elvin Mikaelian : batterie
         <br/>
 Matthieu Drago : batterie 
 <br/>
-Théo Tritsch : guitare</p>,
+Théo Tritsch : guitare basse</p>,
         
 
         
@@ -554,7 +558,7 @@ Théo Tritsch : guitare</p>,
         desc : <p id="descrConcert">Entouré de ses complices de toujours, sa maîtrise de l’instrument, son sens inouï de la mélodie et la délicatesse de ses compositions amplifiées par un groove dévastateur, présagent un bel avenir à ce franco-suisse originaire de Aÿ en Champagne. Une fraîcheur et un talent qui n’ont pas échappé aux festivals Nancy Jazz Pulsations et Jazz à Vienne, dont il est coup sur coup le lauréat des tremplins 2019. 
         <br/><br/>
         Sacré « Révélation » par les magazines Jazz News et Jazz Magazine pour la sortie de son premier album « Canto Bello », Léon Phal est à la tête d’un génial quintet dont les influences et l’imagination inspirent des improvisations remarquables. S’il flirte déjà dans la cour des grands du jazz contemporain, nul doute que son souffle, sa curiosité et son esprit libre le mèneront loin.
-        <br/><br/>scar Jerome
+        <br/><br/>
         Léon Phal : saxophone
         <br/>
 Zacharie Ksyk : trompette
@@ -682,57 +686,7 @@ Pierre Mendola : flute
     partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
 },
 
-    // {
-    //     nb : 3, //numéro de repérage pour affichage
-    //     id: 'GTO', //adresse url pour affichage
-    //     name: "Gin Tonic Orchestra", //nom affiché
-    //     quote : '"Au-delà du simple groupe de musique, le Gin Tonic Orchestra se définit aussi comme une idée, un concept, une pensée… Le GTO aspire simplement à faire danser et donner de l’amour à tous ceux qui ont la curiosité de goûter à cette mystérieuse mixture."',
-    //     //premier texte
-    //     desc : "Gin Tonic Orchestra est un groupe de Saint-Etienne fondé par le producteur et musicien Victor Dijoud (Kaffe Crème) ainsi que le percussionniste Leo Puccio, auxquels s’ajoutent de multiples personnalités dans le studio et sur la scène. Oscillant entre future jazz, latin vibes et broken beat l’alchimie trouvée par la formation se révèle assez imparable, elle a d’ailleurs collaboré avec l’une des légendes de la scène UK, Kaidi Tatham, sur son 1er EP sorti sur Mother Tongue.",
-    //     //deuxième texte
-    //     img1 : GTO, //image header
-    //     img2 : GTO2, //image milieu de texte
-    //     day : '?', 
-    //     month : '?',
-    //     year : '?',
-    //     hour : '? - ?', //la date précise du concert
-    //     place : '?', //l'endroit du concert
-    //     nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
-    //     tarif1 : 0,
-    //     nomTarif2 : 'Tarif réduit chômeurs/étudiants',
-    //     tarif2 : 0,
-    //     nomTarif3 : 'Abonnement Espace Tonkin',
-    //     tarif3 : 0,
-    //     billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne',
-    //     //adresse de la billetterie de ce concert
-    //     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
-    // },
-
-    // {
-    //     nb : 5, //numéro de repérage pour affichage
-    //     id: 'Oscar', //adresse url pour affichage
-    //     name: "Oscar Jerome", //nom affiché
-    //     quote : '"Oscar Jerome a perfectionné ses talents de musicien et d’écriture depuis son plus jeune âge. Il a grandi en tant que guitariste, mais aussi chanteur et compositeur de nombreuses formations de la scène musicale florissante du sud de Londres."',
-    //     //premier texte
-    //     desc : "Oscar Jerome puise son inspiration dans la politique, la spiritualité musicale ou ses propres expériences pour ses textes. Sa vision créative est de toujours créer une musique sincère tout en rendant hommage à ses innombrables inspirations. Avec une performance live acclamée qui l’a conduit sur de nombreux shows comme le prestigieux Blue Note Jazz et Le Poisson Rouge à New York, Oscar Jerome poursuit son ascension.",
-    //     //deuxième texte
-    //     img1 : Oscar, //image header
-    //     img2 : Oscar2, //image milieu de texte
-    //     day : '?', 
-    //     month : '?',
-    //     year : '?',
-    //     hour : '? - ?', //la date précise du concert
-    //     place : '?', //l'endroit du concert
-    //     nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
-    //     tarif1 : 0,
-    //     nomTarif2 : 'Tarif réduit chômeurs/étudiants',
-    //     tarif2 : 0,
-    //     nomTarif3 : 'Abonnement Espace Tonkin',
-    //     tarif3 : 0,
-    //     billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne',
-    //     //adresse de la billetterie de ce concert
-    //     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
-    // }
+    
 
 ]
 
