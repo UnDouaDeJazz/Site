@@ -609,6 +609,9 @@ Rémi Bouyssière : contrebasse</p>,
      Posant les bases de son héritage musical, son nouveau travail le voit s'ouvrir et explorer de nouvelles facettes de lui-même. « Sweet Isolation » est le début d'une série spéciale de musique d'Oscar Jerome.
      <br/>
      <br/>
+     (traduction par Alexandra Naze)
+     <br/>
+     <br/>
      Oscar Jerome : guitare électrique et chant
 
      <br/>
