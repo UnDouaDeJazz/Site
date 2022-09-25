@@ -59,13 +59,15 @@ function Concert() {
     var boutonMasterclass=null;
     var horaireMasterclass=null;
     var texteMasterclass=null;
+    var texteMasterclass2=null;
     if(data.masterclass === true){
         boutonMasterclass  =(
         <a href={data.masterclassLien}>
                 <button id="billeterieConcert">Master Class</button>
                 </a>);
         horaireMasterclass =(<p id="heure">{data.masterclassHoraire}</p>);
-        texteMasterclass = (<p id="descrConcert">{data.masterclassTexte}</p>)
+        texteMasterclass = (<p id="descrConcert">{data.masterclassTexte}</p>);
+        texteMasterclass2 = (<div id="divPremierePartie"><p id="premierePartie">+ Master Class exclusive</p></div>)
     }
 
 
@@ -81,6 +83,7 @@ function Concert() {
                     {data.name.toLocaleUpperCase()}
                 </p>
                 {nomPremierePartie}
+                {texteMasterclass2}
                 <p id="date">
                     <span>{data.day}</span><br/>{data.month}
                 </p>
@@ -109,6 +112,7 @@ function Concert() {
                         {data.name.toLocaleUpperCase()}
                     </p>
                     {nomPremierePartie}
+                    {texteMasterclass2}
                     <p id="date">
                         <span>{data.day}</span><br/>{data.month}
                     </p>
@@ -141,6 +145,7 @@ function Concert() {
                     {data.name.toLocaleUpperCase()}
                 </p>
                 {nomPremierePartie}
+                {texteMasterclass2}
                 <p id="date">
                     <span>{data.day}</span><br/>{data.month}
                 </p>

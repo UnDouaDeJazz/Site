@@ -294,7 +294,13 @@ Quentin Fresnel : saxophone baryton
 <br/>
 Samuel Neyhousser : batterie
         </p>,
-        desc : <p id="descrConcert">Par ses compositions originales, le duo Supermarché GoGo propose une house moderne, qui fusionne des sonorités électroniques et acoustiques. Dans la lignée d’artistes tels que Björk ou Henri Wu, les univers de SMGG s’imprègnent de couleurs nu jazz et pop, pour une House électrisante.</p>,
+        desc : <p id="descrConcert">Par ses compositions originales, le duo Supermarché GoGo propose une house moderne, qui fusionne des sonorités électroniques et acoustiques. Dans la lignée d’artistes tels que Björk ou Henri Wu, les univers de SMGG s’imprègnent de couleurs nu jazz et pop, pour une House électrisante.
+        <br/>
+        <br/>
+        Hugo Vieilly : machines, basse & percussions
+        <br/>
+Hugo Rinville : machines, claviers & percussions
+        </p>,
         //deuGoGoxième texte
         img1 : Zeph, //image header
         img2 : Gogo, //image milieu de texte
@@ -600,7 +606,17 @@ Rémi Bouyssière : contrebasse</p>,
     Le Gin Tonic Orchestra, c’est avant tout une bande de copains qui se retrouve autour de la musique et réunit tous les amoureux du son. Pour 2022, le collectif de musiciens et DJs vous a préparé un live sous un tout nouveau format !"</p>,
      desc2 : <p id="descrConcert">Oscar Jerome, suivant les traces de son père en tant que guitariste, a rapidement appris les bases et est devenu accro, citant George Benson, Wes Montgomery et John Coltrane comme ses principales influences. Explorant diverses avenues sonores, il s'est fait un nom sur la scène avec sa propre fusion rafraîchissante de jazz, de hip-hop, de soul et de funk, ce qui lui a valu une session live avec COLORS avant d'être nommé Guardians One To Watch en 2020. Reconnu à l'échelle mondiale pour sa guitare virtuose, il a composé le single « Abusey Junction » de Kokoroko et a participé à son enregistrement, en plus de travailler aux côtés de ses compagnons de Jazz ShabakaHutchings, Moses Boyd, Yussef Dayes et Lianne La Havas.Son premier album, « Breathe Deep », l'a emmené très loin. Il a donné des concerts en Australie et aux États-Unis, et a fait la première partie de la tournée de Kamasi Washington au Royaume-Uni, renforçant ainsi sa réputation d'artiste expérimenté. 
 <br/><br/>
-     Posant les bases de son héritage musical, son nouveau travail le voit s'ouvrir et explorer de nouvelles facettes de lui-même. « Sweet Isolation » est le début d'une série spéciale de musique d'Oscar Jerome.</p>,
+     Posant les bases de son héritage musical, son nouveau travail le voit s'ouvrir et explorer de nouvelles facettes de lui-même. « Sweet Isolation » est le début d'une série spéciale de musique d'Oscar Jerome.
+     <br/>
+     <br/>
+     Oscar Jerome : guitare électrique et chant
+
+     <br/>
+Jonathan Moko : basse
+<br/>
+
+Richard Sweet : batterie & percussions
+     </p>,
     desc : <p id="descrConcert">Après un premier EP sorti en 2019 sur le label Mother Tongue et de nombreux concerts en Europe, le groupe made in Sainté n’a eu de cesse de se réinventer. Oscillant entre future jazz, rock indie et broken beat, l’alchimie trouvée par la formation se révèle assez imparable. Elle a d’ailleurs collaboré avec l’une des légendes de la scène UK, Kaidi Tatham. En live ou en studio, le Gin Tonic Orchestra se renouvelle, innove et expérimente : il replace au centre des clubs l’acoustique et le live. 
     <br/><br/>
     Victor Dijoud : claviers, synthétiseurs
