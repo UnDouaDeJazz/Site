@@ -236,7 +236,7 @@ day : '17',
 month : 'oct.'},
     {nb:7,
         id: 'Phal', //adresse url pour affichage
-            name: "Leon Phal Quintet", //nom affiché
+            name: "Leon Phal", //nom affiché
             img : Phal, //image carrée du menu
             day : '19', 
             month : 'oct.',
@@ -558,7 +558,7 @@ Théo Tritsch : guitare basse</p>,
     {
         nb : 6, //numéro de repérage pour affichage
         id: 'Phal', //adresse url pour affichage
-        name: "Leon Phal Quintet", //nom affiché
+        name: "Leon Phal", //nom affiché
         quote : <p id="quoteConcert">"Saxophoniste prometteur, Léon Phal fait partie de cette jeune génération de musiciens de jazz biberonnée aux classiques, dont il s’affranchit tout en leur rendant hommage à chaque note avec brio, qu’il s’agisse du RH Factor de Roy Hargrove ou du « Voodoo » de D’Angelo."</p>,
         //premier texte
         desc : <p id="descrConcert">Entouré de ses complices de toujours, sa maîtrise de l’instrument, son sens inouï de la mélodie et la délicatesse de ses compositions amplifiées par un groove dévastateur, présagent un bel avenir à ce franco-suisse originaire de Aÿ en Champagne. Une fraîcheur et un talent qui n’ont pas échappé aux festivals Nancy Jazz Pulsations et Jazz à Vienne, dont il est coup sur coup le lauréat des tremplins 2019. 
