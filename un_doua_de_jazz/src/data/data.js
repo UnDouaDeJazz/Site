@@ -196,13 +196,13 @@ const partenaires=[
 const dataPageArtistesActuels=[
     {nb:1,
     id: 'zeph',
-name : 'Zeph',
+name : 'ZEPH',
 img: Zeph,
 day:'13',
 month:'oct.'},
 {nb:2,
 id: 'zeph',
-name : 'Supermarché GoGo',
+name : 'SupermarchéGoGo',
 img: Gogo,
 day:'13',
 month:'oct.'},
@@ -236,7 +236,7 @@ day : '17',
 month : 'oct.'},
     {nb:7,
         id: 'Phal', //adresse url pour affichage
-            name: "Leon Phal", //nom affiché
+            name: "Léon Phal", //nom affiché
             img : Phal, //image carrée du menu
             day : '19', 
             month : 'oct.',
@@ -272,7 +272,7 @@ const data=[
     {
         nb : 1, //numéro de repérage pour affichage
         id: 'zeph', //adresse url pour affichage
-        name: "Zeph", //nom affiché
+        name: "ZEPH", //nom affiché
         quote : <p id="quoteConcert">"Préparez-vous à être emportés par la tornade de ZEPH ! Cet ensemble instrumental Lyonnais composé de 8 musiciens saura vous emmener vers les territoires du Groove. 
         <br/><br/>Juste après jouera SupermarchéGoGo, l’union de deux amis musiciens de longue date, sous forme d’un DJ set 100% House."</p>,
         //premier texte
@@ -294,7 +294,7 @@ Quentin Fresnel : saxophone baryton
 <br/>
 Samuel Neyhousser : batterie
         </p>,
-        desc : <p id="descrConcert">Par ses compositions originales, le duo Supermarché GoGo propose une house moderne, qui fusionne des sonorités électroniques et acoustiques. Dans la lignée d’artistes tels que Björk ou Henri Wu, les univers de SMGG s’imprègnent de couleurs nu jazz et pop, pour une House électrisante.
+        desc : <p id="descrConcert">Par ses compositions originales, le duo SupermarchéGoGo propose une house moderne, qui fusionne des sonorités électroniques et acoustiques. Dans la lignée d’artistes tels que Björk ou Henri Wu, les univers de SMGG s’imprègnent de couleurs nu jazz et pop, pour une House électrisante.
         <br/>
         <br/>
         Hugo Vieilly : machines, basse & percussions
@@ -321,8 +321,8 @@ Hugo Rinville : machines, claviers & percussions
         //adresse de la billetterie de ce concert
         gratuit : true, 
         duo:true,
-        nom2: 'Zeph',
-        nom1: 'Supermarché GoGo',
+        nom2: 'ZEPH',
+        nom1: 'SupermarchéGoGo',
         nomPartie :  'Suivi de ',
         reservable : false,
         disponibiliteTarifs : false,
@@ -558,7 +558,7 @@ Théo Tritsch : guitare basse</p>,
     {
         nb : 6, //numéro de repérage pour affichage
         id: 'Phal', //adresse url pour affichage
-        name: "Leon Phal", //nom affiché
+        name: "Léon Phal", //nom affiché
         quote : <p id="quoteConcert">"Saxophoniste prometteur, Léon Phal fait partie de cette jeune génération de musiciens de jazz biberonnée aux classiques, dont il s’affranchit tout en leur rendant hommage à chaque note avec brio, qu’il s’agisse du RH Factor de Roy Hargrove ou du « Voodoo » de D’Angelo."</p>,
         //premier texte
         desc : <p id="descrConcert">Entouré de ses complices de toujours, sa maîtrise de l’instrument, son sens inouï de la mélodie et la délicatesse de ses compositions amplifiées par un groove dévastateur, présagent un bel avenir à ce franco-suisse originaire de Aÿ en Champagne. Une fraîcheur et un talent qui n’ont pas échappé aux festivals Nancy Jazz Pulsations et Jazz à Vienne, dont il est coup sur coup le lauréat des tremplins 2019. 
@@ -591,7 +591,7 @@ Rémi Bouyssière : contrebasse</p>,
         tarif2 : '10€',
         nomTarif3 : 'Tarif carte VA : ',
         tarif3 : '8€',
-        billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/concert-leon-phal',
+        billeterie : 'https://billetterie.periscope-lyon.com/evenement/19-10-2022-21-00-l%C3%A9on-phal',
         //adresse de la billetterie de ce concert
         duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
         disponibiliteTarifs : true,
@@ -654,7 +654,7 @@ Pierre Mendola : flute
     tarif2 : '13€',
     nomTarif3 : 'Plein tarif : ',
     tarif3 : '18€',
-    billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/concert-oscar-jerome-gin-tonic-orchestra',
+    billeterie : 'https://billetterie.periscope-lyon.com/evenement/20-10-2022-21-00-oscar-jerome',
     duo:true,
     name: 'Oscar Jerome',
     nom2: 'Oscar Jerome',
@@ -697,7 +697,7 @@ Pierre Mendola : flute
     tarif2 : '10€',
     nomTarif3 : '',
     tarif3 : '',
-    billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/concert-joanna-duda',
+    billeterie : 'https://billetterie.periscope-lyon.com/evenement/21-10-2022-21-00-joanna-duda',
     //adresse de la billetterie de ce concert
     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
     disponibiliteTarifs : true,
