@@ -31,9 +31,9 @@ function Header() {
                 <HashLink to="/benevole#header">Devenir bénévole</HashLink>
             </div>
             </div>
-          <a href="https://www.helloasso.com/associations/un-doua-de-jazz">
+          {/*<a href="https://www.helloasso.com/associations/un-doua-de-jazz">
             <button id="btnBilleterie">BILLETTERIE</button>
-            </a>
+  </a>*/}
         </header>
   );
 }
