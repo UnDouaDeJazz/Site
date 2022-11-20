@@ -97,15 +97,14 @@ p{
         padding-right:0vw;
     }
     #partReseaux .logo{
-    
         width:8vw;
       }#photosPage img{
-        max-height:18vw;
-        max-width:25vw;
-        margin:5vw;
+        max-height:35vw;
+        margin:0.5vw;
       
       
     }#contentPart p{
           font-size:5.5vw;
     }
+    
 }

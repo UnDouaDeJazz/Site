@@ -142,4 +142,28 @@
     font-size:3.2vw;
     margin:1vw;
   }
+
+  
+#photos img{
+  width:30vw;
+  height:30vw;
+  object-fit: cover;
+  text-align: center;
+}
+#photos{
+  
+  text-align: center;
+  margin:auto;
+  margin-top: 8vw;
+}
+#photos p{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+    font-size:3.2vw;
+    margin:0.5vw;
+    text-align:center;
+    color:white;
+    text-decoration: none;
+    
+}
 }
