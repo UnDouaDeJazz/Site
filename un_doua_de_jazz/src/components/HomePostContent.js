@@ -1,9 +1,10 @@
-import chris from '../media/chris-potter.png';
-import glasper from '../media/glasper.jpg';
-import tigran from '../media/tigran-hamasaya.png';
+
 import logo from '../media/logo-transparent.png';
-import asso from '../media/asso.jpg';
+import asso from '../media/asso2022.jpg';
 import oscar from '../media/photos2022/8.jpg';
+import oj from '../media/photos2022/3.jpg';
+import trio from '../media/photos2022/20.jpg';
+import emile from '../media/photos2022/14.jpg';
 import {HashLink} from 'react-router-hash-link'
 
 
@@ -22,9 +23,9 @@ return (
             <div id="nosArtistes">
 
             <HashLink to="/artistes#header">
-                <img src={chris} alt="chris potter"/>
-                <img src={glasper} alt="robert glasper"/>
-                <img src={tigran} alt="tigran hamasaya"/>
+                <img src={trio} alt="trio charlier-sourisse-winsberg"/>
+                <img src={oj} alt="oscar jerome"/>
+                <img src={emile} alt="emile londonien"/>
                 </HashLink>
                 <p>Nos Artistes</p>
 

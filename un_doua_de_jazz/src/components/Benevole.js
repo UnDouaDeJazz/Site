@@ -1,7 +1,7 @@
 import "./Contact.css";
 import "./Benevole.css";
 import Header from "./Header.js"
-import benevoles from "../media/benevoles.jpg"
+import benevoles from "../media/assoBanniere2022Crop.jpg"
 
 function Benevole() {
 return (
