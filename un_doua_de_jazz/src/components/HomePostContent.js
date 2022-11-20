@@ -3,7 +3,7 @@ import glasper from '../media/glasper.jpg';
 import tigran from '../media/tigran-hamasaya.png';
 import logo from '../media/logo-transparent.png';
 import asso from '../media/asso.jpg';
-import oscar from '../media/photos2022/16.jpg';
+import oscar from '../media/photos2022/8.jpg';
 import {HashLink} from 'react-router-hash-link'
 
 

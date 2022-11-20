@@ -54,26 +54,6 @@ import photo17 from '../media/photos2022/17.jpg';
 import photo18 from '../media/photos2022/18.jpg';
 import photo19 from '../media/photos2022/19.jpg';
 import photo20 from '../media/photos2022/20.jpg';
-import photo21 from '../media/photos2022/21.jpg';
-import photo22 from '../media/photos2022/22.jpg';
-import photo23 from '../media/photos2022/23.jpg';
-import photo24 from '../media/photos2022/24.jpg';
-import photo25 from '../media/photos2022/25.jpg';
-import photo26 from '../media/photos2022/26.jpg';
-import photo27 from '../media/photos2022/27.jpg';
-import photo28 from '../media/photos2022/28.jpg';
-import photo29 from '../media/photos2022/29.jpg';
-import photo30 from '../media/photos2022/30.jpg';
-import photo31 from '../media/photos2022/31.jpg';
-import photo32 from '../media/photos2022/32.jpg';
-import photo33 from '../media/photos2022/33.jpg';
-import photo34 from '../media/photos2022/34.jpg';
-import photo35 from '../media/photos2022/35.jpg';
-import photo36 from '../media/photos2022/36.jpg';
-import photo37 from '../media/photos2022/37.jpg';
-import photo38 from '../media/photos2022/38.jpg';
-import photo39 from '../media/photos2022/39.jpg';
-import photo40 from '../media/photos2022/40.jpg';
 
 import villeurbanne from '../media/logo-villeurbanne.png'
 import lyon from '../media/logo-lyon.jpg'
@@ -859,67 +839,7 @@ const photos=[{
 },{
     img:photo20,
     name:"Oscar Jerome"
-},{
-    img:photo21,
-    name:"Oscar Jerome"
-},{
-    img:photo22,
-    name:"Oscar Jerome"
-},{
-    img:photo23,
-    name:"Oscar Jerome"
-},{
-    img:photo24,
-    name:"Oscar Jerome"
-},{
-    img:photo25,
-    name:"Oscar Jerome"
-},{
-    img:photo26,
-    name:"Oscar Jerome"
-},{
-    img:photo27,
-    name:"Oscar Jerome"
-},{
-    img:photo28,
-    name:"Oscar Jerome"
-},{
-    img:photo29,
-    name:"Oscar Jerome"
-},{
-    img:photo30,
-    name:"Oscar Jerome"
-},{
-    img:photo31,
-    name:"Oscar Jerome"
-},{
-    img:photo32,
-    name:"Oscar Jerome"
-},{
-    img:photo33,
-    name:"Oscar Jerome"
-},{
-    img:photo34,
-    name:"Oscar Jerome"
-},{
-    img:photo35,
-    name:"Oscar Jerome"
-},{
-    img:photo36,
-    name:"Oscar Jerome"
-},{
-    img:photo37,
-    name:"Oscar Jerome"
-},{
-    img:photo38,
-    name:"Oscar Jerome"
-},{
-    img:photo39,
-    name:"Oscar Jerome"
-},{
-    img:photo40,
-    name:"Oscar Jerome"
-},]
+}]
 
 function photosNb(number){
     return photos[number];
