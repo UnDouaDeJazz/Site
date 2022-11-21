@@ -2,9 +2,9 @@
 import logo from '../media/logo-transparent.png';
 import asso from '../media/asso2022.jpg';
 import oscar from '../media/photos2022/8.jpg';
-import oj from '../media/photos2022/3.jpg';
+import zeph from '../media/zeph-cri.jpg';
 import trio from '../media/photos2022/20.jpg';
-import emile from '../media/photos2022/14.jpg';
+import emile from '../media/emile-pianiste-1.jpg';
 import {HashLink} from 'react-router-hash-link'
 
 
@@ -24,7 +24,7 @@ return (
 
             <HashLink to="/artistes#header">
                 <img src={trio} alt="trio charlier-sourisse-winsberg"/>
-                <img src={oj} alt="oscar jerome"/>
+                <img src={zeph} alt="zeph"/>
                 <img src={emile} alt="emile londonien"/>
                 </HashLink>
                 <p>Nos Artistes</p>
