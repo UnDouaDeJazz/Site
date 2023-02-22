@@ -211,7 +211,7 @@ month : 'oct.'},
 
 
 const data=[
-/*
+
     
     {
         nb : 1, //numéro de repérage pour affichage
@@ -650,7 +650,7 @@ Pierre Mendola : flute
 },
 
     
-*/
+
 ]
 
 const dataAnc=[

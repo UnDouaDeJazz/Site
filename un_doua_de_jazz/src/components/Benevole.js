@@ -24,7 +24,7 @@ return (
 
                 <hr/>
                 <h2>
-                L’année se divise en 2 parties :</h2>
+                L’ane se divise en 2 parties :</h2>
                 <h3>
                 Partie OFF
                 </h3> 
