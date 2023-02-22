@@ -1,7 +1,7 @@
 import "./Contact.css";
 import "./Benevole.css";
 import Header from "./Header.js"
-import benevoles from "../media/benevoles.jpg"
+import benevoles from "../media/assoBanniere2022Crop.jpg"
 
 function Benevole() {
 return (
@@ -24,7 +24,7 @@ return (
 
                 <hr/>
                 <h2>
-                L’année se divise en 2 parties :</h2>
+                L’ane se divise en 2 parties :</h2>
                 <h3>
                 Partie OFF
                 </h3> 

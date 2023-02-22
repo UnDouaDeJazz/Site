@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+#imgHeaderPart{
+    display: block ;
+    float:left;
+    top:0px;
+
+    height:7vw;
+    width:100%;
+    background-color: #535353;
+}
+#headerPart{
+    height:7vw;
+    display: relative;
+}
+#part{
+    position: relative;
+    float:left;
+    width: 100%;
+}
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+    font-size:1.3vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+
+}
+#partTitle{
+    font-weight:700;
+    font-size:2vw;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.partSubtitle{
+    font-weight:700;
+    font-size:1.8vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+#contentPart{
+    position:relative;
+    padding-left:2.5vw;
+    padding-right:2.5vw;
+    padding-bottom:10vw;   
+}
+#partReseaux{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5vw;
+  grid-auto-rows: minmax(auto, auto);
+  width: 60%;
+  
+  margin: auto;
+  margin-top:3vw;
+  text-align: center;
+  align-items: center;
+  justify-content: center; 
+}
+#partReseaux .logo{
+    
+    width:4.5vw;
+    height:auto;
+    filter: drop-shadow(16px 16px 20px rgb(174, 174, 174));
+  }
+  #photosPage img{
+    margin:0.25vw;
+    max-height: 20vw;
+    
+  }
+  #photosPage{
+    text-align: center;
+  }
+
+@media all and (orientation: portrait){
+    #imgHeaderPart{
+        height:18vw;
+    }#headerPart{
+        height: 18vw;
+    }#contentPart .partSubtitle{
+        font-size:4vw;
+
+        margin-left: 3vw;
+        margin-right: 3vw;
+
+        padding-left:0vw;
+        padding-right:0vw;
+    }#contentPart p{
+        font-size:3vw;  
+
+        padding-left:4vw;
+        padding-right:4vw;
+    }#contentPart #partTitle{
+        font-size: 5vw;
+
+        padding-left:0vw;
+        padding-right:0vw;
+    }
+    #partReseaux .logo{
+        width:8vw;
+      }#photosPage img{
+        max-height:35vw;
+        margin:0.5vw;
+      
+      
+    }#contentPart p{
+          font-size:5.5vw;
+    }
+    
+}

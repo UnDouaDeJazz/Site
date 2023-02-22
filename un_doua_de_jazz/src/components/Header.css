@@ -42,12 +42,16 @@
     left: 8.5vw;
 }
 
-#btnPropos{
+#btnPhotos{
     left: 18vw;
 }
 
-#btnInfos{
+#btnPropos{
     left: 27vw;
+}
+
+#btnInfos{
+    left: 36vw;
 }
 
 
@@ -154,7 +158,7 @@
         cursor: pointer;
     }
 
-    .btnDrop{
+    .btnDrop, .btnPasDrop{
         position:absolute;
         background-color: transparent;
         color:white;
@@ -167,12 +171,20 @@
         top: 3vw;
     }
 
-    #btnPropos{
+    #btnAccueil{
+        visibility: hidden;
+    }
+
+    #btnPhotos{
         left: 18vw;
     }
 
+    #btnPropos{
+        left: 33vw;
+    }
+
     #btnInfos{
-        left: 35vw;
+        left: 50vw;
     }
 
 
@@ -204,7 +216,7 @@
         width: 100%;
         background-color: transparent;
     }
-    .btnDrop{
+    .btnDrop, .btnPasDrop{
         transition: 200ms;
         display:block;
         width:30vw;

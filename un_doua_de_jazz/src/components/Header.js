@@ -18,6 +18,9 @@ function Header() {
           <HashLink to="/#header">
           <div id="btnAccueil" class="btnPasDrop"><p>Accueil</p></div></HashLink>
           
+          <HashLink to="/photos#header">
+          <div id="btnPhotos" class="btnPasDrop"><p>Photos</p></div></HashLink>
+          
           <div id="btnPropos" class="btnDrop"><p>A propos <span class="rotator"></span></p>
           <div class="dropContent">
                 <HashLink to="/about#header">Le Festival</HashLink>
@@ -31,9 +34,9 @@ function Header() {
                 <HashLink to="/benevole#header">Devenir bénévole</HashLink>
             </div>
             </div>
-          <a href="https://www.helloasso.com/associations/un-doua-de-jazz">
+          {/*<a href="https://www.helloasso.com/associations/un-doua-de-jazz">
             <button id="btnBilleterie">BILLETTERIE</button>
-            </a>
+  </a>*/}
         </header>
   );
 }
