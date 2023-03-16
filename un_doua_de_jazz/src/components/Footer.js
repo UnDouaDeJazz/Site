@@ -3,6 +3,7 @@ import fb from '../media/logo-fb.png';
 import insta from '../media/logo-insta.png';
 import mail from '../media/logo-mail.png';
 import yt from '../media/logo-yt.png';
+import spotify from '../media/spotify.png'
 import {HashLink} from 'react-router-hash-link';
 import {partenairesSize, partenaireNb} from '../data/data.js'
 
