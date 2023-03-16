@@ -1,6 +1,5 @@
 {
   "name": "un_doua_de_jazz",
-  "homepage": "https://thomascolin1.github.io/DouaDeJazz",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
