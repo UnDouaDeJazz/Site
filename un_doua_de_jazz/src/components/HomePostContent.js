@@ -17,7 +17,7 @@ return (
     <div id="homeContent">
         <p id="venir">Le festival du Doua De Jazz fait son retour du 12 au 20 Octobre 2023 pour sa 30e édition ! </p>
         <hr id="smallhr"/>
-        <p id="patienter"><span>En attendant n’hésite pas à regarder les prochains évènements que nous organisons, ou à redécouvrir nos anciennes éditions</span></p>
+        <p id="patienter"><span>En attendant, n’hésite pas à regarder les prochains évènements que nous organisons, ou à redécouvrir nos anciennes éditions</span></p>
         <div id="gridPatienter">
             <div id="nosArtistes">
 
