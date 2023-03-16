@@ -2,7 +2,8 @@ import "./Contact.css";
 import Header from "./Header.js"
 import fb from '../media/logo-fb-2.png';
 import insta from '../media/logo-insta-2.png';
-import yt from '../media/logo-yt-2.png';
+import spotify from '../media/spotify.png';
+import deezer from '../media/deezer.png';
 
 function Contact() {
 return (
@@ -25,7 +26,8 @@ return (
             <div id="contactReseaux">
                 <a href="https://www.facebook.com/undouadejazz/"><img src={fb} alt="facebook" id="fb" class="logo"/></a>
                 <a href="https://www.instagram.com/undouadejazz"><img src={insta} alt="instagram" id="insta" class="logo"/></a>
-                <a href="https://www.youtube.com/channel/UC62m2Ams5a1tySBDP0l-oiQ"><img src={yt} alt="youtube" id="yt" class="logo"/></a>
+                <a href="https://open.spotify.com/user/312acys3roxmmzofsq7b2ap2xege?si=87a2bcb41b5d4b95"><img src={spotify} alt="spotify" id="spotify" class="logo"/></a>
+                <a href="https://www.deezer.com/en/profile/4947798762?gclid=CjwKCAiAmJGgBhAZEiwA1JZoll60RUIiPA0e2_QU8EL2eKl6El9DMpJrCmOGQEmYDLTs_lmrp4VzfBoCTjMQAvD_BwE"><img src={deezer} alt="deezer" id="deezer" class="logo"/></a>
             </div>
 
         </div>
