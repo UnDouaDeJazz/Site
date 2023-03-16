@@ -16,7 +16,7 @@ return (
         <Header />
         <div id="aboutWrapper">
             <p>Créé en<br/><span>1994</span></p>
-            <p>Festival annuel en<br/><span>OCT.</span></p>
+            <p>Festival annuel en<br/><span>OCT. </span></p>
             <p>Association étudiante de<br/>l'<span>INSA</span></p>
 
             </div>
