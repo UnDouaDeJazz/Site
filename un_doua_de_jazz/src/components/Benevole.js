@@ -45,7 +45,7 @@ return (
                 N’oublie pas, être bénévole c’est surtout vivre des moments inoubliables ;D
                 <br/><br/><i>Pour te remercier, tu auras évidemment droit à une place gratuite pour un des concerts !</i>
                 </p>
-                <a href="https://forms.gle/K9UnfXoC8iefhhp8A">
+                <a href="https://forms.gle/EceYqiiTMLupQpQ38">
                 <button id="benevoleButton" onclick="window.location.href='https://forms.gle/EceYqiiTMLupQpQ38';">DEVENIR BENEVOLE</button>
                 </a>
                 </div>
