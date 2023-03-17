@@ -18,32 +18,32 @@ return (
             
             <div id="benevoleTexte">       
             <div class="titre">
-        <h1><span id="titre1">Un Doua De Jazz recrute !</span>
+        <h1><br></br><span id="titre1">Un Doua De Jazz recrute !</span>
                 <br/><br/><span id="titre2">Rejoins l’aventure, découvre les coulisses et participe à l’organisation d’un festival unique en France !</span></h1>
                 </div>
 
                 <hr/>
                 <h2>
-                L’ane se divise en 2 parties :</h2>
-                <h3>
-                Partie OFF
-                </h3> 
+                En quoi consiste mes missions ?</h2>
                 <p>
-                Elle correspond à la période novembre - juin.<br/>
-                Pendant cette période, on organise des évènements ponctuels (boeuf K-fêt, concerts), et on essaye de récolter des fonds (vente de crêpes, comptage vélo, aide au balisage de courses)
-                <br/>Cet argent bonus nous permet d’aller plus loin dans nos démarches en général, que ce soit pour inviter des artistes plus connus, acheter du matériel de com, rémunérer nos partenaires…
-                </p><h3>
-                Partie ON
-                </h3><p>
-                Elle correspond à la période du festival ! C’est le moment où on a le plus besoin d’aide : prévente, stand snack, sécurité… Les missions sont simples (pas besoin d’être premier de promo ou super stock) mais il y en a beaucoup. On compte sur toi !
+                En tant que bénévole, tu peux nous aider tout au long de l’année, pour la partie « off » de novembre à juin, ou bien pour la partie « on » au cœur du festival en octobre.<br/>
+                Durant la partie off, nous organisons des évènements ponctuels (boeuf K-fêt, concerts, tremplin etc.), et nous essayons de récolter des fonds (vente de crêpes, comptage vélo, aide au balisage de courses).
+                <br/>Cet argent bonus nous permet d’aller plus loin dans nos démarches en général, que ce soit pour inviter des artistes plus connus, acheter du matériel de communication, rémunérer nos partenaires…
+                </p><p>
+                La partie on, c’est le moment où nous avons le plus besoin de toi ! Les missions sont simples, pas de panique, tu seras bien entouré et nous t’expliquerons tout ! On compte sur toi, tu ne risques pas de t’ennuyer !
+                <br/>Tu pourras réaliser à tous ces évènements différentes tâches (préventes, buvette, sécurité etc.)
+                </p>
+                <h2>
+                Comment m’inscrire ?
+                </h2>
+                <p>Pour rejoindre l’équipe, tu peux remplir le questionnaire juste ci-dessous.
+                <br/> N’hésite pas à nous contacter sur nos réseaux sociaux si tu as une question ^^
                 </p>
                 <div id="finBenev">
-                <h2 class="finTitre">Tu es libre de t’engager sur la ou les période.s de ton choix !</h2>
+                <h2 class="finTitre">Et pas d'inquiétude, tu es libre de t’engager sur la ou les période.s de ton choix !</h2>
                 <p class="finTexte">
-                En tout cas, si tu veux concrètement nous aider à organiser le festival, et inviter tes artistes préféré.e.s sur notre campus, on t'accueillera avec plaisir ❤
-                <br/>Inscris-toi sur ce formulaire ou simplement envoie-nous un message sur nos réseaux ;D 
-
-                <br/><br/><i>Pour te remercier, tu auras évidemment droit à une place gratuite sur un des concerts.</i>
+                N’oublie pas, être bénévole c’est surtout vivre des moments inoubliables ;D
+                <br/><br/><i>Pour te remercier, tu auras évidemment droit à une place gratuite sur un des concerts !</i>
                 </p>
                 <a href="https://forms.gle/K9UnfXoC8iefhhp8A">
                 <button id="benevoleButton" onclick="window.location.href='https://forms.gle/K9UnfXoC8iefhhp8A';">DEVENIR BENEVOLE</button>
