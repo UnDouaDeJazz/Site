@@ -30,10 +30,11 @@ function Header() {
                 </div>
 
             </div>
-          <div id="btnInfos" class="btnDrop"><p>Infos pratiques <span class="rotator"></span></p>
+          <div id="btnInfos" class="btnDrop btnDrop3"><p>Infos pratiques <span class="rotator"></span></p>
           <div class="dropContent">
                 <HashLink to="/contact#header">Nous contacter</HashLink>
                 <HashLink to="/benevole#header">Devenir bénévole</HashLink>
+                <HashLink to="/scenes#header">Les scènes</HashLink>
             </div>
             </div>
           <HashLink to="/artistes#header">
