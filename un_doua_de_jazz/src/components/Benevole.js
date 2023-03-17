@@ -43,10 +43,10 @@ return (
                 <h2 class="finTitre">Et pas d'inquiétude, tu es libre de t’engager sur la ou les période.s de ton choix !</h2>
                 <p class="finTexte">
                 N’oublie pas, être bénévole c’est surtout vivre des moments inoubliables ;D
-                <br/><br/><i>Pour te remercier, tu auras évidemment droit à une place gratuite sur un des concerts !</i>
+                <br/><br/><i>Pour te remercier, tu auras évidemment droit à une place gratuite pour un des concerts !</i>
                 </p>
                 <a href="https://forms.gle/K9UnfXoC8iefhhp8A">
-                <button id="benevoleButton" onclick="window.location.href='https://forms.gle/K9UnfXoC8iefhhp8A';">DEVENIR BENEVOLE</button>
+                <button id="benevoleButton" onclick="window.location.href='https://forms.gle/EceYqiiTMLupQpQ38';">DEVENIR BENEVOLE</button>
                 </a>
                 </div>
                 </div>

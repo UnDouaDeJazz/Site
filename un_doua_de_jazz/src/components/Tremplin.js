@@ -22,9 +22,9 @@ return (
             </div>
             <div id="tremplinText">
             <p>Le Doua de Jazz organise tous les ans un concert-tremplin afin de découvrir et mettre
-en avant des artistes émergents. Trois artistes ou groupe sélectionnés de talent sont
+en avant des artistes émergents. Trois artistes/groupes de talent sélectionnés sont
 ainsi invités à se produire à La Clé de Voûte, un club de jazz réputé de Lyon.</p>
-            <p>Cette année, rdv le 1er Juin à la clé de voûte pour le tremplin du Doua De Jazz. Les
+            <p>Cette année, rendez-vous le 1er Juin à la clé de voûte pour le tremplin du Doua De Jazz. Les
 artistes sélectionnés seront annoncés quelques semaines avant le concert, alors restez
 connectés !</p>
             <p>Ce tremplin permet au groupe vainqueur de se produire à notre festival et d’obtenir
