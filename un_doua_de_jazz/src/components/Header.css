@@ -23,6 +23,22 @@
     top: 1.5vw;
 }
 
+.btnDrop3{
+    position:absolute;
+    background-color: transparent;
+    color:white;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    height: 6vw;
+
+    font-size: 1.1vw;
+    top: 1.5vw;
+}
+
+
 .btnPasDrop{
     position:absolute;
     background-color: transparent;
@@ -53,6 +69,12 @@
 #btnInfos{
     left: 36vw;
 }
+
+
+#btnNosArtistes{
+    left: 47vw;
+}
+
 
 
 #btnBilleterie{
@@ -92,6 +114,11 @@
 .btnDrop:hover{
     transition:200ms;
     top:0px;
+}
+
+.btnDrop3:hover{
+    transition:200ms;
+    top:-10px;
 }
 .btnDrop .rotator {
     transition: 200ms;
@@ -187,6 +214,11 @@
         left: 50vw;
     }
 
+    
+#btnNosArtistes{
+    left: 75vw;
+}
+
 
     #btnBilleterie{
         background-color: #ffA06A;
@@ -221,6 +253,9 @@
         display:block;
         width:30vw;
         height:15vw;
+    }
+    .btnDrop3{
+        height:25vw;
     }
 
     #header p{
