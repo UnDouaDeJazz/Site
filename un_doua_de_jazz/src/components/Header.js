@@ -1,5 +1,6 @@
 
-import logoCercle from '../media/logo-cercle.png';
+//import logoCercle from '../media/logo-cercle.png';
+import logoCercle from '../media/Logos/Logo white text.png'
 import './Header.css';
 import {Helmet} from 'react-helmet'
 
