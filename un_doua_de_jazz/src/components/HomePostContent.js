@@ -1,5 +1,5 @@
 
-import logo from '../media/logo-transparent.png';
+import logo from '../media/Logos/Logo white text.png';
 import asso from '../media/asso2022.jpg';
 import oscar from '../media/photos2022/8.jpg';
 import zeph from '../media/zeph-cri.jpg';

@@ -1,5 +1,6 @@
 import header from '../media/header2022.jpg';
-import logoTransparent from '../media/trans3.png';
+//import logoTransparent from '../media/trans3.png';
+import logoTransparent from '../media/Logos/Logo white text.png';
 import './HeaderHome.css';
 import Header from "./Header.js"
 import {HashLink} from 'react-router-hash-link';

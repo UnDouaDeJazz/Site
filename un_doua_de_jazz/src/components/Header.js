@@ -1,6 +1,6 @@
 
 //import logoCercle from '../media/logo-cercle.png';
-import logoCercle from '../media/Logos/Logo white text.png'
+import logoCercle from '../media/Logos/Logo blanc transparent.png'
 import './Header.css';
 import {Helmet} from 'react-helmet'
 
@@ -27,7 +27,7 @@ function Header() {
                 <HashLink to="/about#header">Le Festival</HashLink>
                 <HashLink to="/tremplin#header">Tremplin</HashLink>
                 
-                <HashLink to="/artistes#header">Autres évènements</HashLink>
+                <HashLink to="/evenements#header">Autres évènements</HashLink>
                 </div>
 
             </div>

@@ -18,6 +18,7 @@ import Photos from "./components/Photos.js"
 import Partenaires from "./components/Partenaires.js"
 import Tremplin from "./components/Tremplin.js"
 import Scenes from "./components/Scenes.js"
+import Evenements from "./components/Evenements.js"
 import Helmet from 'react-helmet'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -38,6 +39,7 @@ root.render(
       <Route path="/photos" element={<Photos />} class="general"/>
       <Route path="/tremplin" element={<Tremplin />} class="general"/>
       <Route path="/scenes" element={<Scenes />} class="general"/>
+      <Route path="/evenements" element={<Evenements />} class="general"/>
       
       <Route path ="/:endroit/concert/:concertName" element={<Concert />} class="general"/>
 
