@@ -72,6 +72,37 @@ p{
     text-align: center;
   }
 
+  .photosImageText{
+    font-weight: 500;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin:0;
+  opacity:0;
+  transition:0.3s;
+  }
+
+  .photosImageContainer:hover .photosImageText{
+    opacity:1;
+  }
+  .photosImageContainer img{
+    transition:0.3s;
+  }
+  .photosImageContainer:hover img{
+    scale: 1.02;
+  }
+
+
+  .photosImageContainer{
+    position:relative;
+    text-align: center;
+    color: white;
+    width:fit-content;
+    height:fit-content;
+    display:inline-block;
+  }
+
 @media all and (orientation: portrait){
     #imgHeaderPart{
         height:18vw;

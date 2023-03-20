@@ -9,7 +9,16 @@ function Partenaires() {
     for(let i=0;i<photosSize();i++)
     {
         const photosInter = photosNb(i);
-        photos.push(<img src={photosInter.img} alt={photosInter.name}/>);
+        //photos.push(<img src={photosInter.img} alt={photosInter.name}/>);
+        photos.push(<div className="photosImageContainer">
+        
+        <img src={photosInter.img} alt={photosInter.name}/>
+        <p className="photosImageText">{photosInter.name}</p>
+        
+        </div>);
+
+
+        
     }
     
 return (
