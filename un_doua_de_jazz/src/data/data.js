@@ -781,25 +781,25 @@ duo : false},
 
 const photos=[{
     img:photo1,
-    name:"Oscar Jerome"
+    name:"Gaspard Baradel 4tet"
 },{
     img:photo2,
-    name:"Oscar Jerome"
+    name:"Gaspard Baradel 4tet"
 },{
     img:photo3,
-    name:"Oscar Jerome"
+    name:"Gaspard Baradel 4tet"
 },{
     img:photo4,
-    name:"Oscar Jerome"
+    name:"Gaspard Baradel 4tet"
 },{
     img:photo5,
-    name:"Oscar Jerome"
+    name:"Zeph"
 },{
     img:photo6,
-    name:"Oscar Jerome"
+    name:"Supermarché Gogo"
 },{
     img:photo7,
-    name:"Oscar Jerome"
+    name:"?????"
 },{
     img:photo8,
     name:"Oscar Jerome"
@@ -811,34 +811,34 @@ const photos=[{
     name:"Oscar Jerome"
 },{
     img:photo11,
-    name:"Oscar Jerome"
+    name:"Association Musicale de L'INSA"
 },{
     img:photo12,
-    name:"Oscar Jerome"
+    name:"Zeph"
 },{
     img:photo13,
-    name:"Oscar Jerome"
+    name:"Zeph"
 },{
     img:photo14,
-    name:"Oscar Jerome"
+    name:"???????"
 },{
     img:photo15,
-    name:"Oscar Jerome"
+    name:"Gin Tonic Orchestra"
 },{
     img:photo16,
-    name:"Oscar Jerome"
+    name:"?????"
 },{
     img:photo17,
-    name:"Oscar Jerome"
+    name:"?????"
 },{
     img:photo18,
-    name:"Oscar Jerome"
+    name:"Trio Charlier Sourisse Winsberg"
 },{
     img:photo19,
-    name:"Oscar Jerome"
+    name:"Trio Charlier Sourisse Winsberg"
 },{
     img:photo20,
-    name:"Oscar Jerome"
+    name:"Trio Charlier Sourisse Winsberg"
 }]
 
 function photosNb(number){
