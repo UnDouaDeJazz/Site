@@ -43,7 +43,13 @@
 
 @media all and (orientation: portrait){
     #imgLogo{
-        height:50vw;
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:50vw;
+    transform: translate(-50%, -50%);
+
+        
     }
 
 
