@@ -91,4 +91,7 @@
   #evenementsWrapper p span{
     font-size:6vw;
   }
+  #evenementsHook p{
+    font-size:4vw;
+  }
 }
