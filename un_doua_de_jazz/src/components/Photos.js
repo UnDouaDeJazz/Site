@@ -29,7 +29,7 @@ return (
         <Header /></div>
 
         <div id="contentPart">
-            <p id="partTitle">Photographies - Edition 2022</p>
+            <p id="partTitle">Edition 2022</p>
             <hr/>
             <div id="photosPage">
             {photos}

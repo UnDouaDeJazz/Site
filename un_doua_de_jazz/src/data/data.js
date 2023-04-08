@@ -799,7 +799,7 @@ const photos=[{
     name:"Supermarché Gogo"
 },{
     img:photo7,
-    name:"?????"
+    name:"Gin Tonic Orchestra"
 },{
     img:photo8,
     name:"Oscar Jerome"
@@ -820,16 +820,16 @@ const photos=[{
     name:"Zeph"
 },{
     img:photo14,
-    name:"???????"
-},{
-    img:photo15,
     name:"Gin Tonic Orchestra"
 },{
+    img:photo15,
+    name:"Léon Phal"
+},{
     img:photo16,
-    name:"?????"
+    name:"Léon Phal"
 },{
     img:photo17,
-    name:"?????"
+    name:"Léon Phal"
 },{
     img:photo18,
     name:"Trio Charlier Sourisse Winsberg"

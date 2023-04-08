@@ -8,7 +8,7 @@ return (
     <div id="benevolesPage">
         <div id="headerBenevoles">
         <img src={benevoles} alt="Bénévoles UnDouaDeJazz" id="imgBenevoles"/>
-        <p id="contactTitle">DEVENIR <span>BENEVOLE</span>
+        <p id="contactTitle"> <span>Rejoins-nous !</span>
         </p>
             
         </div>
@@ -24,7 +24,7 @@ return (
 
                 <hr/>
                 <h2>
-                En quoi consiste mes missions ?</h2>
+                En quoi consistent mes missions ?</h2>
                 <p>
                 En tant que bénévole, tu peux nous aider tout au long de l’année, pour la partie « off » de novembre à juin, ou bien pour la partie « on » au cœur du festival en octobre.<br/>
                 Durant la partie off, nous organisons des évènements ponctuels (boeuf K-fêt, concerts, tremplin etc.), et nous essayons de récolter des fonds (vente de crêpes, comptage vélo, aide au balisage de courses).

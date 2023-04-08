@@ -14,9 +14,9 @@ return (
         <Header /></div>
 
         <div id="contentContact">
-            <p id="contactTitle">Nous contacter</p>
+            <p id="contactTitle">Une question, une suggestion...? N'hésitez pas à nous contacter !</p>
             <hr/>
-            <p class="contactSubtitle">Nous contacter par mail</p>
+            <p class="contactSubtitle">Contact</p>
             <p>communication@undouadejazz.com</p>
             <p class="contactSubtitle">Notre adresse</p>
             <p>20 Avenue Albert Einstein<br/>69100 Villeurbanne</p>

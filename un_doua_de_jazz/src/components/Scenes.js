@@ -38,7 +38,7 @@ return (
             </div>
 
 
-            <p class="scenesSubtitle">La clé de Voûte</p>
+            <p class="scenesSubtitle">La Clef de Voûte</p>
             <p>1 Pl. Chardonnet, 69001 Lyon</p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.016330081418!2d4.8321763154174215!3d45.77086297910578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eafc58c0f98f%3A0xb273103a45f0af5b!2sLa%20Clef%20de%20Vo%C3%BBte!5e0!3m2!1sfr!2sfr!4v1679047188066!5m2!1sfr!2sfr" id="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="map"></iframe>
             

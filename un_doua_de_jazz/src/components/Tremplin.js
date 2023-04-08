@@ -28,7 +28,7 @@ ainsi invités à se produire à La Clé de Voûte, un club de jazz réputé de 
 artistes sélectionnés seront annoncés quelques semaines avant le concert, alors restez
 connectés !</p>
             <p>Ce tremplin permet au groupe vainqueur de se produire à notre festival et d’obtenir
-une somme de 1000 euros. Le deuxième prix s’élève quand à lui à 500 euros.</p>
+une somme de 1000 euros. Le deuxième prix s’élève quant à lui à 500 euros.</p>
 <p>Pour participer, envoyez nous votre candidature contenant une courte présentation
 ainsi qu’une vidéo ou un audio par mail à <a href="mailto:communication@undouadejazz.com">communication@undouadejazz.com</a></p>
             </div>
