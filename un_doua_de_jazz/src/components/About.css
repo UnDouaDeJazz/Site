@@ -64,11 +64,11 @@
 
 @media all and (orientation: portrait){
   #headerAbout p{
-    font-size: 4vw;
+    font-size: 6vw;
 
   }
   #headerAbout span{
-    font-size:6vw;
+    font-size:8vw;
   }
   #aboutText p{
     font-size: 4vw;

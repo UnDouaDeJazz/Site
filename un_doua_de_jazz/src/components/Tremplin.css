@@ -65,10 +65,10 @@
 @media all and (orientation: portrait){
 
   #headerTremplin p{
-    font-size: 4vw;
+    font-size: 6vw;
   }
   #headerTremplin span{
-    font-size:6vw;
+    font-size:8vw;
   }
   #tremplinText p{
     font-size: 4vw;

@@ -61,7 +61,7 @@ margin-top: 28vw;
 #titre2{
     font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
-
+  line-height: 1em;
   font-size: 1.8vw;
   margin-top:0vw;
     margin-right:0vw;
@@ -122,17 +122,18 @@ margin-top: 28vw;
         font-size:4vw;
         top:13vw;
     }#headerBenevoles span{
-        
-        font-size:6vw;
+
+        font-size:7vw;
     }
     #titre1{
-      font-size: 3.8vw;
+      font-size: 5vw;
       margin-left: 3vw;
       margin-right: 3vw;
       line-height: 4vw;
     }
     #titre2{
       font-size: 4.7vw;
+      vertical-align:sub;
     }#benevoleTexte h2{
         font-size:5vw;
     }#benevoleTexte h3{

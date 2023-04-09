@@ -18,8 +18,8 @@ return (
             <p>
                 .<br/><br/>
                 D'autres évènements sont en préparation !<br/>
-                Parmis eux, une collaboration avec les 24h de l'INSA, une Jam Session à la K-fet de l'INSA, un concert au Périscope...<br/>
-                Restez branché !
+                Parmis eux, une collaboration avec le festival des 24h de l'INSA lors de la soirée du dimanche 14 mai, une Jam Session à la K-fet de l'INSA...<br/>
+                Restez branchés !
                 
                 <br/><br/>.<br/>
             </p>

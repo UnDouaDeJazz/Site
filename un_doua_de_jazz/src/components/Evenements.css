@@ -26,6 +26,7 @@
     left:50%;
     margin: auto;
     transform: translateX(-50%);
+    text-align: center;
 }
 #headerEvenements span{
     
