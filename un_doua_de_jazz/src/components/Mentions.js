@@ -56,7 +56,7 @@ Scaleway<br/>
 
             Pôle communication :<br/>
             Julie Léchopier<br/>
-            Titouan Bufflier
+            Titouan Bufflier<br/>
             Alice Invernizzi<br/><br/>
 
             Secrétaire :<br/>
