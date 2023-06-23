@@ -21,7 +21,6 @@ return (
 
             </div>
             <div id="tremplinText">
-            <p>Ouverture des inscriptions !</p>
             <p>Le Doua de Jazz organise tous les ans un concert-tremplin afin de découvrir et mettre
 en avant des artistes émergents. Trois artistes/groupes de talent sélectionnés sont
 ainsi invités à se produire à La Clef de Voûte, un club de jazz réputé de Lyon.</p>
