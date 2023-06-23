@@ -27,9 +27,8 @@ en avant des artistes émergents. Trois artistes/groupes de talent sélectionné
 ainsi invités à se produire à La Clef de Voûte, un club de jazz réputé de Lyon.</p>
             <p>Ce tremplin permet au groupe vainqueur de se produire à notre festival lors d'une première partie pour un concert, et également d'obtenir
 une somme de 1000 euros d'accompagnement. Le deuxième prix s’élève quant à lui à 500 euros.</p>
-<p>Pour participer, envoyez-nous votre candidature contenant une courte présentation
-ainsi qu’une vidéo ou un extrait audio par mail à <a href="mailto:communication@undouadejazz.com">communication@undouadejazz.com</a> avant le 5 mai.</p>
-            <p>Cette année, rendez-vous le 1er Juin à 20h30; l'annonce des 3 finalistes sélectionnés pour jouer devant le jury sera bientôt sur nos réseaux, alors restez connectés !</p>
+<p>Les participants de l'édition 2023 ont été Hugo Diaz Quartet, The Entropy Paradox, et Grises.</p>
+            <p>Nous aurons le plaisir de voir jouer Hugo Diaz quartet, gagnant du Tremplin, à une soirée que nous dévoilerons prochainement !</p>
             </div>
             <hr/>
 

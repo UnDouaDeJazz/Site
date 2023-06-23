@@ -17,10 +17,9 @@ return (
     <div id="homeContent">
         <p id="venir">Le festival du Doua De Jazz fait son retour du 12 au 20 Octobre 2023 pour sa 30e édition ! </p>
         <hr id="smallhr"/>
-        <p id="patienter">♫ Rendez-vous le mercredi 7 juin 2023 pour le premier concert de l'année ! ♫
-            <br/>Nous y retrouverons NCY Milky Band, pour une soirée en partenariat avec Le Périscope ! Vous trouverez précisions au lien suivant.
-            <br/> 
-            <a href="https://billetterie.periscope-lyon.com/evenement/07-06-2023-21-00-ncy-milky-band">Accédez à la billetterie</a>
+        <p id="patienter">♫ Les gagnants du Tremplin ont été dévoilés ♫
+            <br/>Il s'agit d'Hugo Diaz Quartet ! Félicitations à eux et aux deux autres groupes, Grises et The Entropy Paradox, pour leurs performances.
+            <br/>
         </p>
         <hr id="smallhr"/>
         <p id="patienter"><span>N'hésite pas à regarder les prochains évènements que nous organisons, ou à redécouvrir nos anciennes éditions</span></p>
