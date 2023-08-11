@@ -40,6 +40,12 @@ function Header() {
             </div>
           <HashLink to="/artistes#header">
           <div id="btnNosArtistes" class="btnPasDrop"><p>Nos Artistes</p></div></HashLink>
+          <HashLink to="/partenaires">
+          <div id="btnNosPartenaires" class="btnPasDrop"><p>Nos Partenaires</p></div></HashLink>
+
+          
+          <HashLink to="/playlists">
+          <div id="btnPlaylists" class="btnPasDrop"><p>Nos playlists</p></div></HashLink>
           {/*<a href="https://www.helloasso.com/associations/un-doua-de-jazz">
             <button id="btnBilleterie">BILLETTERIE</button>
   </a>*/}
