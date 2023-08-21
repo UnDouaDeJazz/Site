@@ -219,7 +219,7 @@ const data=[
 {
     nb : 1, //numéro de repérage pour affichage
     id: 'besson-suarez', //adresse url pour affichage
-    name: "Airelle Besson & Lionel Suarez", //nom affiché
+    name: "A. Besson & L. Suarez", //nom affiché
     quote : <p id="quoteConcert">"Ensemble, ils créent une expérience sonore captivante, mêlant jazz et mélodies
     ensorcelantes. Leur complicité sur scène crée un dialogue musical exceptionnel, vous invitant à un
     voyage enivrant à travers des notes qui touchent l'âme. "</p>,
