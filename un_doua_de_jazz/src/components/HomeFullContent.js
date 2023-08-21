@@ -78,7 +78,7 @@ function Table(){
 function HomeFullContent() {
 return (
     <div id="homeContent">
-        <p id="prog">Programmation 2022</p>
+        <p id="prog">Programmation 2023</p>
         {Table()}
     </div>
     );

@@ -6,7 +6,7 @@ import HeaderHome from "./HeaderHome.js"
 import {donneesSize} from "../data/data.js"
 
 function Home() {
-  /*if(donneesSize()>0){
+  if(donneesSize()>0){
     return (
       <div id="home">
           <div id="headerWrap">
@@ -30,19 +30,19 @@ function Home() {
           </div>
       </div>
     );
-  }*/
+  }
 
-  return (
-    <div id="home">
-        <div id="headerWrap">
-            <HeaderHome/>
-        </div>
-        <div id="artistesWrapper">
+  // return (
+  //   <div id="home">
+  //       <div id="headerWrap">
+  //           <HeaderHome/>
+  //       </div>
+  //       <div id="artistesWrapper">
 
-                <HomePostContent/>
-        </div>
-    </div>
-  );
+  //               <HomePostContent/>
+  //       </div>
+  //   </div>
+  // );
 }
 
 export default Home;
