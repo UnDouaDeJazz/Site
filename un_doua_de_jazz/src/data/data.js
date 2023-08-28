@@ -36,8 +36,16 @@ import Duda2 from '../media/duda2.jpg';
 
 import airelleBesson from '../media/airelle-lionel.jpg'
 import airelleBesson2 from '../media/airelle-lionel2.jpg'
-import oeuf from '../media/oeuf.jpg'
-import oeuf2 from '../media/oeuf2.jpg'
+import airelleBessonMenu from '../media/airelle-besson-menu.png'
+import oeuf from '../media/oeuf.png'
+import oeuf2 from '../media/oeuf.jpg'
+import leon3 from '../media/leon3.png'
+import zoe from  '../media/zoe.jpg'
+import zoe2 from  '../media/zoe2.jpg'
+import lede from  '../media/lede.png'
+import lede2 from  '../media/lede2.png'
+import jasual from  '../media/jasual.jpg'
+import jasual2 from  '../media/jasual2.jpg'
 
 import photo1 from '../media/photos2022/1.jpg';
 import photo2 from '../media/photos2022/2.jpg';
@@ -217,7 +225,7 @@ month : 'oct.'},
 
 const data=[
 {
-    nb : 1, //numéro de repérage pour affichage
+    nb : 2, //numéro de repérage pour affichage
     id: 'besson-suarez', //adresse url pour affichage
     name: "A. Besson & L. Suarez", //nom affiché
     quote : <p id="quoteConcert">"Ensemble, ils créent une expérience sonore captivante, mêlant jazz et mélodies
@@ -230,22 +238,22 @@ const data=[
     et sa sensibilité. </p>,
     desc2 : '',
     //deuxième texte
-    img1 : airelleBesson, //image header
-    img2 : airelleBesson2, //image milieu de texte
-    imgMenu : airelleBesson,
+    img1 : airelleBesson2, //image header
+    img2 : airelleBesson, //image milieu de texte
+    imgMenu : airelleBessonMenu,
     day : '17', 
     month : 'oct.',
     year : '2023',
-    hour : '??', //la date précise du concert
+    hour : '20h30', //la date précise du concert
     place : "Theatre Astree",//l'endroit du concert
     placeIndications : 'https://theatre-astree.univ-lyon1.fr/',
-    nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
-    tarif1 : 0,
-    nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e",
-    tarif2 : 0,
-    nomTarif3 : 'Abonnement Espace Tonkin',
-    tarif3 : 0,
-    billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/airelle-bessonlionel-suarez-duo-hugo-diaz-quartet',
+    nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+    tarif1 : '15€',
+    nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+    tarif2 : '12€',
+    nomTarif3 : 'Carte VA : ',
+    tarif3 : '10€',
+    billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/airelle-besson-lionel-suarez-duo-hugo-diaz-quartet',
     //adresse de la billetterie de ce concert
     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
     // gratuit : true,
@@ -254,18 +262,12 @@ const data=[
     // partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
 },
 {        
-    nb : 2, //numéro de repérage pour affichage
+    nb : 1, //numéro de repérage pour affichage
 id: 'big-bang-oeuf', //adresse url pour affichage
 name: "Big Band de l'oeuf", //nom affiché
-quote : <p id="quoteConcert">"Préparez-vous à être emportés par cette vague de sonorités riches et
-entraînantes, orchestrée avec passion et créativité."</p>,
+quote : <p id="quoteConcert">"Plongez dans l'énergie contagieuse du Big Band de l'Œuf, un groupe d’exception originaire de la région Rhône-Alpes."</p>,
 //premier texte
-desc : <p id="descrConcert"> Plongez dans l'énergie contagieuse du Big Band de l'Œuf, un groupe d’exception originaire de la région
-Rhône-Alpes. Ce collectif musical, composé d'artistes passionnés et talentueux, fusionne les sons du
-jazz classique avec une touche moderne et dynamique originale. Les mélodies puissantes et les
-arrangements audacieux de Pierre Baldy-Moulinier créent une expérience musicale enivrante qui
-transporte les auditeurs dans un tourbillon de rythmes et de harmonies, tout en venant habilement
-rendre le jazz accessible à tous.  </p>,
+desc : <p id="descrConcert"> Ce collectif musical, composé d'artistes passionnés et talentueux, fusionne les sons du jazz classique avec une touche moderne et dynamique originale. Les mélodies puissantes et les arrangements audacieux de Pierre Baldy-Moulinier créent une expérience musicale enivrante qui transporte les auditeurs dans un tourbillon de rythmes et de harmonies, tout en venant habilement rendre le jazz accessible à tous. Le but de leur projet de l’Astro-Symphonie est de vulgariser les dernières découvertes scientifiques en associant des astrophysiciens, un compositeur et un orchestre ou un big band. L’objectif est donc de créer, de jouer une œuvre qui permette de faire ressentir au plus près les processus physiques qui sous-tendent l’évolution de l’univers. La musique viendra en soutien du conférencier afin d’illustrer les différents thèmes abordés. Préparez-vous à être emportés par cette vague de sonorités riches et entraînantes, orchestrée avec passion et créativité. </p>,
 desc2 : '',
 //deuxième texte
 img1 : oeuf, //image header
@@ -274,16 +276,16 @@ imgMenu : oeuf,
 day : '16', 
 month : 'oct.',
 year : '2023',
-hour : '??', //la date précise du concert
+hour : '20h30', //la date précise du concert
 place : "Rotonde de l'INSA",//l'endroit du concert
 placeIndications : 'https://rotonde.asso-insa-lyon.fr/',
-nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
-tarif1 : 0,
-nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e",
-tarif2 : 0,
-nomTarif3 : 'Abonnement Espace Tonkin',
-tarif3 : 0,
-billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/airelle-bessonlionel-suarez-duo-hugo-diaz-quartet',
+nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+tarif1 : "12€",
+nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+tarif2 : "7€",
+nomTarif3 : 'Tarif carte VA : ',
+tarif3 : "5€",
+billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/astro-symphonie-l-oeuf-big-band',
 //adresse de la billetterie de ce concert
 duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
 // gratuit : true,
@@ -291,18 +293,18 @@ reservable : true,
 disponibiliteTarifs : true,
 // partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
 },
-    {
-        nb : 3, //numéro de repérage pour affichage
-        id: 'Phal', //adresse url pour affichage
-        name: "Léon Phal", //nom affiché
-        quote : <p id="quoteConcert">"Saxophoniste prometteur, Léon Phal fait partie de cette jeune génération de musiciens de jazz biberonnée aux classiques, dont il s’affranchit tout en leur rendant hommage à chaque note avec brio, qu’il s’agisse du RH Factor de Roy Hargrove ou du « Voodoo » de D’Angelo."</p>,
-        //premier texte
-        desc : <p id="descrConcert">Entouré de ses complices de toujours, sa maîtrise de l’instrument, son sens inouï de la mélodie et la délicatesse de ses compositions amplifiées par un groove dévastateur, présagent un bel avenir à ce franco-suisse originaire de Aÿ en Champagne. Une fraîcheur et un talent qui n’ont pas échappé aux festivals Nancy Jazz Pulsations et Jazz à Vienne, dont il est coup sur coup le lauréat des tremplins 2019. 
-        <br/><br/>
-        Sacré « Révélation » par les magazines Jazz News et Jazz Magazine pour la sortie de son premier album « Canto Bello », Léon Phal est à la tête d’un génial quintet dont les influences et l’imagination inspirent des improvisations remarquables. S’il flirte déjà dans la cour des grands du jazz contemporain, nul doute que son souffle, sa curiosité et son esprit libre le mèneront loin.
-        <br/><br/>
-        Léon Phal : saxophone
-        <br/>
+{
+    nb : 4, //numéro de repérage pour affichage
+    id: 'Phal', //adresse url pour affichage
+    name: "Léon Phal", //nom affiché
+    quote : <p id="quoteConcert">"Saxophoniste prometteur, Léon Phal fait partie de cette jeune génération de musiciens de jazz biberonnée aux classiques, dont il s’affranchit tout en leur rendant hommage à chaque note avec brio, qu’il s’agisse du RH Factor de Roy Hargrove ou du « Voodoo » de D’Angelo."</p>,
+    //premier texte
+    desc : <p id="descrConcert">Entouré de ses complices de toujours, sa maîtrise de l’instrument, son sens inouï de la mélodie et la délicatesse de ses compositions amplifiées par un groove dévastateur, présagent un bel avenir à ce franco-suisse originaire de Aÿ en Champagne. Une fraîcheur et un talent qui n’ont pas échappé aux festivals Nancy Jazz Pulsations et Jazz à Vienne, dont il est coup sur coup le lauréat des tremplins 2019. 
+    <br/><br/>
+    Sacré « Révélation » par les magazines Jazz News et Jazz Magazine pour la sortie de son premier album « Canto Bello », Léon Phal est à la tête d’un génial quintet dont les influences et l’imagination inspirent des improvisations remarquables. S’il flirte déjà dans la cour des grands du jazz contemporain, nul doute que son souffle, sa curiosité et son esprit libre le mèneront loin.
+    <br/><br/>
+    Léon Phal : saxophone
+    <br/>
 Zacharie Ksyk : trompette
 <br/>
 Gauthier Toux : claviers
@@ -310,30 +312,121 @@ Gauthier Toux : claviers
 Arthur Alard : batterie
 <br/>
 Rémi Bouyssière : contrebasse</p>,
-        desc2 : '',
-        //deuxième texte
-        img1 : Phal, //image header
-        img2 : Phal2, //image milieu de texte
-        imgMenu : Phal, //image carrée du menu
-        day : '20', 
-        month : 'oct.',
-        year : '2023',
-        hour : '21h00', //la date précise du concert
-        place : 'Transbordeur', //l'endroit du concert
-        placeIndications : 'https://www.transbordeur.fr/accueil/',
-        nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
-        tarif1 : '?€',
-        nomTarif2 : "Etudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
-        tarif2 : '€',
-        nomTarif3 : 'Tarif carte VA : ',
-        tarif3 : '€',
-        billeterie : 'https://web.digitick.com/un-doua-de-jazz-leon-phal-concert-transbordeur-villeurbanne-20-octobre-2023-css5-transbordeur-pg101-ri9752327.html',
-        //adresse de la billetterie de ce concert
-        duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
-        disponibiliteTarifs : true,
-        gratuit : false,
-        // partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
-    },
+    desc2 : '',
+    //deuxième texte
+    img1 : leon3, //image header
+    img2 : Phal2, //image milieu de texte
+    imgMenu : leon3, //image carrée du menu
+    day : '20', 
+    month : 'oct.',
+    year : '2023',
+    hour : '20h00', //la date précise du concert
+    place : 'Transbordeur', //l'endroit du concert
+    placeIndications : 'https://www.transbordeur.fr/accueil/',
+    nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+    tarif1 : '19€',
+    nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+    tarif2 : '13€',
+    nomTarif3 : '',
+    tarif3 : '',
+    billeterie : 'https://web.digitick.com/un-doua-de-jazz-leon-phal-concert-transbordeur-villeurbanne-20-octobre-2023-css5-transbordeur-pg101-ri9752327.html',
+    //adresse de la billetterie de ce concert
+    duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    disponibiliteTarifs : true,
+    gratuit : false,
+    // partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
+},{
+    nb : 3, //numéro de repérage pour affichage
+    id: 'zoe-shangai', //adresse url pour affichage
+    name: "Zoe\'s Shangai", //nom affiché
+    quote : <p id="quoteConcert">"Le processus de création musicale est pour nous une série d'étapes mystérieuses et intuitives, d'une découverte passionnante à l'autre. "</p>,
+    //premier texte
+    desc : <p id="descrConcert">Les sons et les idées circulent entre nous, itérant dans une composition étroitement formée, façonnant des bases sonores originales et roulant ensuite vers des territoires inexplorés, avec la voix de Zoé reflétant des thèmes tels que la subjectivité de la réalité, la création de souvenirs et les contradictions internes. La confiance et les perspectives uniques de Mehdi (basse), Emerik (clavier) et Landy (batterie) se sont mêlées à la vision lentement révélée de Zoé, pour former la force florissante qu'est Zoe's Shanghai. Nous fusionnons l'essence de multiples styles musicaux, avec des progressions d'accords de jazz et des échos d'afrobeat, de reggae-dub et d'influences musicales orientales, créant ainsi de nouvelles formations inspirantes qui vous feront peut-être danser sur un terrain fertile.</p>,
+    desc2 : '',
+    //deuxième texte
+    img1 : zoe, //image header
+    img2 : zoe2, //image milieu de texte
+    imgMenu : zoe, //image carrée du menu
+    day : '19', 
+    month : 'oct.',
+    year : '2023',
+    hour : '', //la date précise du concert
+    place : 'Periscope', //l'endroit du concert
+    placeIndications : 'https://www.periscope-lyon.com/',
+    nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+    tarif1 : '14€',
+    nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+    tarif2 : '10€',
+    nomTarif3 : 'Tarif VA : ',
+    tarif3 : '8€',
+    
+    //adresse de la billetterie de ce concert
+    duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    disponibiliteTarifs : false,
+    gratuit : false,
+    // partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
+},{
+    nb : 5, //numéro de repérage pour affichage
+    id: 'jazzual-cazz', //adresse url pour affichage
+    name: "Jasual Cazz", //nom affiché
+    quote : <p id="quoteConcert">"L'équipage nous transporte dans un délire bien à lui. Un univers retro-futuriste rafraichissant, qui mélange science-fiction, jeux vidéos et jazz organique."</p>,
+    //premier texte
+    desc : <p id="descrConcert">Volume à fond dans le cockpit, les vinyles de Herbie Hancock et de Casiopea résonnent dans le vide intersidéral. Les sales gosses de Jasual Cazz ont cette musique dans le sang, et sont bien décidés à la défendre avec sincérité. Après avoir cultivé leur virtuosité sur une console de jeux toujours allumée, ils se sont mis en tête de repousser les limites du jazz actuel. 
+    Leur radar les oriente vers la nouvelle vague du jazz anglais, enracinée dans la culture broken-beat qui allie jazz et musiques électroniques. Suivant les traces de leurs aînés Badbadnotgood et Vels Trio, ils voyagent avec le courant du neo-jazz français, incarné par ISHKERO ou Léon Phal. </p>,
+    desc2 : '',
+    //deuxième texte
+    img1 : jasual, //image header
+    img2 : jasual2, //image milieu de texte
+    imgMenu : jasual, //image carrée du menu
+    day : '20', 
+    month : 'oct.',
+    year : '2023',
+    hour : '20h00', //la date précise du concert
+    place : 'Transbordeur', //l'endroit du concert
+    placeIndications : 'https://www.transbordeur.fr/accueil/',
+    nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+    tarif1 : '19€',
+    nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+    tarif2 : '13€',
+    nomTarif3 : '',
+    tarif3 : '',
+    billeterie : 'https://web.digitick.com/un-doua-de-jazz-leon-phal-concert-transbordeur-villeurbanne-20-octobre-2023-css5-transbordeur-pg101-ri9752327.html',
+    //adresse de la billetterie de ce concert
+    duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    disponibiliteTarifs : true,
+    gratuit : false,
+    // partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
+},{
+    nb : 6, //numéro de repérage pour affichage
+    id: 'lede', //adresse url pour affichage
+    name: "Ledé Markson", //nom affiché
+    quote : <p id="quoteConcert">"Nous avons l’honneur d’accueillir Ledé Markson, un rappeur polyvalent qui fusionne habilement les influences du jazz et de la soul dans son style musical distinctif."</p>,
+    //premier texte
+    desc : <p id="descrConcert">Sa voix expressive et ses paroles évocatrices créent une connexion authentique avec son public. Inspiré par des icônes comme les Red Hot Chilli Peppers, puis Kendrick Lamar, Erykah Badu et de nombreux artistes Belges, Ledé Markson façonne son propre chemin dans l'univers musical, en créant des mélodies et des rythmes qui reflètent à la fois ses influences et sa créativité. Que vous soyez amateur de rap ou que vous cherchiez à explorer de nouvelles sonorités, Ledé Markson vous invite à plonger dans son univers musical captivant. </p>,
+    desc2 : '',
+    //deuxième texte
+    img1 : lede, //image header
+    img2 : lede2, //image milieu de texte
+    imgMenu : lede, //image carrée du menu
+    day : '20', 
+    month : 'oct.',
+    year : '2023',
+    hour : '20h00', //la date précise du concert
+    place : 'Transbordeur', //l'endroit du concert
+    placeIndications : 'https://www.transbordeur.fr/accueil/',
+    nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+    tarif1 : '19€',
+    nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+    tarif2 : '13€',
+    nomTarif3 : '',
+    tarif3 : '',
+    billeterie : 'https://web.digitick.com/un-doua-de-jazz-leon-phal-concert-transbordeur-villeurbanne-20-octobre-2023-css5-transbordeur-pg101-ri9752327.html',
+    //adresse de la billetterie de ce concert
+    duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    disponibiliteTarifs : true,
+    gratuit : false,
+    // partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
+},
 ]
 
 // const data=[
