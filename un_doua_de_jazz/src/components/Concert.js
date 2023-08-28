@@ -126,12 +126,14 @@ function Concert() {
                     {/* <p class="tarif">Billetterie bientôt disponible !</p> */}
                     {data.partenariat}
                     <h3 class="tarif">Concert gratuit sans réservations</h3>
-
-            <a href={data.billeterie}>
+            {
+                data.billeterie && 
+                (<a href={data.billeterie}>
             <button id="billeterieConcert">DETAILS</button>
             {boutonMasterclass}
 
-            </a>
+            </a>)}
+            
                 </div>);
         }
         
@@ -171,10 +173,13 @@ function Concert() {
                 {data.nomTarif3}<br/>
                 <span>{data.tarif3}</span>
   </p>
-            <a href={data.billeterie}>
+            {
+                data.billeterie && 
+            (<a href={data.billeterie}>
             <button id="billeterieConcert">BILLETTERIE</button>
             {boutonMasterclass}
-            </a>
+            </a>)
+            }
             </div>);
     }
   return (
