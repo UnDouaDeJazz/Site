@@ -1,4 +1,4 @@
-
+// kaffe, kiumba, stambolov, eji, oeuf, besson, diaz, tiab, shanghai, jazzual, lede
 
 import chris from '../media/chris-potter.png';
 import tigran from '../media/tigran-hamasaya.png';
@@ -46,6 +46,18 @@ import lede from  '../media/lede.png'
 import lede2 from  '../media/lede2.png'
 import jasual from  '../media/jasual.jpg'
 import jasual2 from  '../media/jasual2.jpg'
+import kaffe from '../media/kaffe.png'
+import kaffe2 from '../media/kaffe2.jpg'
+import tiab from '../media/tiab.png'
+import tiab2 from '../media/tiab2.jpg'
+import diaz from '../media/diaz.png'
+import diaz2 from '../media/diaz2.jpg'
+import eji from '../media/eji.jpg'
+import eji2 from '../media/eji2.jpg'
+import stambolov from '../media/stambolov.png'
+import stambolov2 from '../media/stambolov2.jpg'
+import kumbiadelik from '../media/kumbiadelik.png'
+import kumbiadelik2 from '../media/kumbiadelik2.jpg'
 
 import photo1 from '../media/photos2022/1.jpg';
 import photo2 from '../media/photos2022/2.jpg';
@@ -225,7 +237,7 @@ month : 'oct.'},
 
 const data=[
 {
-    nb : 2, //numéro de repérage pour affichage
+    nb : 6, //numéro de repérage pour affichage
     id: 'besson-suarez', //adresse url pour affichage
     name: "A. Besson & L. Suarez", //nom affiché
     quote : <p id="quoteConcert">"Ensemble, ils créent une expérience sonore captivante, mêlant jazz et mélodies
@@ -262,7 +274,7 @@ const data=[
     // partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
 },
 {        
-    nb : 1, //numéro de repérage pour affichage
+    nb : 5, //numéro de repérage pour affichage
 id: 'big-bang-oeuf', //adresse url pour affichage
 name: "Big Band de l'oeuf", //nom affiché
 quote : <p id="quoteConcert">"Plongez dans l'énergie contagieuse du Big Band de l'Œuf, un groupe d’exception originaire de la région Rhône-Alpes."</p>,
@@ -294,7 +306,7 @@ disponibiliteTarifs : true,
 // partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
 },
 {
-    nb : 4, //numéro de repérage pour affichage
+    nb : 12, //numéro de repérage pour affichage
     id: 'Phal', //adresse url pour affichage
     name: "Léon Phal", //nom affiché
     quote : <p id="quoteConcert">"Saxophoniste prometteur, Léon Phal fait partie de cette jeune génération de musiciens de jazz biberonnée aux classiques, dont il s’affranchit tout en leur rendant hommage à chaque note avec brio, qu’il s’agisse du RH Factor de Roy Hargrove ou du « Voodoo » de D’Angelo."</p>,
@@ -329,16 +341,16 @@ Rémi Bouyssière : contrebasse</p>,
     tarif2 : '13€',
     nomTarif3 : '',
     tarif3 : '',
-    billeterie : 'https://web.digitick.com/un-doua-de-jazz-leon-phal-concert-transbordeur-villeurbanne-20-octobre-2023-css5-transbordeur-pg101-ri9752327.html',
+    billeterie : 'https://transbordeur.fr/agenda-2023-2024/un-doua-de-jazz-leon-phal-ven-20-oct-23/',
     //adresse de la billetterie de ce concert
     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
     disponibiliteTarifs : true,
     gratuit : false,
     // partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
 },{
-    nb : 3, //numéro de repérage pour affichage
-    id: 'zoe-shangai', //adresse url pour affichage
-    name: "Zoe\'s Shangai", //nom affiché
+    nb : 9, //numéro de repérage pour affichage
+    id: 'zoe-shanghai', //adresse url pour affichage
+    name: "Zoe\'s Shanghai", //nom affiché
     quote : <p id="quoteConcert">"Le processus de création musicale est pour nous une série d'étapes mystérieuses et intuitives, d'une découverte passionnante à l'autre. "</p>,
     //premier texte
     desc : <p id="descrConcert">Les sons et les idées circulent entre nous, itérant dans une composition étroitement formée, façonnant des bases sonores originales et roulant ensuite vers des territoires inexplorés, avec la voix de Zoé reflétant des thèmes tels que la subjectivité de la réalité, la création de souvenirs et les contradictions internes. La confiance et les perspectives uniques de Mehdi (basse), Emerik (clavier) et Landy (batterie) se sont mêlées à la vision lentement révélée de Zoé, pour former la force florissante qu'est Zoe's Shanghai. Nous fusionnons l'essence de multiples styles musicaux, avec des progressions d'accords de jazz et des échos d'afrobeat, de reggae-dub et d'influences musicales orientales, créant ainsi de nouvelles formations inspirantes qui vous feront peut-être danser sur un terrain fertile.</p>,
@@ -359,14 +371,14 @@ Rémi Bouyssière : contrebasse</p>,
     tarif2 : '10€',
     nomTarif3 : 'Tarif VA : ',
     tarif3 : '8€',
-    
+    billeterie: 'https://billetterie.periscope-lyon.com/evenement/19-10-2023-21-00-zoe-s-shanghai-celia-tiab-trio',
     //adresse de la billetterie de ce concert
     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
     disponibiliteTarifs : false,
     gratuit : false,
     // partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
 },{
-    nb : 5, //numéro de repérage pour affichage
+    nb : 10, //numéro de repérage pour affichage
     id: 'jazzual-cazz', //adresse url pour affichage
     name: "Jasual Cazz", //nom affiché
     quote : <p id="quoteConcert">"L'équipage nous transporte dans un délire bien à lui. Un univers retro-futuriste rafraichissant, qui mélange science-fiction, jeux vidéos et jazz organique."</p>,
@@ -390,14 +402,14 @@ Rémi Bouyssière : contrebasse</p>,
     tarif2 : '13€',
     nomTarif3 : '',
     tarif3 : '',
-    billeterie : 'https://web.digitick.com/un-doua-de-jazz-leon-phal-concert-transbordeur-villeurbanne-20-octobre-2023-css5-transbordeur-pg101-ri9752327.html',
+    billeterie : 'https://transbordeur.fr/agenda-2023-2024/un-doua-de-jazz-leon-phal-ven-20-oct-23/',
     //adresse de la billetterie de ce concert
     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
     disponibiliteTarifs : true,
     gratuit : false,
     // partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
 },{
-    nb : 6, //numéro de repérage pour affichage
+    nb : 11, //numéro de repérage pour affichage
     id: 'lede', //adresse url pour affichage
     name: "Ledé Markson", //nom affiché
     quote : <p id="quoteConcert">"Nous avons l’honneur d’accueillir Ledé Markson, un rappeur polyvalent qui fusionne habilement les influences du jazz et de la soul dans son style musical distinctif."</p>,
@@ -420,457 +432,202 @@ Rémi Bouyssière : contrebasse</p>,
     tarif2 : '13€',
     nomTarif3 : '',
     tarif3 : '',
-    billeterie : 'https://web.digitick.com/un-doua-de-jazz-leon-phal-concert-transbordeur-villeurbanne-20-octobre-2023-css5-transbordeur-pg101-ri9752327.html',
+    billeterie : 'https://transbordeur.fr/agenda-2023-2024/un-doua-de-jazz-leon-phal-ven-20-oct-23/',
     //adresse de la billetterie de ce concert
     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
     disponibiliteTarifs : true,
     gratuit : false,
     // partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
+},{
+    nb : 1, //numéro de repérage pour affichage
+    id: 'kaffe', //adresse url pour affichage
+    name: "Kaffe Crème", //nom affiché
+    quote : <p id="quoteConcert">"Mêlant house, hip-hop, techno, deep, jazz, funk, etc, ses productions modernes transpirent la joie de vivre évoquant une certaine nostalgie des dancefloors des 90’s."</p>,
+    //premier texte
+    desc : <p id="descrConcert">Kaffe Crème aka Victor Dijoud, DJ, producteur, co-fondateur du label Floors Records et musicien du Gin Tonic Orchestra, collectif qui parcoure les scènes de France et d’Europe depuis 2019.
+    Dans tout ce qu’il fait, Victor a un attrait énorme de relier ce qui sépare – une qualité qui dépasse parfois largement son propre art.
+    Sa vaste collection de disques, sa passion ininterrompue pour les raretés et la découverte inlassable de trésors musicaux encore cachés font autant partie de sa personnalité artistique que sa capacité à toujours considérer la musique comme un tout indivisible.</p>,
+    desc2 : '',
+    //deuxième texte
+    img1 : kaffe2, //image header
+    img2 : kaffe, //image milieu de texte
+    imgMenu : kaffe, //image carrée du menu
+    day : '12', 
+    month : 'oct.',
+    year : '2023',
+    hour : 'Heure à venir', //la date précise du concert
+    place : 'K-fet INSA', //l'endroit du concert
+    placeIndications : 'https://kfet-insa.fr/',
+    nomTarif1 : '', //tous les tarifs (3 maximum pour l'instant)
+    tarif1 : '',
+    nomTarif2 : "",
+    tarif2 : '',
+    nomTarif3 : '',
+    tarif3 : '',
+    duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    disponibiliteTarifs : true,
+    gratuit : true,
+    // partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
+},{
+    nb : 2, //numéro de repérage pour affichage
+    id: 'kumbiadelik', //adresse url pour affichage
+    name: "Kumbiadelik", //nom affiché
+    quote : <p id="quoteConcert">"Kumbiadelik est un voyage sonore à travers l'Amérique du Sud, mêlant cumbia, rock psychédélique, musique andine et afro-péruvienne. "</p>,
+    //premier texte
+    desc : <p id="descrConcert">Ce sont trois musiciens français et chiliens qui vont vous faire danser et vous enivrer de leur son authentique, fruit de la fusion d'instruments traditionnels du Chili et du Pérou, d'instruments de Rock Classique et de percussions latines aux accents caribéen.</p>,
+    desc2 : '',
+    //deuxième texte
+    img1 : kumbiadelik2, //image header
+    img2 : kumbiadelik, //image milieu de texte
+    imgMenu : kumbiadelik, //image carrée du menu
+    day : '14', 
+    month : 'oct.',
+    year : '2023',
+    hour : '20h30', //la date précise du concert
+    place : 'Toï Toï le Zinc', //l'endroit du concert
+    placeIndications : 'https://www.toitoilezinc.fr/',
+    nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+    tarif1 : '12€',
+    nomTarif2 : "Solidaire petit budget : ",
+    tarif2 : '8€',
+    nomTarif3 : 'Solidaire moyen budget : ',
+    tarif3 : '10€',
+    nomTarif4 : 'Etudiant : ',
+    tarif4 : '6.5€',
+    billeterie: 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/captain-stambolov?_ga=2.101139782.676080449.1693777903-2034112181.1692570716',
+    //adresse de la billetterie de ce concert
+    duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    disponibiliteTarifs : false,
+    gratuit : false,
+    // partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
+},{
+    nb : 8, //numéro de repérage pour affichage
+    id: 'tiab', //adresse url pour affichage
+    name: "Celia Tiab", //nom affiché
+    quote : <p id="quoteConcert">"Passionnée de musique depuis l'enfance, et particulièrement des sons chauds de guitares et pianos électriques des années 60/70, Célia Tiab, chanteuse et guitariste française de 22 ans, se donne pour mission de créer de la musique qui lui ressemble, sans artifices. "</p>,
+    //premier texte
+    desc : <p id="descrConcert">Célia a sorti son premier EP 'Cécé' juillet 2022 sur le label irlandais Soft Boy Records, inspiré par le gospel de Donny Hathaway, la soul-indie de Nick Hakim, et la folk d'Andy Shauf. 
+    C'est en trio, accompagnée par Joël Andriamaroandraina (Yūcid, Deaz...) au piano et Noé Desmares (Equinox Trio, Elodie Mam's, Iperem...) à la basse qu'elle ouvrira le portail de son monde doux et intimiste.</p>,
+    desc2 : '',
+    //deuxième texte
+    img1 : tiab2, //image header
+    img2 : tiab, //image milieu de texte
+    imgMenu : tiab, //image carrée du menu
+    day : '19', 
+    month : 'oct.',
+    year : '2023',
+    hour : '21h00', //la date précise du concert
+    place : 'Le Périscope', //l'endroit du concert
+    placeIndications : 'https://www.periscope-lyon.com/',
+    nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+    tarif1 : '14€',
+    nomTarif2 : "Tarif réduit : ",
+    tarif2 : '10€',
+    nomTarif3 : 'Tarif VA ou abonné : ',
+    tarif3 : '8€',
+    billeterie: 'https://billetterie.periscope-lyon.com/evenement/19-10-2023-21-00-zoe-s-shanghai-celia-tiab-trio',
+    //adresse de la billetterie de ce concert
+    duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    disponibiliteTarifs : false,
+    gratuit : false,
+    // partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
+},{
+    nb : 7, //numéro de repérage pour affichage
+    id: 'diaz', //adresse url pour affichage
+    name: "Hugo Diaz Quartet", //nom affiché
+    quote : <p id="quoteConcert">"Venez découvrir ou redécouvrir Hugo Diaz Quartet, gagnants du Tremplin de la 30e édition !"</p>,
+    //premier texte
+    desc : <p id="descrConcert">Ce groupe musical talentueux fusionne avec élégance des influences jazz, pop et électro pour créer une expérience sonore riche, surprenante et captivante. Les membres du quartet, dirigé par le saxophoniste Hugo Diaz, tissent des mélodies envoûtantes et des improvisations enflammées, offrant ainsi une interprétation musicale unique qui saura séduire les mélomanes en quête de découvertes sonores uniques.</p>,
+    desc2 : '',
+    //deuxième texte
+    img1 : diaz2, //image header
+    img2 : diaz, //image milieu de texte
+    imgMenu : diaz, //image carrée du menu
+    day : '17', 
+    month : 'oct.',
+    year : '2023',
+    hour : '20h30', //la date précise du concert
+    place : 'Théâtre L’Astrée', //l'endroit du concert
+    placeIndications : 'https://theatre-astree.univ-lyon1.fr/',
+    nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+    tarif1 : '15€',
+    nomTarif2 : "Tarif réduit : ",
+    tarif2 : '12€',
+    nomTarif3 : 'Tarif VA : ',
+    tarif3 : '10€',
+    billeterie: 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/airelle-besson-lionel-suarez-duo-hugo-diaz-quartet',
+    //adresse de la billetterie de ce concert
+    duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    disponibiliteTarifs : false,
+    gratuit : false,
+    // partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
+},{
+    nb : 3, //numéro de repérage pour affichage
+    id: 'stambolov', //adresse url pour affichage
+    name: "Captain Stambolov", //nom affiché
+    quote : <p id="quoteConcert">"Captain Stambolov est un groupe de jazz contemporain basé en France dont la musique est profondément enracinée dans le jazz moderne et les expérimentations musicales."</p>,
+    //premier texte
+    desc : <p id="descrConcert">Le groupe est connu pour sa créativité et son exploration audacieuse des possibilités musicales du jazz. Il mélange souvent des éléments de musique traditionnelle avec des influences contemporaines, créant ainsi un son distinctif et novateur. Le groupe est composé de sept musiciens talentueux qui excellent dans l'improvisation et la fusion de différents styles musicaux.
+    Les performances de Captain Stambolov sont très appréciées pour l’énergie qu’ils envoient sur scène, leur virtuosité et leur capacité à captiver le public avec des compositions originales. Le groupe a contribué à enrichir la scène jazz contemporaine en France et au-delà, et il continue d'attirer l'attention des amateurs de jazz par sa musique innovante et dynamique.</p>,
+    desc2 : '',
+    //deuxième texte
+    img1 : stambolov, //image header
+    img2 : stambolov2, //image milieu de texte
+    imgMenu : stambolov, //image carrée du menu
+    day : '14', 
+    month : 'oct.',
+    year : '2023',
+    hour : '20h30', //la date précise du concert
+    place : 'Toï Toï le Zinc', //l'endroit du concert
+    placeIndications : 'https://www.toitoilezinc.fr/',
+    nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+    tarif1 : '12€',
+    nomTarif2 : "Solidaire petit budget : ",
+    tarif2 : '8€',
+    nomTarif3 : 'Solidaire moyen budget : ',
+    tarif3 : '10€',
+    nomTarif4 : 'Etudiant : ',
+    tarif4 : '6.5€',
+    billeterie: 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/captain-stambolov?_ga=2.101139782.676080449.1693777903-2034112181.1692570716',
+    //adresse de la billetterie de ce concert
+    duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    disponibiliteTarifs : false,
+    gratuit : false,
+    // partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
+},{
+    nb : 4, //numéro de repérage pour affichage
+    id: 'eji', //adresse url pour affichage
+    name: "EJI", //nom affiché
+    quote : <p id="quoteConcert">"L'Ensemble Jazz INSA est un groupe de jazz composé d'étudiants de l'INSA Lyon (Institut National des Sciences Appliquées) et qui est dirigé par Pierre Baldy-Moulinier, musicien talentueux qui arrange notamment des œuvres musicales pour le Big Band de l’œuf."</p>,
+    //premier texte
+    desc : <p id="descrConcert">Son objectif est de réunir des musiciens passionnés par le jazz ou souhaitant s’améliorer et de leur donner l'opportunité de jouer ensemble, d'apprendre, et de se produire lors de concerts ou d'événements musicaux.
+    Ce type d'ensemble permet aux étudiants de développer leurs compétences musicales, de collaborer avec d'autres musiciens et de partager leur passion pour le jazz avec le public. Ils peuvent interpréter un large éventail de styles jazz, comme le jazz traditionnel et jazz contemporain par exemple.</p>,
+    desc2 : '',
+    //deuxième texte
+    img1 : eji, //image header
+    img2 : eji2, //image milieu de texte
+    imgMenu : eji2, //image carrée du menu
+    day : '16', 
+    month : 'oct.',
+    year : '2023',
+    hour : '20h30', //la date précise du concert
+    place : 'La Rotonde', //l'endroit du concert
+    placeIndications : 'https://rotonde.asso-insa-lyon.fr/',
+    nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+    tarif1 : '12€',
+    nomTarif2 : "Tarif réduit : ",
+    tarif2 : '7€',
+    nomTarif3 : 'Tarif VA : ',
+    tarif3 : '5€',
+    billeterie: 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/astro-symphonie-l-oeuf-big-band',
+    //adresse de la billetterie de ce concert
+    duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    disponibiliteTarifs : false,
+    gratuit : false,
+    // partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
 },
 ]
 
-// const data=[
-
-    
-//     {
-//         nb : 1, //numéro de repérage pour affichage
-//         id: 'zeph', //adresse url pour affichage
-//         name: "ZEPH", //nom affiché
-//         quote : <p id="quoteConcert">"Préparez-vous à être emportés par la tornade de ZEPH ! Cet ensemble instrumental Lyonnais composé de 8 musiciens saura vous emmener vers les territoires du Groove. 
-//         <br/><br/>Juste après jouera SupermarchéGoGo, l’union de deux amis musiciens de longue date, sous forme d’un DJ set 100% House."</p>,
-//         //premier texte
-//         desc2 : <p id="descrConcert">Leur signature musicale : Une rythmique affirmée et des cuivres puissants qui se répondent en permanence. Ce groupe grand format, c'est aussi le beat, l'afro, l'impro, le métissage et par-dessus tout une fougue et une énergie unique ! En bref, une formation qui ne peut pas laisser indifférent.
-//         <br/><br/>
-// Benjamin Meunier : trompette
-// <br/>
-// Fanny Bouteiller : basse
-// <br/>
-// Gregory Ivanoff : saxophone alto
-// <br/>
-// Jeremie Le Feuvre : guitare
-// <br/>
-// Julien Jet : trombone
-// <br/>
-// Lucas Meunier : saxophone ténor
-// <br/>
-// Quentin Fresnel : saxophone baryton
-// <br/>
-// Samuel Neyhousser : batterie
-//         </p>,
-//         desc : <p id="descrConcert">Par ses compositions originales, le duo SupermarchéGoGo propose une house moderne, qui fusionne des sonorités électroniques et acoustiques. Dans la lignée d’artistes tels que Björk ou Henri Wu, les univers de SMGG s’imprègnent de couleurs nu jazz et pop, pour une House électrisante.
-//         <br/>
-//         <br/>
-//         Hugo Vieilly : machines, basse & percussions
-//         <br/>
-// Hugo Rinville : machines, claviers & percussions
-//         </p>,
-//         //deuGoGoxième texte
-//         img1 : Zeph, //image header
-//         img2 : Gogo, //image milieu de texte
-//         imgMenu : Zeph,
-//         day : '13', 
-//         month : 'oct.',
-//         year : '2022',
-//         hour : '21h00', //la date précise du concert
-//         place : "K-Fet",//l'endroit du concert
-//         placeIndications : 'https://kfet-insa.fr/',
-//         nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
-//         tarif1 : '0€',
-//         nomTarif2 : "",
-//         tarif2 : '',
-//         nomTarif3 : '',
-//         tarif3 : '',
-//         billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/concert-zeph',
-//         //adresse de la billetterie de ce concert
-//         gratuit : true, 
-//         duo:true,
-//         nom2: 'ZEPH',
-//         nom1: 'SupermarchéGoGo',
-//         nomPartie :  'Suivi de ',
-//         reservable : false,
-//         disponibiliteTarifs : false,
-//     },
-// {
-//         nb : 2, //numéro de repérage pour affichage
-//         id: 'cimes', //adresse url pour affichage
-//         name: "La Litanie Des Cimes", //nom affiché
-//         quote : <p id="quoteConcert">"Les prières de La Litanie des Cimes sont païennes. Fouillis intime contre clarté commune, vivacité du trait contre délicatesse mélodique, sacré boisé contre contemplation acharnée."</p>,
-//         //premier texte
-//         desc : <p id="descrConcert"> Créé en 2019, par le violoniste Clément Janinet avec Élodie Pasquier aux clarinettes et Bruno Ducret au violoncelle, La Litanie des Cimes joue avec les grands mouvements, les tempos lents d’apparence, et des contemplations harmoniques. Au sein de ce trio, l’improvisation est libre et introspective sans être recluse. Les harmonies échangées sont sans cesse rebattues par la répétition des motifs. On y entendrait presque des dialogues agités. L’énergie y est ardente. Fouillis intime contre clarté commune, vivacité du trait contre délicatesse mélodique. Cette musique, très ouverte, pourrait sonner comme la bande son d’un film sur la fin d’un monde, entendue depuis le sommet des grands arbres 
-//         <br/><br/>
-//         Clément Janinet : violon
-//         <br/>
-// Élodie Pasquier : clarinettes
-// <br/>
-// Bruno Ducret : violoncelle</p>,
-//         desc2 : '',
-//         //deuxième texte
-//         img1 : Cimes, //image header
-//         img2 : Cimes2, //image milieu de texte
-//         imgMenu : Cimes,
-//         day : '14', 
-//         month : 'oct.',
-//         year : '2022',
-//         hour : '19h00 - 21h00', //la date précise du concert
-//         place : "Maison du livre, de l'image et du son",//l'endroit du concert
-//         placeIndications : 'https://mediatheques.villeurbanne.fr/2020/09/venir-2/',
-//         nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
-//         tarif1 : 0,
-//         nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e",
-//         tarif2 : 0,
-//         nomTarif3 : 'Abonnement Espace Tonkin',
-//         tarif3 : 0,
-//         billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/concert-litanie-des-cimes',
-//         //adresse de la billetterie de ce concert
-//         duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
-//         gratuit : true,
-//         reservable : false,
-//         disponibiliteTarifs : false,
-//         partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
-//     },
-
-//     {nb:5,
-//         id: 'CSW', 
-//     quote : <p id="quoteConcert">"C’est avec un grand bonheur que le trio Charlier / Sourisse / Winsberg a fait revivre la musique du monstre sacré du saxophone, Michael Brecker, à travers leur hommage « Tales from Michael», unanimement salué par le monde du Jazz.<br/><br/>En première partie, Jet Whistle réunit cinq amis musiciens proposant chacun leurs propres influences musicales allant du free jazz au hip hop, en passant par Pierre Boulez."</p>,
-//     desc2 : <p id="descrConcert">Aujourd’hui, le trio au son chaleureux revient sur scène avec des compositions originales et un nouveau double album : « Le Monde à l’envers ». Entre dialogues harmoniques et joutes rythmiques, André, Benoît et Louis jouent le jeu approprié à chacune des petites histoires qu’ils savent si bien nous raconter.
-//     <br/><br/>
-
-// André Charlier : batterie, percussion<br/>
-
-// Benoît Sourisse : orgue, Fender Rhodes<br/>
-
-// Louis Winsberg : guitare
-//     </p>,
-//     desc : <p id="descrConcert">Le quintet Jet Whistle est à la recherche d'effets sonores et d'atmosphères électroniques. Beaucoup de place est laissée à l'improvisation et chaque musicien possède une grande liberté de jeu. De plus 'Jet Whistle' est un terme de musique contemporaine concernant la flûte traversière qui peut s'apparenter à un amas de souffle très fort. 
-//     <br/><br/>
-    
-//     Le mélange des timbres flûte traversière et trombone ainsi que les multiples pédales d'effets de chacun ajoutent une couleur particulière à l'ensemble et dessine son empreinte sonore. 
-//     <br/><br/>
-    
-//     Le répertoire tourne autour des compositions de Fanny Martin, la flûtiste à l'origine de ce projet.
-//     <br/><br/>
-//     Fanny Martin : flûte traversière
-//     <br/>
-// Jules Regard : trombone
-// <br/>
-// Adlane Aliouche : clavier
-// <br/>
-// Théo Fardèle : basse
-// <br/>
-// Elvin Mikaelian : batterie
-
-// </p>,
-//     img1 : CSW,
-//     img2 : Jet,
-//     imgMenu : CSW2, // image carrée du menu
-//     day : '18',
-//     month : 'oct.',
-//     year : '2022',
-//     hour : '20h20',
-//     place : 'Theatre Astree',
-//     placeIndications : 'https://theatre-astree.univ-lyon1.fr/acces-2/',
-//     nomTarif1 : 'Tarif VA : ',
-//     tarif1 : '8€',
-//     nomTarif2 : "Etudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
-//     tarif2 : '9.50€',
-//     nomTarif3 : 'Plein tarif (gratuit pour les - de 12 ans) : ',
-//     tarif3 : '13.50€',
-//     billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/xkck',
-//     duo:true,
-//     gratuit : false,
-//     name: 'Charlier-Sourisse-Winsberg',
-//     nom2: 'Charlier-Sourisse-Winsberg',
-//     nom1: 'Jet Whistle',
-//     nomPartie : 'Première partie',
-//     disponibiliteTarifs : true,
-//     masterclass : true,
-//     masterclassLien : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/master-class-trio-charlier-sourisse-winsberg-1',
-//     masterclassHoraire : '16h15 pour la Master Class',
-//     masterclassTexte : "IMPORTANT : Dans l'après-midi, Un Doua de Jazz est heureux de proposer une Master Class animée par le trio ! Elle est ouverte à tous et à toutes et les réservations sont obligatoires.",
-//     },
-
-//     {
-//         nb :3, //numéro de repérage pour affichage
-//         id: 'Emile', //adresse url pour affichage
-//         name: "Emile Londonien", //nom affiché
-//         quote : <p id="quoteConcert">"Issu de la scène strasbourgeoise et du collectif Omezis qui regroupe une vingtaine d’artistes, musiciens, Dj’s, vidéastes, Emile Londonien s’imprègne de la scène jazz anglaise de ces quinze dernières années pour en proposer une version personnelle !"</p>,
-//         //premier texte
-//         desc : <p id="descrConcert">Formés au Conservatoire de Strasbourg, les trois musiciens se rencontrent lors des soirées thématiques organisées par le collectif Omezis, co-fondé par le batteur Matthieu Drago. S’ensuit en 2020 une session studio rendant hommage à la scène anglaise. Le nom d’Emile Londonien, double clin d’œil à leurs influences UK et à un fameux saxophoniste français, jaillit spontanément. 
-//         <br/><br/>
-//         Le Covid 19 met le projet en sommeil jusqu’à ce que les bandes tombent entre les mains du label strasbourgeois historique de broken beat, Dope tone. Les choses vont alors s’accélérer. Les titres issus de cette première session sont relayés immédiatement par des dj’s influents comme Lefto. Le groupe, emblématique de cette génération qui a grandi dans la culture clubbing et tente de l’accorder avec la tradition du trio jazz, est lancé. 
-//         <br/><br/>
-        
-//         Influencé par Yussef Kamaal, The Comet Is Coming, Atjazz, SunRa, mais aussi Ornette Coleman ou Thelonious Monket par les scènes, Broken Beat, Jazz, House, Hip Hop, Emile Londonien incarne ainsi à merveille cette « next gen » du jazz français aux cotés de Léon Phal, dont ils sont proches. Débarrassée des étiquettes, elle mixe sans complexe la tradition et les musiques actuelles avec le dancefloor pour mètre étalon. 
-//         <br/><br/>
-        
-//         Un premier album, à paraitre début 2023, est en cours d’enregistrement avec des invités comme Emile Parisien, Thomas de Pourquery ou Léon Phal.
-//         <br/><br/>
-        
-//         Nils Boyny : clavier
-//         <br/>
-// Matthieu Drago : batterie 
-// <br/>
-// Théo Tritsch : guitare basse</p>,
-        
-
-        
-//         desc2 : '',
-//         //deuxième texte
-//         img1 : Emile2, //image header
-//         img2 : Emile, //image milieu de texte
-//         imgMenu : Emile2,
-//         day : '15', 
-//         month : 'oct.',
-//         year : '2022',
-//         hour : '', //la date précise du concert
-//         place : 'Toï Toï', //l'endroit du concert
-//         placeIndications : 'https://toitoilezinc.fr/infos-pratiques/',
-//         nomTarif1 : 'Tarif mini : ', //tous les tarifs (3 maximum pour l'instant)
-//         tarif1 : '8.50€',
-//         nomTarif2 : 'Tarif réduit étudiants : ',
-//         tarif2 : '7€',
-//         nomTarif3 : 'Tarif solidaire : ',
-//         tarif3 : "10€ - 15€",
-//         billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/emile-londonien',
-//         //adresse de la billetterie de ce concert
-        
-//         duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
-//         disponibiliteTarifs : true,
-//         gratuit : false,
-//     },
-
-//     {
-//         nb :4, //numéro de repérage pour affichage
-//         id: 'baradel', //adresse url pour affichage
-//         name: "Gaspard Baradel", //nom affiché
-//         quote : <p id="quoteConcert">"Le Gaspard Baradel Quartet réunit quatre musiciens de la région Auvergne Rhône-Alpes. Très investis dans la scène jazz locale, les membres du quartet ont depuis longtemps l’habitude de jouer ensemble à travers de nombreux projets musicaux."</p>,
-//         //premier texte
-//         desc : <p id="descrConcert">Le Gaspard Baradel Quartet propose un répertoire original, basé sur les compositions du saxophoniste et s’inscrit dans la veine du jazz actuel, inspiré par les grands artistes américains d’aujourd’hui et d’hier. Les quatre protagonistes vous feront voyager avec une musique riche, nuancée et énergique, où interaction est le maître mot. 
-//         <br/>
-//         <br/>
-//         De 2019 à 2021 le Quartet de Gaspard Baradel a été sélectionné par le dispositif de soutien à l'émergence de l'association Jazz(s)RA. Au cours de l'année 2021 il a également obtenu le prix du public lors du tremplin européen de Jazz à Avignon ainsi que la mention spéciale coup de cœur du jury lors du tremplin national ReZZo Focal de Jazz à Vienne
-//         <br/>
-//         <br/>
-        
-//         Gaspard Baradel : saxophones alto et soprano
-//         <br/>
-        
-//         Antoine Bacherot : Piano
-//         <br/>
-        
-//         Cyril Billot : Contrebasse
-//         <br/>
-        
-//         Josselin Hazard : batterie</p>,
-        
-
-        
-//         desc2 : '',
-//         //deuxième texte
-//         img1 :Gaspard, //image header
-//         img2 : Gaspard2, //image milieu de texte
-//         imgMenu : Gaspard,
-//         day : '17', 
-//         month : 'oct.',
-//         year : '2022',
-//         hour : '20h00', //la date précise du concert
-//         place : 'La Rotonde INSA Lyon', //l'endroit du concert
-//         placeIndications : 'https://rotonde.asso-insa-lyon.fr/',
-//         nomTarif1 : 'Tarif carte VA : ', //tous les tarifs (3 maximum pour l'instant)
-//         tarif1 : '4€',
-//         nomTarif2 : "Etudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
-//         tarif2 : '5€',
-//         nomTarif3 : 'Plein tarif : ',
-//         tarif3 : '8€',
-//         billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/concert-gaspard-baradel',
-//         //adresse de la billetterie de ce concert
-//         duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
-//         disponibiliteTarifs : true,
-//         gratuit : false,
-//     },
-
-    
-    
-
-//     // {
-//     //     nb : 4, //numéro de repérage pour affichage
-//     //     id: 'Jet', //adresse url pour affichage
-//     //     name: "Jet Whistle", //nom affiché
-//     //     quote : '"Jet Whistle réunit cinq amis musiciens proposant chacun leurs propres influences musicales allant du free jazz au hip hop, en passant par Pierre Boulez."',
-//     //     //premier texte
-//     //     desc : "Ce quintet est à la recherche d'effets sonores et d'atmosphères électroniques. Beaucoup de place est laissée à l'improvisation et chaque musicien possède une grande liberté de jeu. De plus 'Jet Whistle' est un terme de musique contemporaine concernant la flûte traversière qui peut s'apparenter à un amas de souffle très fort. Le mélange des timbres flûte traversière et trombone ainsi que les multiples pédales d'effets de chacun ajoutent une couleur particulière à l'ensemble et dessine son empreinte sonore. Le répertoire tourne autour des compositions de Fanny Martin, la flûtiste à l'origine de ce projet.",
-//     //     //deuxième texte
-//     //     img1 : Jet, //image header
-//     //     img2 : Jet2, //image milieu de texte
-//     //     day : '?', 
-//     //     month : '?',
-//     //     year : '?',
-//     //     hour : '? - ?', //la date précise du concert
-//     //     place : '?', //l'endroit du concert
-//     //     nomTarif1 : 'Tarif plein', //tous les tarifs (3 maximum pour l'instant)
-//     //     tarif1 : 0,
-//     //     nomTarif2 : 'Tarif réduit chômeurs/étudiants',
-//     //     tarif2 : 0,
-//     //     nomTarif3 : 'Abonnement Espace Tonkin',
-//     //     tarif3 : 0,
-//     //     billeterie : 'https://www.helloasso.com/associations/centre-leo-lagrange-villeurbanne',
-//     //     //adresse de la billetterie de ce concert
-//     //     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
-//     // },
-
-//     {
-//         nb : 6, //numéro de repérage pour affichage
-//         id: 'Phal', //adresse url pour affichage
-//         name: "Léon Phal", //nom affiché
-//         quote : <p id="quoteConcert">"Saxophoniste prometteur, Léon Phal fait partie de cette jeune génération de musiciens de jazz biberonnée aux classiques, dont il s’affranchit tout en leur rendant hommage à chaque note avec brio, qu’il s’agisse du RH Factor de Roy Hargrove ou du « Voodoo » de D’Angelo."</p>,
-//         //premier texte
-//         desc : <p id="descrConcert">Entouré de ses complices de toujours, sa maîtrise de l’instrument, son sens inouï de la mélodie et la délicatesse de ses compositions amplifiées par un groove dévastateur, présagent un bel avenir à ce franco-suisse originaire de Aÿ en Champagne. Une fraîcheur et un talent qui n’ont pas échappé aux festivals Nancy Jazz Pulsations et Jazz à Vienne, dont il est coup sur coup le lauréat des tremplins 2019. 
-//         <br/><br/>
-//         Sacré « Révélation » par les magazines Jazz News et Jazz Magazine pour la sortie de son premier album « Canto Bello », Léon Phal est à la tête d’un génial quintet dont les influences et l’imagination inspirent des improvisations remarquables. S’il flirte déjà dans la cour des grands du jazz contemporain, nul doute que son souffle, sa curiosité et son esprit libre le mèneront loin.
-//         <br/><br/>
-//         Léon Phal : saxophone
-//         <br/>
-// Zacharie Ksyk : trompette
-// <br/>
-// Gauthier Toux : claviers
-// <br/>
-// Arthur Alard : batterie
-// <br/>
-// Rémi Bouyssière : contrebasse</p>,
-//         desc2 : '',
-//         //deuxième texte
-//         img1 : Phal, //image header
-//         img2 : Phal2, //image milieu de texte
-//         imgMenu : Phal, //image carrée du menu
-//         day : '19', 
-//         month : 'oct.',
-//         year : '2022',
-//         hour : '21h00', //la date précise du concert
-//         place : 'Périscope', //l'endroit du concert
-//         placeIndications : 'https://www.periscope-lyon.com/accessibilite/',
-//         nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
-//         tarif1 : '14€',
-//         nomTarif2 : "Etudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
-//         tarif2 : '10€',
-//         nomTarif3 : 'Tarif carte VA : ',
-//         tarif3 : '8€',
-//         billeterie : 'https://billetterie.periscope-lyon.com/evenement/19-10-2022-21-00-l%C3%A9on-phal',
-//         //adresse de la billetterie de ce concert
-//         duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
-//         disponibiliteTarifs : true,
-//         gratuit : false,
-//         partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
-//     },
-
-//     {nb:7,
-//         id: 'oscar', 
-//     quote : <p id="quoteConcert">"Né à Norwich, Oscar a étudié au Trinity Laban de Londres avant de s'imposer comme l'un des musiciens de jazz les plus appréciés de la capitale.
-//     <br/><br/>
-//     Le Gin Tonic Orchestra, c’est avant tout une bande de copains qui se retrouve autour de la musique et réunit tous les amoureux du son. Pour 2022, le collectif de musiciens et DJs vous a préparé un live sous un tout nouveau format !"</p>,
-//      desc2 : <p id="descrConcert">Oscar Jerome, suivant les traces de son père en tant que guitariste, a rapidement appris les bases et est devenu accro, citant George Benson, Wes Montgomery et John Coltrane comme ses principales influences. Explorant diverses avenues sonores, il s'est fait un nom sur la scène avec sa propre fusion rafraîchissante de jazz, de hip-hop, de soul et de funk, ce qui lui a valu une session live avec COLORS avant d'être nommé Guardians One To Watch en 2020. Reconnu à l'échelle mondiale pour sa guitare virtuose, il a composé le single « Abusey Junction » de Kokoroko et a participé à son enregistrement, en plus de travailler aux côtés de ses compagnons de Jazz ShabakaHutchings, Moses Boyd, Yussef Dayes et Lianne La Havas.Son premier album, « Breathe Deep », l'a emmené très loin. Il a donné des concerts en Australie et aux États-Unis, et a fait la première partie de la tournée de Kamasi Washington au Royaume-Uni, renforçant ainsi sa réputation d'artiste expérimenté. 
-// <br/><br/>
-//      Posant les bases de son héritage musical, son nouveau travail le voit s'ouvrir et explorer de nouvelles facettes de lui-même. « Sweet Isolation » est le début d'une série spéciale de musique d'Oscar Jerome.
-//      <br/>
-//      <br/>
-//      (traduction par Alexandra Naze)
-//      <br/>
-//      <br/>
-//      Oscar Jerome : guitare électrique et chant
-
-//      <br/>
-// Jonathan Moko : basse
-// <br/>
-
-// Richard Sweet : batterie & percussions
-//      </p>,
-//     desc : <p id="descrConcert">Après un premier EP sorti en 2019 sur le label Mother Tongue et de nombreux concerts en Europe, le groupe made in Sainté n’a eu de cesse de se réinventer. Oscillant entre future jazz, rock indie et broken beat, l’alchimie trouvée par la formation se révèle assez imparable. Elle a d’ailleurs collaboré avec l’une des légendes de la scène UK, Kaidi Tatham. En live ou en studio, le Gin Tonic Orchestra se renouvelle, innove et expérimente : il replace au centre des clubs l’acoustique et le live. 
-//     <br/><br/>
-//     Victor Dijoud : claviers, synthétiseurs
-//     <br/>
-// Léo Puccio : batterie
-// <br/>
-// Léo Aoun : basse
-// <br/>
-// Clément Céni : guitare
-// <br/>
-// Théo Giroudon : machines
-// <br/>
-// Additionel :
-// <br/>
-// Antoine Martin : saxophone
-// <br/>
-// Pierre Mendola : flute
-//     </p>,
-//     img1 : Oscar,
-//     img2 : GTO,
-//     imgMenu : Oscar, //image carrée du menu
-
-//     day : '20',
-//     month : 'oct.',
-//     year : '2022',
-//     hour : '21h00',
-//         placeIndications : 'https://www.periscope-lyon.com/accessibilite/',
-//         place : 'Périscope',
-//     nomTarif1 : 'Tarif VA : ',
-//     tarif1 : '10€',
-//     nomTarif2 : "Etudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
-//     tarif2 : '13€',
-//     nomTarif3 : 'Plein tarif : ',
-//     tarif3 : '18€',
-//     billeterie : 'https://billetterie.periscope-lyon.com/evenement/20-10-2022-21-00-oscar-jerome',
-//     duo:true,
-//     name: 'Oscar Jerome',
-//     nom2: 'Oscar Jerome',
-//     nom1: 'Gin Tonic Orchestra',
-//     nomPartie : 'Première partie',
-//     disponibiliteTarifs : true,
-//     gratuit : false,
-//     partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
-// },
-
-// {
-//     nb : 8, //numéro de repérage pour affichage
-//     id: 'duda', //adresse url pour affichage
-//     name: "Joanna Duda", //nom affiché
-//     quote : <p id="quoteConcert">"La musique de Joanna Duda est comprise au sens large comme expérimentale avec des éléments d’improvisation, de jazz et d’IDM."</p>,
-//     //premier texte
-//     desc : <p id="descrConcert">Joanna Duda Trio a été formé à la fin de 2017 dans le cadre du travail sur mon album solo KEEN. À l’origine, je supposais que je jouerais du matériel solo avec le groupe, mais j’ai vite réalisé qu’avec l’élément humain externe, je voulais créer autre chose. En conséquence, nous avons créé un son acoustique dans lequel le rythme domine et l’électronique est la quatrième personne à égalité de droits dans le groupe.
-//     <br/><br/>
-//     Les compositions ont été créées progressivement au fil des années. La première est PVSM, dont le riff m’est venu lors d’un soundcheck en 2016. La plus récente est Grasshopper que j’ai écrite lors de ma résidence à Vaanta, en Finlande, fin 2019. Le postulat du travail de cette équipe est la pleine conscience et délibérément lent/sans stress, nous sommes donc entrés en studio pour enregistrer FUMITSUKE en décembre 2020. En un jour et demi, nous avons enregistré le matériel – plus d’une heure de musique. Toutes les chansons, sauf The Mark, sont mes compositions.
-//     <br/><br/>
-//     Joanna Duda : piano
-//     <br/>
-//     Maksymilian Mucha : contrebasse/fx
-//     <br/>
-//     Michal Bryndal : batterie </p>,
-//     desc2 : '',
-//     //deuxième texte
-//     img1 : Duda, //image header
-//     img2 : Duda2, //image milieu de texte
-//     imgMenu : Duda2, //image carrée du menu
-//     day : '21', 
-//     month : 'oct.',
-//     year : '2022',
-//     hour : '21h00', //la date précise du concert
-//     place : 'Périscope', //l'endroit du concert
-//     placeIndications : 'https://www.periscope-lyon.com/accessibilite/',
-//     nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
-//     tarif1 : '12€',
-//     nomTarif2 : "Etudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
-//     tarif2 : '10€',
-//     nomTarif3 : '',
-//     tarif3 : '',
-//     billeterie : 'https://billetterie.periscope-lyon.com/evenement/21-10-2022-21-00-joanna-duda',
-//     //adresse de la billetterie de ce concert
-//     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
-//     disponibiliteTarifs : true,
-//     gratuit : false,
-//     partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
-// },
-
-    
-
-// ]
 
 const dataAnc=[
     {nb : 15,
