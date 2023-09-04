@@ -1,6 +1,7 @@
 
 
 import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import {donneesNb, donneesSize} from '../data/data.js'
 
 import "./HomeFullContent.css"
@@ -30,7 +31,7 @@ function Case(number){
 
             <div class="unePartie">
 
-                <NavLink to={"/home/concert/"+data.id}>
+                <HashLink to={"/home/concert/"+data.id+"#concertTotal"}>
                     <div class="img">
                         <img src={data.imgMenu} alt={data.nom2}/>
                         <p class="date"><span>{data.day}</span><br/>{data.month}</p>
@@ -39,14 +40,14 @@ function Case(number){
                         <p class="namePremierePartie"><span class="partie">{data.nomPartie} : </span> {data.nom1}</p>
                     </div>
                     
-                </NavLink>
+                </HashLink>
             </div>
         );
     }else{
         return(
         <div class="unePartie">
 
-                <NavLink to={"/home/concert/"+data.id}>
+                <HashLink to={"/home/concert/"+data.id+"#concertTotal"}>
                     <div class="img">
                         <img src={data.imgMenu} alt={data.name}/>
                         <p class="date"><span>{data.day}</span><br/>{data.month}</p>
@@ -54,7 +55,7 @@ function Case(number){
                         <p class="name">{data.name}</p>
                     </div>
                     
-                </NavLink>
+                </HashLink>
             </div>
         );
     }
