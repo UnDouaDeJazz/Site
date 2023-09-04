@@ -173,6 +173,10 @@ function Concert() {
                 {data.nomTarif3}<br/>
                 <span>{data.tarif3}</span>
   </p>
+            <p class="tarif">
+                {data.nomTarif4}<br/>
+                <span>{data.tarif4}</span>
+  </p>
             {
                 data.billeterie && 
             (<a href={data.billeterie}>
