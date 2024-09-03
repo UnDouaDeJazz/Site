@@ -110,7 +110,7 @@ function TableAnciens(){
 
     var children=[];
     console.log(donneesAnciennesSize());
-    //for(let i=1;i<=donneesAnciennesSize();i++){
+    //for(let i=1;i<=donneesAnciennesSize();i++){       - ancienne manière de faire de Colin - modifiée pour que l'affichage des artistes mette le plus ancien = plus petit numéro = en bas de page
     for (let i = donneesAnciennesSize(); i >= 1; i--) {
         children.push(ArtistesAnciens(i));
     }

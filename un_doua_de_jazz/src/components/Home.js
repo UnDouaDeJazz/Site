@@ -18,7 +18,9 @@ function Home() {
           </div>
       </div>
     );
-  }else{
+  }
+  
+  else{
     return (
       <div id="home">
           <div id="headerWrap">
@@ -31,18 +33,22 @@ function Home() {
       </div>
     );
   }
+  
+  /*
+    return (
+       <div id="home">
+          <div id="headerWrap">
+              <HeaderHome/>
+          </div>
+          <div id="artistesWrapper">
 
-  // return (
-  //   <div id="home">
-  //       <div id="headerWrap">
-  //           <HeaderHome/>
-  //       </div>
-  //       <div id="artistesWrapper">
-
-  //               <HomePostContent/>
-  //       </div>
-  //   </div>
-  // );
+                 <HomePostContent/>
+          </div>
+      </div>
+    );
+  }
+  */
 }
 
 export default Home;
+// à check après le festival : rajout de la même ligne avec HomePostContent ?

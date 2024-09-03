@@ -80,6 +80,18 @@ import photo18 from '../media/photos2022/18.jpg';
 import photo19 from '../media/photos2022/19.jpg';
 import photo20 from '../media/photos2022/20.jpg';
 
+
+// EDITION 2024
+import jazzbois1 from '../media/photos2024/jazzbois1.jpg';
+import jazzbois2 from '../media/photos2024/jazzbois2.jpg';
+import SMSCR1 from '../media/photos2024/SMSCR1.jpg';
+import SMSCR2 from '../media/photos2024/SMSCR2.png';
+import SMSCR3 from '../media/photos2024/SMSCR3.jpg';
+import elliavir1 from '../media/photos2024/elliavir1.jpg';
+import elliavir2 from '../media/photos2024/elliavir2.jpg';
+import elliavir3 from '../media/photos2024/elliavir3.jpg';
+
+
 import besson_23 from '../media/photos2023/besson.png';
 import diaz_23 from '../media/photos2023/diaz.png';
 import jasual_23 from '../media/photos2023/jasual.jpg';
@@ -249,6 +261,116 @@ month : 'oct.'},
 
 
 const data=[
+
+    {
+        nb : 3, //numéro de repérage pour affichage
+        id: 'jazzbois_url', //adresse url pour affichage
+        name: "Jazzbois", //nom affiché
+        quote : <p id="quoteConcert">JAZZBOIS (prononcer jazz boys à l’anglaise) est un trio fusion jazz-hiphop de Budapest, en Hongrie. Leur premier album « Jazzbois Goes Blunt » a eu un fort impact sur la scène jazz et hip-hop, créant une fusion unique aux relents psychédéliques, qui a secoué les os des maîtres du jazz et des amateurs de beats.</p>,
+        //premier texte
+        desc : <p id="descrConcert"> Malgré leur statut de newcomers sur cette scène, ils ont été rapidement reconnus et adoubés par de nombreuses personnalités-clés de l’industrie musicale, recevant entre autres le soutien du DJ américain Joe Kay (fondateur du label Soulection), et ont atterri sur bon nombre de playlists phares de Spotify et Apple Music. Leurs titres ont rapidement été joués sur Worldwide.fm et même dans le bureau du légendaire label – Brownswood Records (le label de Gilles Peterson). Cependant, après les streams, c’est sur scène que l’expérience de Jazzbois prend toute sa dimension. Tous leurs morceaux étant le résultat d’une pure improvisation, les énergies cosmiques se heurtent à chaque fois qu’ils jouent ensemble. Une expérience musicale vraiment inoubliable. </p>,
+        desc2 : '',
+        //deuxième texte
+        img1 : jazzbois1, //image header
+        img2 : jazzbois2, //image milieu de texte
+        imgMenu : jazzbois1,
+        day : '18', 
+        month : 'oct.',
+        year : '2024',
+        hour : '20h30', //la date précise du concert
+        place : "Transbordeur",//l'endroit du concert
+        placeIndications : 'https://www.transbordeur.fr/',
+        nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+        tarif1 : '19€',
+        nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+        tarif2 : '13€',
+        nomTarif3 : 'Carte VA : ',
+        tarif3 : 'Se référer à Tarif Réduit',
+        billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/soiree-un-doua-de-jazz-x-transbo',
+        //adresse de la billetterie de ce concert
+        duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+        // gratuit : true,
+        reservable : true,
+        disponibiliteTarifs : true,
+        // partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
+    },
+
+    {
+    nb : 1, //numéro de repérage pour affichage
+    id: 'SMSCR_url', //adresse url pour affichage
+    name: "SuperMegaSuperCool Révolution", //nom affiché
+    quote : <p id="quoteConcert">SuperMegaSuperCool Révolution est un groupe hybride animé par
+    l’amour du métissage, de la funk et du jazz fusion. Ensemble, ses cinq
+    musiciens poursuivent une même ambition : faire danser les foules et
+    faire durer le plaisir... le plus longtemps possible !</p>,
+    //premier texte
+    desc : <p id="descrConcert"> Formé par des amis de longue date, SuperMegaSuperCool Révolution compte aujourd’hui cinq membres : Siméon, trompettiste en retard, Fanga,
+    batteur quantique; Juice, claviériste érudit, Timéo, bassiste oiseau, et Gabin, guitariste effervescent. 
+    Aussi appelé SMSCR, c’est l’abolition des frontières esthétiques, une funky-fusion éclectique et acidulée ! Sur scène, dans une ambiance bariolée, ils ouvrent un portail
+    sur l'extravagante jungle villeurbannaise !</p>,
+    desc2 : '',
+    //deuxième texte
+    img1 : SMSCR2, //image header
+    img2 : SMSCR3, //image milieu de texte
+    imgMenu : SMSCR1,
+    day : '11', 
+    month : 'oct.',
+    year : '2024',
+    hour : '20h30', //la date précise du concert
+    place : "Périscope",//l'endroit du concert
+    placeIndications : 'https://www.periscope-lyon.com/',
+    nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+    tarif1 : '13€',
+    nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+    tarif2 : '11€',
+    nomTarif3 : 'Carte VA : ',
+    tarif3 : '8',
+    billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/soiree-un-doua-de-jazz-x-periscope',
+    //adresse de la billetterie de ce concert
+    duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+    // gratuit : true,
+    reservable : true,
+    disponibiliteTarifs : true,
+    // partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
+    },
+
+    {
+        nb : 2, //numéro de repérage pour affichage
+        id: 'ElliAVir_url', //adresse url pour affichage
+        name: "ElliAVir", //nom affiché
+        quote : <p id="quoteConcert">Composé, arrangé par la chanteuse Lou Rivaille, ElliAViR est un voyage instrumental et vocal aux sonorités riches et oniriques. Incarnée par cinq musiciens, la musique d’ElliAViR puise ses influences auprès du jazz, de la musique du monde, parfois du chant celtique ou bien des musiques de l'est. Dans ce projet, la voix est un instrument à part entière où le rythme, la mélodie, l’improvisation, la phonétique illustrent un langage riche et narrateur...</p>,
+        //premier texte
+        desc : <p id="descrConcert"> ElliAViR nous invite à découvrir sa musique originale à travers l’union rare de deux timbres, celui de la
+        trompette de Rémi Flambard et de sa voix. Les deux instruments vont s’entremêler, se détacher, partager de nombreux airs soutenus et enrichis par le
+        trio complice composé de Cyril Billot à la contrebasse, de Christophe Waldner au piano et de Maxime Mary à la batterie.</p>,
+        desc2 : '',
+        //deuxième texte
+        img1 : elliavir2, //image header
+        img2 : elliavir3, //image milieu de texte
+        imgMenu : elliavir1,
+        day : '15', 
+        month : 'oct.',
+        year : '2024',
+        hour : '20h30', //la date précise du concert
+        place : "Théâtre Astrée",//l'endroit du concert
+        placeIndications : 'https://theatre-astree.univ-lyon1.fr/',
+        nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+        tarif1 : '15',
+        nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+        tarif2 : '10',
+        nomTarif3 : 'Carte VA : ',
+        tarif3 : '6',
+        billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/soiree-un-doua-de-jazz-x-astree-elliavir-clelya-abraham',
+        //adresse de la billetterie de ce concert
+        duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+        // gratuit : true,
+        reservable : true,
+        disponibiliteTarifs : true,
+        // partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
+        },
+]
+
+/* TRACE DE 2023
 {
     nb : 6, //numéro de repérage pour affichage
     id: 'besson-suarez', //adresse url pour affichage
@@ -360,7 +482,8 @@ Rémi Bouyssière : contrebasse</p>,
     disponibiliteTarifs : true,
     gratuit : false,
     // partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
-},{
+    },
+    {
     nb : 9, //numéro de repérage pour affichage
     id: 'zoe-shanghai', //adresse url pour affichage
     name: "Zoe\'s Shanghai", //nom affiché
@@ -640,6 +763,8 @@ Rémi Bouyssière : contrebasse</p>,
     // partenariat : <h3 id="Partenariat">Concert organisé avec notre partenaire</h3>
 },
 ]
+*/
+
 
 
 const dataAnc=[

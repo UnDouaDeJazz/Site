@@ -79,7 +79,8 @@ function Table(){
 function HomeFullContent() {
 return (
     <div id="homeContent">
-        <p id="prog">Programmation 2023</p>
+        <p id="prog">Programmation 2024.</p>
+        <p id="prog">Restez connectés pour la découvrir petit à petit! Voici nos 3 premiers groupes, pour bien commencer.</p>
         {Table()}
     </div>
     );
