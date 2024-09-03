@@ -284,7 +284,7 @@ const data=[
         tarif1 : '19€',
         nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
         tarif2 : '13€',
-        nomTarif3 : 'Carte VA : ',
+        nomTarif3 : 'Carte VA (INSA): ',
         tarif3 : 'Se référer à Tarif Réduit',
         billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/soiree-un-doua-de-jazz-x-transbo',
         //adresse de la billetterie de ce concert
@@ -323,8 +323,8 @@ const data=[
     tarif1 : '13€',
     nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
     tarif2 : '11€',
-    nomTarif3 : 'Carte VA : ',
-    tarif3 : '8',
+    nomTarif3 : 'Carte VA (INSA): ',
+    tarif3 : '8€',
     billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/soiree-un-doua-de-jazz-x-periscope',
     //adresse de la billetterie de ce concert
     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
@@ -355,11 +355,11 @@ const data=[
         place : "Théâtre Astrée",//l'endroit du concert
         placeIndications : 'https://theatre-astree.univ-lyon1.fr/',
         nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
-        tarif1 : '15',
+        tarif1 : '15€',
         nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
-        tarif2 : '10',
-        nomTarif3 : 'Carte VA : ',
-        tarif3 : '6',
+        tarif2 : '10€',
+        nomTarif3 : 'Carte VA (INSA): ',
+        tarif3 : '6€',
         billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/soiree-un-doua-de-jazz-x-astree-elliavir-clelya-abraham',
         //adresse de la billetterie de ce concert
         duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
