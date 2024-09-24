@@ -80,7 +80,7 @@ function HomeFullContent() {
 return (
     <div id="homeContent">
         <p id="prog">Programmation 2024.</p>
-        <p id="prog">Restez connectés pour la découvrir petit à petit! Voici nos 3 premiers groupes, pour bien commencer.</p>
+        <p id="prog">Voici la programmation de cette nouvelle édition. Nous vous attendons nombreux !</p>
         {Table()}
     </div>
     );

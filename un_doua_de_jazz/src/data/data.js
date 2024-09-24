@@ -90,6 +90,15 @@ import SMSCR3 from '../media/photos2024/SMSCR3.jpg';
 import elliavir1 from '../media/photos2024/elliavir1.jpg';
 import elliavir2 from '../media/photos2024/elliavir2.jpg';
 import elliavir3 from '../media/photos2024/elliavir3.jpg';
+import panam1 from '../media/photos2024/Panam1.png';
+import panam2 from '../media/photos2024/Panam2.png';
+import clelya1 from '../media/photos2024/Clelya1.jpg';
+import clelya2 from '../media/photos2024/Clelya2.jpg';
+import afettouche1 from '../media/photos2024/Afettouche1.png';
+import shibuuya1 from '../media/photos2024/shibuuya1.jpg';
+import shibuuya2 from '../media/photos2024/shibuuya2.jpg';
+import pawpaw1 from '../media/photos2024/PawPaw1.jpg';
+import zangbeto1 from '../media/photos2024/zangbeto.jpeg';
 
 
 import besson_23 from '../media/photos2023/besson.png';
@@ -263,7 +272,7 @@ month : 'oct.'},
 const data=[
 
     {
-        nb : 3, //numéro de repérage pour affichage
+        nb : 7, //numéro de repérage pour affichage
         id: 'jazzbois_url', //adresse url pour affichage
         name: "Jazzbois", //nom affiché
         quote : <p id="quoteConcert">JAZZBOIS (prononcer jazz boys à l’anglaise) est un trio fusion jazz-hiphop de Budapest, en Hongrie. Leur premier album « Jazzbois Goes Blunt » a eu un fort impact sur la scène jazz et hip-hop, créant une fusion unique aux relents psychédéliques, qui a secoué les os des maîtres du jazz et des amateurs de beats.</p>,
@@ -277,7 +286,7 @@ const data=[
         day : '18', 
         month : 'oct.',
         year : '2024',
-        hour : '20h30', //la date précise du concert
+        hour : '19h30', //la date précise du concert
         place : "Transbordeur",//l'endroit du concert
         placeIndications : 'https://www.transbordeur.fr/',
         nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
@@ -316,16 +325,16 @@ const data=[
     day : '11', 
     month : 'oct.',
     year : '2024',
-    hour : '20h30', //la date précise du concert
+    hour : '21h', //la date précise du concert
     place : "Périscope",//l'endroit du concert
     placeIndications : 'https://www.periscope-lyon.com/',
     nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
     tarif1 : '13€',
     nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
     tarif2 : '11€',
-    nomTarif3 : 'Carte VA (INSA): ',
+    nomTarif3 : 'Carte VA (INSA)/Abonné Périscope: ',
     tarif3 : '8€',
-    billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/soiree-un-doua-de-jazz-x-periscope',
+    billeterie : 'https://billetterie.periscope-lyon.com/evenement/11-10-2024-21-00-hugo-afettouche-et-tetralyre-supermegasupercool-r%C3%A9volution',
     //adresse de la billetterie de ce concert
     duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
     // gratuit : true,
@@ -335,7 +344,7 @@ const data=[
     },
 
     {
-        nb : 2, //numéro de repérage pour affichage
+        nb : 6, //numéro de repérage pour affichage
         id: 'ElliAVir_url', //adresse url pour affichage
         name: "ElliAVir", //nom affiché
         quote : <p id="quoteConcert">Composé, arrangé par la chanteuse Lou Rivaille, ElliAViR est un voyage instrumental et vocal aux sonorités riches et oniriques. Incarnée par cinq musiciens, la musique d’ElliAViR puise ses influences auprès du jazz, de la musique du monde, parfois du chant celtique ou bien des musiques de l'est. Dans ce projet, la voix est un instrument à part entière où le rythme, la mélodie, l’improvisation, la phonétique illustrent un langage riche et narrateur...</p>,
@@ -368,6 +377,213 @@ const data=[
         disponibiliteTarifs : true,
         // partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
         },
+
+        {
+            nb : 8, //numéro de repérage pour affichage
+            id: 'Panam_Panic', //adresse url pour affichage
+            name: "Panam Panic", //nom affiché
+            quote : <p id="quoteConcert">Panam Panic c’est le projet du pianiste compositeur Robin Notte, cofondé en 2008 avec Max Pinto. Après 10 ans d’existence, deux albums et de nombreux concerts dans de prestigieux festivals, Panam Panic se réinvente et démarre une nouvelle aventure en 2018.</p>,
+            //premier texte
+            desc : <p id="descrConcert"> Panam Panic défend un jazz résolument actuel, ouvert sans frontières ni oeillères, mêlant grooves organiques puissants, mélodies soignées, harmonies délicates et solos endiablés. Un répertoire original de compositions soigneusement mijotées. 
+            Les musiciens : Robin Notte: Rhodes
+            Alexandre Herichon : Trompette
+            Pierre Lapprand : Saxophone
+            Tao Ehrlich : batterie
+            Noé Berne : Basse electrique</p>,
+            desc2 : '',
+            //deuxième texte
+            img1 : panam2, //image header
+            img2 : panam1, //image milieu de texte
+            imgMenu : panam1,
+            day : '18', 
+            month : 'oct.',
+            year : '2024',
+            hour : '19h30', //la date précise du concert
+            place : "Transbordeur",//l'endroit du concert
+            placeIndications : 'https://www.transbordeur.fr/',
+            nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+            tarif1 : '19€',
+            nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+            tarif2 : '13€',
+            nomTarif3 : 'Carte VA (INSA): ',
+            tarif3 : '13€',
+            billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/soiree-un-doua-de-jazz-x-transbo',
+            //adresse de la billetterie de ce concert
+            duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+            // gratuit : true,
+            reservable : true,
+            disponibiliteTarifs : true,
+            // partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
+            },
+
+    {
+            nb : 2, //numéro de repérage pour affichage
+            id: 'AfettoucheTetralyre', //adresse url pour affichage
+            name: "Hugo Afettouche & Tetralyre", //nom affiché
+            quote : <p id="quoteConcert">Après avoir beaucoup voyagé lors de tournées en tant que sideman, Hugo Afettouche a décidé de poser ses valises et raconter ses aventures. Du souk de Marrakech à une Inde survoltée, en passant par l’Israël ou la Serbie, vos oreilles et votre imaginaire seront entre les mains de TetraLyre.</p>,
+            //premier texte
+            desc : <p id="descrConcert">Ce bain d’harmonies électriées illustrera des paysages qui invitent à l’immersion dans des territoires insolites. « Hugo Afettouche & Tetralyre » est un récit de souvenirs qui, au vu des narrateurs, ne manquera pas de surprises, d’humour mais surtout de groove.</p>,
+            desc2 : '',
+            //deuxième texte
+            img1 : afettouche1, //image header
+            img2 : afettouche1, //image milieu de texte
+            imgMenu : afettouche1,
+            day : '11', 
+            month : 'oct.',
+            year : '2024',
+            hour : '21h', //la date précise du concert
+            place : "Périscope",//l'endroit du concert
+            placeIndications : 'https://www.periscope-lyon.com/',
+            nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+            tarif1 : '13€',
+            nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+            tarif2 : '11€',
+            nomTarif3 : 'Carte VA (INSA)/abonné Périscope: ',
+            tarif3 : '8€',
+            billeterie : 'https://billetterie.periscope-lyon.com/evenement/11-10-2024-21-00-hugo-afettouche-et-tetralyre-supermegasupercool-r%C3%A9volution',
+            //adresse de la billetterie de ce concert
+            duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+            // gratuit : true,
+            reservable : true,
+            disponibiliteTarifs : true,
+            // partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
+            },
+
+               
+        {
+                nb : 3, //numéro de repérage pour affichage
+                id: 'PawPaw', //adresse url pour affichage
+                name: "PawPaw", //nom affiché
+                quote : <p id="quoteConcert">PawPaw marie de façon unique le jazz contemporain, le hip-hop et l’afrobeat, créant un univers sonore qui prend aux tripes.</p>,
+                //premier texte
+                desc : <p id="descrConcert">Liés par une amitié qui s'est construite durant leurs années d’études au Conservatoire de Lyon, Gaël Bihr (g), Hénock Kona (cb), Antoine Perret (tr) et Vivien Verrecchia (dr), bientôt rejoints par Malou Strauss (s) se distinguent par leur approche audacieuse de la musique et leurs compositions innovantes. Leur musique explore les frontières entre la liberté du jazz britannique et l’écriture structurée du jazz contemporain, créant des passerelles uniques entre les genres.
+                Lauréat du dispositif d’accompagnement artistique TanDEM 2023/2024 du Périscope et du 2ème prix du tremplin du Doua de Jazz 2024, PawPaw propose une expérience musicale captivante et viscérale.
+                </p>,
+                desc2 : '',
+                //deuxième texte
+                img1 : pawpaw1, //image header
+                img2 : pawpaw1, //image milieu de texte
+                imgMenu : pawpaw1,
+                day : '12', 
+                month : 'oct.',
+                year : '2024',
+                hour : '20h30', //la date précise du concert
+                place : "Toï Toï Le Zinc",//l'endroit du concert
+                placeIndications : 'https://www.toitoilezinc.fr/infos-pratiques/',
+                nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+                tarif1 : '12€',
+                nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+                tarif2 : '8€ (et 10€ tarif moyen)',
+                nomTarif3 : 'Carte VA (INSA)/abonné Périscope: ',
+                tarif3 : '6€',
+                billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/soiree-un-doua-de-jazz-x-toi-toi-paw-paw-zangbeto',
+                //adresse de la billetterie de ce concert
+                duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+                // gratuit : true,
+                reservable : true,
+                disponibiliteTarifs : true,
+                // partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
+                },
+
+                {
+                    nb : 4, //numéro de repérage pour affichage
+                    id: 'Zangbeto', //adresse url pour affichage
+                    name: "Zangbeto", //nom affiché
+                    quote : <p id="quoteConcert">Le groupe Zangbeto est né de la rencontre en 2021 entre trois jeunes musiciens prodiges Togolais, Joachim Amouzou au piano, Honoré Dafo à la basse, et Henoch Fafadji à la batterie, lors d'une résidence artistique avec le musicien togolais Peter Solo du groupe Vaudou Game.
+Le nom "Zangbeto" trouve son origine dans une société de masques du sud de la République du Bénin, où ces masques ont pour mission de protéger la ville et la communauté en chassant les mauvais esprits pendant la nuit.</p>,
+                    //premier texte
+                    desc : <p id="descrConcert">Leur projet d'album actuel est le fruit d'une rencontre lors du Togoville jazz festival entre ces talentueux musiciens togolais et le trompettiste français Félicien Bouchot, membre des groupes Bigre ! , Keystone Big Band, Very Big Experimental Toubifri Orchestra,... Profitant de leur séjour en France en 2023, le trompettiste a convié le guitariste Romain Baret à les rejoindre pour une semaine de travail intensif en quintet.</p>,
+                    desc2 : '',
+                    //deuxième texte
+                    img1 : zangbeto1, //image header
+                    img2 : zangbeto1, //image milieu de texte
+                    imgMenu : zangbeto1,
+                    day : '12', 
+                    month : 'oct.',
+                    year : '2024',
+                    hour : '20h30', //la date précise du concert
+                    place : "Toï Toï Le Zinc",//l'endroit du concert
+                    placeIndications : 'https://www.toitoilezinc.fr/infos-pratiques/',
+                    nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+                    tarif1 : '12€',
+                    nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+                    tarif2 : '8€ (et 10€ tarif moyen)',
+                    nomTarif3 : 'Carte VA (INSA)/abonné Périscope: ',
+                    tarif3 : '6€',
+                    billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/soiree-un-doua-de-jazz-x-toi-toi-paw-paw-zangbeto',
+                    //adresse de la billetterie de ce concert
+                    duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+                    // gratuit : true,
+                    reservable : true,
+                    disponibiliteTarifs : true,
+                    // partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
+                    },
+
+                
+            {
+                nb : 9, //numéro de repérage pour affichage
+                id: 'shibuuya', //adresse url pour affichage
+                name: "Shibuuya", //nom affiché
+                quote : <p id="quoteConcert">Entre hip-hop et jazz actuel, le trio SHIBUUYA s'inspire de la scène américaine où collaborent et se confondent producteurs et musiciens : Butcher Brown, Kiefer, Telemakus... Résultat, des grooves furieux qu’on a envie de faire tourner jusqu’à ce que le vinyle casse, renforcés par une musicalité et un interplay entre des musiciens forgés au jazz au plus profond d’eux, tout ça sur fond de samples d’animes japonais. Ainsi prend forme SHIBUUYA!, brouillant les frontières entre beatmaking et jazz.</p>,
+                desc : <p id="descrConcert">L'alchimie prend rapidement entre les trois musiciens, bercés des mêmes influences ; le groupe a l'opportunité de se produire à Jazz à Vienne deux mois après sa création, ainsi qu'à Paris en première partie de Yoni Mayraz, et un album (11 titres) est enregistré dans la foulée au studio Question de Son à Paris, dont la parution est prévue pour février 2025, après la sortie de quelques singles. </p>,
+                desc2 : '',
+                //deuxième texte
+                img1 : shibuuya2, //image header
+                img2 : shibuuya1, //image milieu de texte
+                imgMenu : shibuuya1,
+                day : '18', 
+                month : 'oct.',
+                year : '2024',
+                hour : '19h30', //la date précise du concert
+                place : "Transbordeur",//l'endroit du concert
+                placeIndications : 'https://www.transbordeur.fr/',
+                nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+                tarif1 : '19€',
+                nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+                tarif2 : '13€',
+                nomTarif3 : 'Carte VA (INSA) = réduit étudiant: ',
+                tarif3 : '13€',
+                billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/soiree-un-doua-de-jazz-x-transbo',
+                //adresse de la billetterie de ce concert
+                duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+                // gratuit : true,
+                reservable : true,
+                disponibiliteTarifs : true,
+                // partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
+                },
+
+            {
+                nb : 5, //numéro de repérage pour affichage
+                id: 'Clelya Abraham 4tet', //adresse url pour affichage
+                name: "Clelya Abraham 4tet", //nom affiché
+                quote : <p id="quoteConcert">Le Clélya Abraham Quartet nous plonge dans un monde poétique et métissé, au carrefour du jazz moderne, du classique et des musiques afro-caribéennes.</p>,
+                //premier texte
+                desc : <p id="descrConcert"> Les compositions originales concoctées par Clélya Abraham, sont influencées par de nombreux artistes (Robert Glasper, Avishai Cohen, Pat Metheny, Mario Canonge, Claude Debussy…). Loin d’être figé, ce Quartet laisse libre cours à l’imagination de chacun et aux improvisions, pour surprendre à chaque instant le public et lui offrir une expérience d’enrichissements partagés.</p>,
+                desc2 : '',
+                //deuxième texte
+                img1 : clelya2, //image header
+                img2 : clelya1, //image milieu de texte
+                imgMenu : clelya1,
+                day : '15', 
+                month : 'oct.',
+                year : '2024',
+                hour : '20h30', //la date précise du concert
+                place : "Théâtre Astrée",//l'endroit du concert
+                placeIndications : 'https://theatre-astree.univ-lyon1.fr/',
+                nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+                tarif1 : '15€',
+                nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+                tarif2 : '10€',
+                nomTarif3 : 'Carte VA (INSA): ',
+                tarif3 : '6€',
+                billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/soiree-un-doua-de-jazz-x-astree-elliavir-clelya-abraham',
+                //adresse de la billetterie de ce concert
+                duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+                // gratuit : true,
+                reservable : true,
+                disponibiliteTarifs : true,
+                // partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
+                },
 ]
 
 /* TRACE DE 2023
