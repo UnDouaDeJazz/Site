@@ -162,6 +162,31 @@
     text-align:center;
     color:white;
 }
+
+
+#LienButton {
+  background: #5E5DF0;
+  border-radius: 50vw;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 1.8vw;
+  line-height: 1.2vw;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 1.3vw 2vw;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+
+
+
 @media all and (orientation: portrait){
   #homeContent #prog{
     font-size:3.5vw;

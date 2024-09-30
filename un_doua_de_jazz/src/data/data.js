@@ -99,6 +99,11 @@ import shibuuya1 from '../media/photos2024/shibuuya1.jpg';
 import shibuuya2 from '../media/photos2024/shibuuya2.jpg';
 import pawpaw1 from '../media/photos2024/PawPaw1.jpg';
 import zangbeto1 from '../media/photos2024/zangbeto.jpeg';
+import bigband1 from '../media/photos2024/bigband1.jpg';
+import bigband2 from '../media/photos2024/bigband2.jpg';
+import ghost1 from '../media/photos2024/ghost1.jpg';
+import ghost2 from '../media/photos2024/ghost2.jpg';
+
 
 
 import besson_23 from '../media/photos2023/besson.png';
@@ -272,7 +277,7 @@ month : 'oct.'},
 const data=[
 
     {
-        nb : 7, //numéro de repérage pour affichage
+        nb : 9, //numéro de repérage pour affichage
         id: 'jazzbois_url', //adresse url pour affichage
         name: "Jazzbois", //nom affiché
         quote : <p id="quoteConcert">JAZZBOIS (prononcer jazz boys à l’anglaise) est un trio fusion jazz-hiphop de Budapest, en Hongrie. Leur premier album « Jazzbois Goes Blunt » a eu un fort impact sur la scène jazz et hip-hop, créant une fusion unique aux relents psychédéliques, qui a secoué les os des maîtres du jazz et des amateurs de beats.</p>,
@@ -344,7 +349,7 @@ const data=[
     },
 
     {
-        nb : 6, //numéro de repérage pour affichage
+        nb : 8, //numéro de repérage pour affichage
         id: 'ElliAVir_url', //adresse url pour affichage
         name: "ElliAVir", //nom affiché
         quote : <p id="quoteConcert">Composé, arrangé par la chanteuse Lou Rivaille, ElliAViR est un voyage instrumental et vocal aux sonorités riches et oniriques. Incarnée par cinq musiciens, la musique d’ElliAViR puise ses influences auprès du jazz, de la musique du monde, parfois du chant celtique ou bien des musiques de l'est. Dans ce projet, la voix est un instrument à part entière où le rythme, la mélodie, l’improvisation, la phonétique illustrent un langage riche et narrateur...</p>,
@@ -379,7 +384,7 @@ const data=[
         },
 
         {
-            nb : 8, //numéro de repérage pour affichage
+            nb : 10, //numéro de repérage pour affichage
             id: 'Panam_Panic', //adresse url pour affichage
             name: "Panam Panic", //nom affiché
             quote : <p id="quoteConcert">Panam Panic c’est le projet du pianiste compositeur Robin Notte, cofondé en 2008 avec Max Pinto. Après 10 ans d’existence, deux albums et de nombreux concerts dans de prestigieux festivals, Panam Panic se réinvente et démarre une nouvelle aventure en 2018.</p>,
@@ -521,7 +526,7 @@ Le nom "Zangbeto" trouve son origine dans une société de masques du sud de la 
 
                 
             {
-                nb : 9, //numéro de repérage pour affichage
+                nb : 11, //numéro de repérage pour affichage
                 id: 'shibuuya', //adresse url pour affichage
                 name: "Shibuuya", //nom affiché
                 quote : <p id="quoteConcert">Entre hip-hop et jazz actuel, le trio SHIBUUYA s'inspire de la scène américaine où collaborent et se confondent producteurs et musiciens : Butcher Brown, Kiefer, Telemakus... Résultat, des grooves furieux qu’on a envie de faire tourner jusqu’à ce que le vinyle casse, renforcés par une musicalité et un interplay entre des musiciens forgés au jazz au plus profond d’eux, tout ça sur fond de samples d’animes japonais. Ainsi prend forme SHIBUUYA!, brouillant les frontières entre beatmaking et jazz.</p>,
@@ -553,7 +558,7 @@ Le nom "Zangbeto" trouve son origine dans une société de masques du sud de la 
                 },
 
             {
-                nb : 5, //numéro de repérage pour affichage
+                nb : 7, //numéro de repérage pour affichage
                 id: 'Clelya Abraham 4tet', //adresse url pour affichage
                 name: "Clelya Abraham 4tet", //nom affiché
                 quote : <p id="quoteConcert">Le Clélya Abraham Quartet nous plonge dans un monde poétique et métissé, au carrefour du jazz moderne, du classique et des musiques afro-caribéennes.</p>,
@@ -584,6 +589,72 @@ Le nom "Zangbeto" trouve son origine dans une société de masques du sud de la 
                 disponibiliteTarifs : true,
                 // partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
                 },
+
+                {
+                    nb : 5, //numéro de repérage pour affichage
+                    id: 'Ghost_Jazz_Project', //adresse url pour affichage
+                    name: "Ghost Jazz Project", //nom affiché
+                    quote : <p id="quoteConcert">Après son précédent album "Suite'', lauréat dans la catégorie composition lors d'un concours à New York en 2017, Hervé Salamone présente son nouveau projet en septet: ''Ghost Jazz Project'' , qui réunit de merveilleux musiciens autour d'un répertoire original. N'hésitez pas à y jeter un oeil en copiant le lien suivant ! https://youtu.be/U6ZTbmH24wM?feature=shared</p>,
+                    //premier texte
+                    desc : <p id="descrConcert"> Cette nouvelle création musicale rend hommage au swing, avec une connotation plus moderne, mélangé au hard-bop, rappelant certaines racines du blues et du gospel.</p>,
+                    desc2 : '',
+                    //deuxième texte
+                    img1 : ghost1, //image header
+                    img2 : ghost2, //image milieu de texte
+                    imgMenu : ghost1,
+                    day : '14', 
+                    month : 'oct.',
+                    year : '2024',
+                    hour : '20h30', //la date précise du concert
+                    place : "La Rotonde",//l'endroit du concert
+                    placeIndications : 'https://rotonde.asso-insa-lyon.fr/',
+                    nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+                    tarif1 : '12€',
+                    nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+                    tarif2 : '7€',
+                    nomTarif3 : 'Carte VA (INSA): ',
+                    tarif3 : '4€',
+                    billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/soiree-un-doua-de-jazz-x-rotonde-bigband-de-l-insa',
+                    //adresse de la billetterie de ce concert
+                    duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+                    // gratuit : true,
+                    reservable : true,
+                    disponibiliteTarifs : true,
+                    // partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
+                    },
+
+                    {
+                        nb : 6, //numéro de repérage pour affichage
+                        id: 'Big_Band_INSA', //adresse url pour affichage
+                        name: "Big Band de l'INSA", //nom affiché
+                        quote : <p id="quoteConcert">Le big band de l'INSA, constitué d'étudiants lyonnais, reprend ses morceaux phares de l'année : des clins d'oeil au projet des 40 ans de la section Musique-Études de l'INSA Lyon ; et des reprises dans tous les styles de jazz, adapté à une grande formation (swing, ballade, blues, etc). N'hésitez pas à y jeter un oeil au lien suivant : https://youtu.be/U6ZTbmH24wM?feature=shared</p>,
+                        //premier texte
+                        desc : <p id="descrConcert">On vous retrouve le Lundi 14 Octobre pour partager une dernière fois tout cela !</p>,
+                        desc2 : '',
+                        //deuxième texte
+                        img1 : bigband1, //image header
+                        img2 : bigband2, //image milieu de texte
+                        imgMenu : bigband1,
+                        day : '14', 
+                        month : 'oct.',
+                        year : '2024',
+                        hour : '20h30', //la date précise du concert
+                        place : "La Rotonde",//l'endroit du concert
+                        placeIndications : 'https://rotonde.asso-insa-lyon.fr/',
+                        nomTarif1 : 'Tarif plein : ', //tous les tarifs (3 maximum pour l'instant)
+                        tarif1 : '12€',
+                        nomTarif2 : "Tarif réduit étudiant.e - PMR/PSH - Demandeur.se d'emploi - Retraité.e : ",
+                        tarif2 : '7€',
+                        nomTarif3 : 'Carte VA (INSA): ',
+                        tarif3 : '4€',
+                        billeterie : 'https://www.helloasso.com/associations/un-doua-de-jazz/evenements/soiree-un-doua-de-jazz-x-rotonde-bigband-de-l-insa',
+                        //adresse de la billetterie de ce concert
+                        duo : false, //TRUE si c'est un concert en 2 parties, false sinon (sert à l'affichage)   
+                        // gratuit : true,
+                        reservable : true,
+                        disponibiliteTarifs : true,
+                        // partenariat : <h3 id="Partenariat">Concert proposé par notre partenaire</h3>
+                        },
 ]
 
 /* TRACE DE 2023

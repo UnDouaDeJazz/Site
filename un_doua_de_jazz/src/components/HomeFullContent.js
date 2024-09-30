@@ -80,10 +80,14 @@ function HomeFullContent() {
 return (
     <div id="homeContent">
         <p id="prog">Programmation 2024.</p>
-        <p id="prog">Voici la programmation de cette nouvelle édition. Nous vous attendons nombreux !</p>
+        <p id="prog">Voici la programmation de cette nouvelle édition. Venez nombreux !</p>
         {Table()}
     </div>
     );
 }
+
+
+// <p href="https://youtu.be/U6ZTbmH24wM?feature=shared">
+// <button id="LienButton" onclick="window.location.href='https://youtu.be/U6ZTbmH24wM?feature=shared';">Lien vidéo</button></p>
 
 export default HomeFullContent;
