@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+#artistesGrid{
+    background-color: white;
+}
+#imgDisc{
+    display:block;
+    top:0px;
+    width:100%;
+    height:100vh;
+    object-fit:cover;
+    left:0px;
+    top:0px;
+
+}
+#headerArtistes{
+    position:relative;
+    float:left;
+    width:100%;
+    height:100%;
+}
+#headerArtistes p{
+    font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+    font-size:1.5vw;
+    color:white;
+    position :absolute;
+
+    top:90%;
+    left:50%;
+    margin: auto;
+    transform: translateX(-50%);
+}
+#headerArtistes span{
+    
+    font-size:2.5vw;
+}
+
+#artistesGrid, #artistesActGrid{
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(auto, auto);
+  width: 100%;
+  
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#artistesGrid .img p, #artistesActGrid .img p{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top:0vw;
+    margin-bottom:0vw;
+    font-weight: 300;
+      font-size:1.5vw;
+      color:black;
+
+  }
+
+  #artistesGrid img,#artistesActGrid img{
+    height:20vw;
+    width:20vw;
+    object-fit:cover;
+    margin-top:5vw;
+    border-radius: 0.5vw;
+  }
+  #artistesGrid span,#artistesActGrid span{
+    font-size:1.5vw;
+  }
+
+  #artistes h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:2vw;
+    margin-top:4vw;
+    margin-bottom:0vw;
+    font-weight: 700;
+    font-size: 3vw;
+  }
+  #artistes .inter{
+    margin:2vw;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #artistesActGrid .deuxParties .img .name span{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size:1.15vw;
+
+    margin-bottom: 0px; 
+}
+
+
+#artistesActGrid .deuxParties .img img{
+  width:10vw;
+  height:20vw;
+  object-fit: cover;
+  margin:0.1vw;
+}
+
+
+
+#artistesActGrid .deuxParties .img .vl{
+    margin:0.05vw;
+    margin-top:0.1vw;
+    margin-bottom:1vw;
+    background-color: white;
+    height:20vw;
+    width:0.1vw;
+    display:inline;
+    position: absolute;
+    left:10.1vw;
+}
+
+#artistesActGrid .deuxParties{
+  position: relative;
+}
+
+
+
+
+
+#artistesActGrid .name{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 0.15vw;
+    margin-bottom: 0px;
+}
+
+
+#artistesActGrid .unePartie .img img{
+  width:20vw;
+  height:20vw;
+  object-fit: cover;
+  margin:0.1vw;
+}
+
+#artistesActGrid .unePartie{
+  position: relative;
+}
+
+#artistesActGrid .unePartie .img .date{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size:1.25vw;
+    position:absolute;
+    top:0;
+    left:0;
+    color:white;
+}
+
+#artistesActGrid .unePartie .img .date span{
+    font-size:2.25vw;
+    
+}
+
+#artistesActGrid .unePartie,#artistesActGrid .deuxParties{
+    top:0px;
+    margin-bottom: 5vw;
+}
+
+
+
+
+
+
+#artistesActGrid .img{
+    position:relative;
+    width: fit-content;
+    margin: auto;
+}
+
+#artistesActGrid .deuxParties .img .date{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size:1.25vw;
+    position:absolute;
+    top:0;
+    left:0;
+    color:white;
+}
+
+#artistesActGrid .deuxParties .img .date span{
+    font-size:2.25vw;
+}
+
+#artistesActGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5vw;
+  grid-auto-rows: minmax(auto, auto);
+  width: 100%;
+  
+  margin: auto;
+  text-align: top;
+  align-items: top;
+  justify-content: top;
+}
+
+#artistesActGrid div p{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+    font-size:1.6vw;
+    margin:0.5vw;
+    text-align:center;
+    color:white;
+}
+  @media all and (orientation: portrait){
+    #headerArtistes p{
+      font-size: 4vw;
+  
+    }
+    #headerArtistes span{
+      font-size:6vw;
+      
+    }
+    #artistesGrid img,#artistesActGrid img{
+      height:25vw;
+      width:25vw;
+    }
+    #artistesGrid .img p,#artistesActGrid .img p{
+      font-size:4vw;
+    }
+    #artistesActGrid .deuxParties .img .name span{
+      font-size:3vw;
+    }#artistesActGrid, #artistesGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }#artistesActGrid .unePartie .img img, #artistesGrid .img img{
+      
+      width:35vw;
+      height:35vw;  
+    }
+      #artistesActGrid .deuxParties .img img{
+      
+        width:17.5vw;
+        height:35vw;  
+      
+    }#artistesActGrid .deuxParties .img .vl{
+      
+      height:35vw;
+      left:17.5vw;  
+    
+  }#artistesActGrid .deuxParties .img .date,#artistesActGrid .unePartie .img .date{
+      
+    font-size:4vw; 
+  
+}#artistesActGrid .deuxParties .img .date span,#artistesActGrid .unePartie .img .date span{
+      
+  font-size:6vw; 
+
+}#artistes h1{
+      font-size:6vw;
+    }#artistesAct h1{
+      font-size:6vw;
+    }
+  }

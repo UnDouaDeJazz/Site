@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+#imgHeaderContact{
+    display: block ;
+    float:left;
+    top:0px;
+
+    height:7vw;
+    width:100%;
+    background-color: #535353;
+}
+#headerContact{
+    height:7vw;
+    display: relative;
+}
+#contact{
+    position: relative;
+    float:left;
+    width: 100%;
+}
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+    font-size:1.3vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+
+}
+#contactTitle{
+    font-weight:700;
+    font-size:2vw;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.contactSubtitle{
+    font-weight:700;
+    font-size:1.8vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+#contentContact{
+    position:relative;
+    padding-left:2.5vw;
+    padding-right:2.5vw;
+    padding-bottom:10vw;   
+}
+#map{
+    border:0px;
+    height:20vw;
+    width:50vw;
+    margin-left:3vw;
+    display: block;
+    margin-left:3vw;
+    margin-bottom:3vw;
+}
+#contactReseaux{
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5vw;
+  grid-auto-rows: minmax(auto, auto);
+  width: 60%;
+  
+  margin: auto;
+  margin-top:3vw;
+  text-align: center;
+  align-items: center;
+  justify-content: center; 
+}
+#contactReseaux .logo{
+    
+    width:4.5vw;
+    height:auto;
+    filter: drop-shadow(16px 16px 20px rgb(174, 174, 174));
+  }
+
+@media all and (orientation: portrait){
+    #imgHeaderContact{
+        height:18vw;
+    }#headerContact{
+        height: 18vw;
+    }#contentContact .contactSubtitle{
+        font-size:4vw;
+
+        margin-left: 3vw;
+        margin-right: 3vw;
+
+        padding-left:0vw;
+        padding-right:0vw;
+    }#contentContact p{
+        font-size:3vw;  
+
+        padding-left:4vw;
+        padding-right:4vw;
+    }#contentContact #contactTitle{
+        font-size: 5vw;
+
+        padding-left:0vw;
+        padding-right:0vw;
+    }#contactReseaux{
+        width:80%;
+    }
+    #contactReseaux .logo{
+    
+        width:12vw;
+      }
+      #map{
+        height:70vw;
+        width:90vw;
+    }
+}

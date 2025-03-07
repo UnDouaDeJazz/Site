@@ -1,0 +1,14 @@
+#home{
+    filter:none;
+}   
+#headerWrap{
+    float:left;
+    height:100vh;
+    width:100%;
+}
+#artistesWrapper{
+    float:left;
+    background-color:#120045;
+    width:100%;
+    padding-bottom:5vw;
+}

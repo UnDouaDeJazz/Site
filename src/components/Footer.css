@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+#footer{
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+#doua{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1.2vw;
+  text-align: left;
+  margin: 2vw;
+  margin-left: 1.5vw;
+}
+
+#reseaux{
+  position:absolute;
+  top:-0.5vw;
+  right:2vw;
+  /*transform: translate(-50%,-50%);*/
+}
+
+#mentionsLegales{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:300;
+  font-size:1vw;
+  position:absolute;
+  top:2vw;
+  right:2vw;
+  text-decoration: underline;
+  color:black;
+}
+
+#grandDoua{
+  font-size: 1.7vw;
+}
+
+#partenaires{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:300;
+  font-size:1.25vw;
+  display:block;
+  text-align: left;
+  margin:1vw;
+  margin-top: 2vw;
+
+
+  
+}#partenairesGrid{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 0.5vw;
+  grid-auto-rows: minmax(auto, auto);
+  width: 100%;
+  
+  margin: auto;
+  text-align: left;
+  align-items: left;
+  justify-content: left; 
+}#partenaires img{
+  display:block;
+  max-height:10vh;
+  max-width:6vw;
+  margin: auto;
+}
+
+#partenaires .titre{
+  grid-column: 1/2;
+  display:block;
+  margin:auto;
+  
+  margin-left: 1.25vw;
+}
+
+#partenaires .voirplus{
+  grid-column: 11/14;
+  display:block;
+  margin:auto;
+  margin-left: 1.25vw;
+}
+#partenaires .voirplus a{
+text-decoration: none;
+  color:black;
+}
+
+#partenaires hr{
+  margin-top:1vw;
+  margin-bottom:1vw;
+}
+.logo{
+  height:1.5vw;
+  width:1.5vw;
+  margin:0.25vw;
+}
+
+@media all and (orientation: portrait){
+  #doua{
+    font-size: 4vw;
+    margin-top:3vw;
+    margin-bottom:3vw;
+  }
+  #grandDoua{
+    font-size: 6vw;
+  }
+  .logo{
+    height:6vw;
+    width:6vw;
+    margin:0.5vw;
+  }
+  #mentionsLegales{
+    font-size:2vw;
+    top:3vw;
+  }#partenaires{
+    
+    font-size:2vw;
+    display:block;
+    text-align: left;
+    margin:1vw;
+    margin-top: 5vw; 
+  }
+  
+  #partenaires p{
+    font-size:4vw;
+    margin:3vw;
+    margin-left: 2vw;
+  }#partenaires img{
+    max-height:14vh;
+    max-width:9vw;
+  }#mentionsLegales{
+    font-size:4vw;
+    top:6vw;
+  }#reseaux{
+    top:-1vw;
+  }#partenairesGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 0.5vw;
+    grid-auto-rows: minmax(auto, auto);
+    width: 100%;
+    
+    margin: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    text-align: left;
+    align-items: left;
+    justify-content: left; 
+  }
+
+
+}

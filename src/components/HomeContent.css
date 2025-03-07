@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+#prog{
+    font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+    font-size:1.75vw;
+    margin:2.5vw;
+    text-align:left;
+    color:white;
+}
+#venir{
+    font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+    font-size:2.5vw;
+    margin:2.5vw;
+    text-align:center;
+    color:white;
+}
+
+#smallhr{
+    margin-left:15vw;
+    margin-right:15vw;
+    height:0.05vw;
+    color:white;
+    background-color: white;
+}
+
+#patienter{
+    font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+    font-size:1.75vw;
+    margin:2.5vw;
+    text-align:center;
+    color:white;
+}
+
+
+#nosArtistes img{
+  width:5vw;
+  height:15vw;
+  object-fit: cover;
+  margin:0.1vw;
+}
+#nosArtistes{
+  grid-column: 1;
+  grid-row: 1;
+}
+#gridPatienter {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5vw;
+  grid-auto-rows: minmax(auto, auto);
+  width: 100%;
+  
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#aPropos img{
+  width:15vw;
+  height:15vw;
+  object-fit: cover;
+  margin:0.1vw;
+}
+#aPropos{
+  grid-column: 2;
+  grid-row: 1;
+}
+#benevoles img{
+  width:15vw;
+  height:15vw;
+  object-fit: cover;
+  margin:0.1vw;
+}
+#benevoles{
+  grid-column: 3;
+  grid-row: 1;
+}
+#gridPatienter div p{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+    font-size:1.6vw;
+    margin:0.5vw;
+    text-align:center;
+    color:white;
+    text-decoration: none;
+    
+}
+
+@media all and (orientation: portrait){
+  #homeContent #prog, #patienter{
+    font-size:3.5vw;
+    margin:5vw;
+  }
+  #venir{
+    font-size:5vw;
+    margin:5vw;
+  }
+  #nosArtistes img{
+    width:8vw;
+    height:24vw;
+  }
+  #homeContent #aPropos img, #homeContent #benevoles img{
+
+    width:24vw;
+    height:24vw;
+  }
+  #gridPatienter div p{
+    font-size:3.2vw;
+    margin:1vw;
+  }
+}
