@@ -44,7 +44,7 @@ function Footer() {
                 </p>
                 
                 {partenaires}
-                <p class="voirplus"><HashLink to="/partenaires"> Voir plus -> </HashLink></p>
+                <p class="voirplus"><HashLink to="/partenaires"> Voir plus → </HashLink></p>
 
                 </div>
             <hr/>
