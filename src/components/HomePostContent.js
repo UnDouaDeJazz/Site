@@ -17,8 +17,10 @@ return (
     <div id="homeContent">
         <p id="venir">Le festival Un Doua De Jazz fera son retour en octobre 2025 pour sa 32e édition ! </p>
         <hr id="smallhr"/>
-        <p id="patienter">♫ Restez connectés, de nouveaux événements sont à venir prochainement ! ♫
-            <br/>Vous y retrouverez notamment l'ouverture des inscriptions au Tremplin 2025, et du contenu sur le OFF du festival
+        <p id="patienter">Mais avant tout, les inscriptions au Tremplin 2025 sont désormais ouvertes ! 
+            Cliquez <HashLink to="/tremplin#header" id="tremplinLink">ICI</HashLink> pour en savoir plus.
+            <div>Il se déroulera le 13 Juin au Toï Toï Le Zinc, à 20h30.</div>
+            <br/>♫ Restez connectés, de nouveaux événements sont à venir prochainement ♫
             <br/>
         </p>
         <hr id="smallhr"/>

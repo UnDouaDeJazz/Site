@@ -43,6 +43,19 @@
     line-height: 150%;
 }
 
+#tremplinLink {
+  color: #a33fa1;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-top: 1vw;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+#tremplinLink:hover {
+  color: #722c71; /* Survol */
+}
+
 
 #nosArtistes img{
   width:5vw;

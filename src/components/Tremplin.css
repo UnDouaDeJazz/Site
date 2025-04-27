@@ -62,6 +62,46 @@
     font-size:1.25vw;
 }
 
+#tremplinButtonWrapper {
+  text-align: center;
+  margin: 3vw 0;
+}
+
+#tremplinButton { /* Avec un petit dégradé de blanc un peu kitsch mais balec c'est rigolo faut se faire kiffer dans la vie*/
+  display: inline-block;
+  background: linear-gradient(
+    120deg, 
+    #1b4332 0%, 
+    #1b4332 40%, 
+    #578363 50%, 
+    #1b4332 60%, 
+    #1b4332 100%
+  );
+  /* Wewe le bleu, mais non dcp
+  background: linear-gradient(
+    120deg, 
+    #2758a3 0%, 
+    #2758a3 40%, 
+    #9ac4f3 50%, 
+    #2758a3 60%, 
+    #2758a3 100%
+  ); */
+  background-size: 200% auto;
+  color: white; /* Couleur du texte dedans */
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1.5vw;
+  padding: 1vw 3vw;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-position 0.4s ease;
+  background-position: left center;
+}
+
+#tremplinButton:hover { /* Déplacement de l'animation, balayage en gros */
+  background-position: right center;
+}
+
 @media all and (orientation: portrait){
 
   #headerTremplin p{
@@ -79,4 +119,9 @@
   #tremplinWrapper p span{
     font-size:6vw;
   }
+
+  #tremplinButton {
+    font-size: 5vw;
+    padding: 3vw 6vw;
+}
 }
