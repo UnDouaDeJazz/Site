@@ -45,29 +45,28 @@ Scaleway<br/>
 <br/>ainsi que toute présentation tendancieuse, ou contraire aux lois en vigueur.
 <br/>Le propriétaire du site se réserve le droit de demander la suppression d’un lien s’il estime que le site source ne respecte pas les règles ainsi définies.</p>
             <p class="mentionsSTitle">CRÉDITS</p>
-            <p>Présidence :<br/>
-            Antoine Foucault<br/>
-            Simon Rutten<br/><br/>
+            <p><b>Présidence :</b><br/>
+            Guillaume Liebgott<br/>
+            Julie Léchopier<br/><br/>
 
-            Pôle trésorerie :<br/>
-            Guillaume Carpentier <br/>
-            Antoine Robert<br/>
-            Luc David<br/><br/>
+            <b>Pôle trésorerie :</b><br/>
+            Lou Tuna Salas<br/>
+            Oriane Renaut<br/>
+            Quentin Zimmer<br/><br/>
 
-            Pôle communication :<br/>
-            Julie Léchopier<br/>
-            Titouan Bufflier<br/>
+            <b>Pôle communication :</b><br/>
+            Jérémy Prince Quentin<br/>
+            Romane Garnier<br/>
+            Titouan Bufflier<br/><br/>
+
+            <b>Secrétaires :</b><br/>
+            Jeanne Ménière<br/>
+            Khalil Ben Jomaa<br/><br/>
+
+            <b>Membre actif / électron libre : </b><br/>
             Alice Invernizzi<br/><br/>
 
-            Secrétaire :<br/>
-            Lou Tuna Salas<br/>
-            Guillaume Liebgott<br/><br/>
-
-            Membre actif / électron libre : <br/>
-            Elyn Walter<br/>
-            Edgar Lepetit<br/><br/>
-
-            Site web : <br/>
+            <b>Site web :</b> <br/>
             Colin Thomas<br/>
             Alice Invernizzi<br/><br/></p>
 

@@ -27,7 +27,7 @@ function Footer() {
             <div id="reseaux">
                 <a href="https://www.facebook.com/undouadejazz/"><img src={fb} alt="facebook" id="fb" class="logo"/></a>
                 <a href="https://www.instagram.com/undouadejazz"><img src={insta} alt="instagram" id="insta" class="logo"/></a>
-                <a href="mailto:contact@undouadejazz.com"><img src={mail} alt="mail" id= "mail" class="logo"/></a>
+                <a href="mailto:communication@undouadejazz.com"><img src={mail} alt="mail" id= "mail" class="logo"/></a>
                 <a href="https://www.youtube.com/channel/UC62m2Ams5a1tySBDP0l-oiQ"><img src={yt} alt="youtube" id="yt" class="logo"/></a>
             </div>
             <HashLink to="/mentions#header">
