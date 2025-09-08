@@ -110,7 +110,7 @@ function TableAnciens(){
 
     var children=[];
     console.log(donneesAnciennesSize());
-    //for(let i=1;i<=donneesAnciennesSize();i++){       - ancienne manière de faire de Colin - modifiée pour que l'affichage des artistes mette le plus ancien = plus petit numéro = en bas de page
+    //for(let i=1;i<=donneesAnciennesSize();i++){       - version Colin avant - modifiée pour que l'affichage des artistes mette le plus ancien = plus petit numéro = en bas de page
     for (let i = donneesAnciennesSize(); i >= 1; i--) {
         children.push(ArtistesAnciens(i));
     }
@@ -139,6 +139,10 @@ function Artistes() {
         contenu.push(TableActuels());
         contenu.push(<hr class="inter"/>);
     }
+
+
+    contenu.push(<h1>Ils sont passés par là...</h1>)
+
 
     contenu.push(<h1>Memories</h1>)
     contenu.push(TableAnciens())

@@ -8,33 +8,6 @@ import {donneesSize} from "../data/data.js"
 function Home() {
   if(donneesSize()>0){
     // à décommenter pour édition ON
-    // return (
-    //   <div id="home">
-    //       <div id="headerWrap">
-    //           <HeaderHome/>
-    //       </div>
-    //       <div id="artistesWrapper">
-
-    //               <HomeFullContent/>
-    //       </div>
-    //   </div>
-    // );
-
-    // à décommenter pour édition OFF
-    return (
-      <div id="home">
-         <div id="headerWrap">
-             <HeaderHome/>
-         </div>
-         <div id="artistesWrapper">
-
-                <HomePostContent/>
-         </div>
-     </div>
-   );
-  }
-  
-  else{
     return (
       <div id="home">
           <div id="headerWrap">
@@ -42,13 +15,40 @@ function Home() {
           </div>
           <div id="artistesWrapper">
 
-                  <HomeContent/>
+                  <HomeFullContent/>
           </div>
       </div>
     );
+
+    // à décommenter pour édition OFF
+  //   return (
+  //     <div id="home">
+  //        <div id="headerWrap">
+  //            <HeaderHome/>
+  //        </div>
+  //        <div id="artistesWrapper">
+
+  //               <HomePostContent/>
+  //        </div>
+  //    </div>
+  //  );
   }
   
-  /*
+  else{
+  //   return (
+  //     <div id="home">
+  //         <div id="headerWrap">
+  //             <HeaderHome/>
+  //         </div>
+  //         <div id="artistesWrapper">
+
+  //                 <HomeContent/>
+  //         </div>
+  //     </div>
+  //   );
+  // }
+  
+  
     return (
        <div id="home">
           <div id="headerWrap">
@@ -61,7 +61,7 @@ function Home() {
       </div>
     );
   }
-  */
+  
 }
 
 export default Home;

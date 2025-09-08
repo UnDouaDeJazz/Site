@@ -79,9 +79,11 @@ function Table(){
 function HomeFullContent() {
 return (
     <div id="homeContent">
-        <p id="prog">Programmation 2024.</p>
-        <p id="prog">Voici la programmation de cette nouvelle édition. Venez nombreux !</p>
+        <p id="prog">Programmation 2025.</p>
+        <p id="prog">Voici le début du reveal pour cette nouvelle édition. Restez connectés pour connaitre la suite !</p>
         {Table()}
+
+        <p id="prog">Il sera très prochainement possible d'accéder aux billeteries en ligne.</p>
     </div>
     );
 }
